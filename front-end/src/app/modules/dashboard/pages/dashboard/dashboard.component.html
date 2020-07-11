@@ -1,0 +1,30 @@
+<mat-progress-bar mode="buffer"
+                  color="primary"
+                  *ngIf="isLoading$ | async"></mat-progress-bar>
+<div (touchstart)="swipe($event, 'start')"
+     (touchend)="swipe($event, 'end')"
+     class="container">
+    <h4>5 Days forecast</h4>
+    <div fxLayoutGap="25px"
+         fxLayoutGap.lt-md="0"
+         fxLayout="row wrap">
+        <mat-card fxFlex="calc(20% - 25px)"
+                  fxFlex.lt-lg="0 1 calc(50% - 25px)"
+                  fxFlex.sm="100"
+                  class="mt1"
+                  *ngFor="let card of weather">
+            <mat-card-header>
+                <mat-card-title>
+                    Date: {{ card.date | date: 'EEEE LLL yyy'}}
+                </mat-card-title>
+            </mat-card-header>
+            <img mat-card-image
+                 [src]="pathService.weatherImagePathByAbbr(card.weatherImage)">
+            <mat-card-content>
+                {{card.weatherState}}
+            </mat-card-content>
+            <mat-card-actions>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+</div>

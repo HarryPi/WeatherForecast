@@ -1,0 +1,10 @@
+<mat-sidenav-container class="h20">
+  <mat-sidenav [(opened)]="isSideNavOpen"
+               mode="over">
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <app-toolbar [(isSidebarOpen)]="isSideNavOpen"></app-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+

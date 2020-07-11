@@ -1,0 +1,2834 @@
+/* You can add global styles to this file, and also import other style files */
+/* Colors for the ripple elements.*/
+/* stylelint-disable-next-line material/theme-mixin-api */
+/* stylelint-disable-next-line material/theme-mixin-api */
+/* stylelint-disable material/no-prefixes */
+/* stylelint-enable */
+.w1, .w1mb20, .w1ml20, .w1mr20, .w1mt20, .w1pb20, .w1pl20, .w1pr20, .w1pt20, .w1mb19, .w1ml19, .w1mr19, .w1mt19, .w1pb19, .w1pl19, .w1pr19, .w1pt19, .w1mb18, .w1ml18, .w1mr18, .w1mt18, .w1pb18, .w1pl18, .w1pr18, .w1pt18, .w1mb17, .w1ml17, .w1mr17, .w1mt17, .w1pb17, .w1pl17, .w1pr17, .w1pt17, .w1mb16, .w1ml16, .w1mr16, .w1mt16, .w1pb16, .w1pl16, .w1pr16, .w1pt16, .w1mb15, .w1ml15, .w1mr15, .w1mt15, .w1pb15, .w1pl15, .w1pr15, .w1pt15, .w1mb14, .w1ml14, .w1mr14, .w1mt14, .w1pb14, .w1pl14, .w1pr14, .w1pt14, .w1mb13, .w1ml13, .w1mr13, .w1mt13, .w1pb13, .w1pl13, .w1pr13, .w1pt13, .w1mb12, .w1ml12, .w1mr12, .w1mt12, .w1pb12, .w1pl12, .w1pr12, .w1pt12, .w1mb11, .w1ml11, .w1mr11, .w1mt11, .w1pb11, .w1pl11, .w1pr11, .w1pt11, .w1mb10, .w1ml10, .w1mr10, .w1mt10, .w1pb10, .w1pl10, .w1pr10, .w1pt10, .w1mb9, .w1ml9, .w1mr9, .w1mt9, .w1pb9, .w1pl9, .w1pr9, .w1pt9, .w1mb8, .w1ml8, .w1mr8, .w1mt8, .w1pb8, .w1pl8, .w1pr8, .w1pt8, .w1mb7, .w1ml7, .w1mr7, .w1mt7, .w1pb7, .w1pl7, .w1pr7, .w1pt7, .w1mb6, .w1ml6, .w1mr6, .w1mt6, .w1pb6, .w1pl6, .w1pr6, .w1pt6, .w1mb5, .w1ml5, .w1mr5, .w1mt5, .w1pb5, .w1pl5, .w1pr5, .w1pt5, .w1mb4, .w1ml4, .w1mr4, .w1mt4, .w1pb4, .w1pl4, .w1pr4, .w1pt4, .w1mb3, .w1ml3, .w1mr3, .w1mt3, .w1pb3, .w1pl3, .w1pr3, .w1pt3, .w1mb2, .w1ml2, .w1mr2, .w1mt2, .w1pb2, .w1pl2, .w1pr2, .w1pt2, .w1mb1, .w1ml1, .w1mr1, .w1mt1, .w1pb1, .w1pl1, .w1pr1, .w1pt1 {
+  width: 5%;
+}
+
+.h1, .h1mb20, .h1ml20, .h1mr20, .h1mt20, .h1mb19, .h1ml19, .h1mr19, .h1mt19, .h1mb18, .h1ml18, .h1mr18, .h1mt18, .h1mb17, .h1ml17, .h1mr17, .h1mt17, .h1mb16, .h1ml16, .h1mr16, .h1mt16, .h1mb15, .h1ml15, .h1mr15, .h1mt15, .h1mb14, .h1ml14, .h1mr14, .h1mt14, .h1mb13, .h1ml13, .h1mr13, .h1mt13, .h1mb12, .h1ml12, .h1mr12, .h1mt12, .h1mb11, .h1ml11, .h1mr11, .h1mt11, .h1mb10, .h1ml10, .h1mr10, .h1mt10, .h1mb9, .h1ml9, .h1mr9, .h1mt9, .h1mb8, .h1ml8, .h1mr8, .h1mt8, .h1mb7, .h1ml7, .h1mr7, .h1mt7, .h1mb6, .h1ml6, .h1mr6, .h1mt6, .h1mb5, .h1ml5, .h1mr5, .h1mt5, .h1mb4, .h1ml4, .h1mr4, .h1mt4, .h1mb3, .h1ml3, .h1mr3, .h1mt3, .h1mb2, .h1ml2, .h1mr2, .h1mt2, .h1mb1, .h1ml1, .h1mr1, .h1mt1, .h1pb1, .h1pl1, .h1pr1, .h1pt1 {
+  height: 5%;
+}
+
+.pt1, .ptb1, .ptl1, .ptr1, .h20pt20, .w20pt1, .h19pt19, .w19pt1, .h18pt18, .w18pt1, .h17pt17, .w17pt1, .h16pt16, .w16pt1, .h15pt15, .w15pt1, .h14pt14, .w14pt1, .h13pt13, .w13pt1, .h12pt12, .w12pt1, .h11pt11, .w11pt1, .h10pt10, .w10pt1, .h9pt9, .w9pt1, .h8pt8, .w8pt1, .h7pt7, .w7pt1, .h6pt6, .w6pt1, .h5pt5, .w5pt1, .h4pt4, .w4pt1, .h3pt3, .w3pt1, .h2pt2, .w2pt1, .h1pt1, .w1pt1 {
+  padding-top: 1%;
+}
+
+.pb1, .pbl1, .pbr1, .pbt1, .h20pb20, .w20pb1, .h19pb19, .w19pb1, .h18pb18, .w18pb1, .h17pb17, .w17pb1, .h16pb16, .w16pb1, .h15pb15, .w15pb1, .h14pb14, .w14pb1, .h13pb13, .w13pb1, .h12pb12, .w12pb1, .h11pb11, .w11pb1, .h10pb10, .w10pb1, .h9pb9, .w9pb1, .h8pb8, .w8pb1, .h7pb7, .w7pb1, .h6pb6, .w6pb1, .h5pb5, .w5pb1, .h4pb4, .w4pb1, .h3pb3, .w3pb1, .h2pb2, .w2pb1, .h1pb1, .w1pb1 {
+  padding-bottom: 1%;
+}
+
+.pr1, .prb1, .prl1, .prt1, .h20pr20, .w20pr1, .h19pr19, .w19pr1, .h18pr18, .w18pr1, .h17pr17, .w17pr1, .h16pr16, .w16pr1, .h15pr15, .w15pr1, .h14pr14, .w14pr1, .h13pr13, .w13pr1, .h12pr12, .w12pr1, .h11pr11, .w11pr1, .h10pr10, .w10pr1, .h9pr9, .w9pr1, .h8pr8, .w8pr1, .h7pr7, .w7pr1, .h6pr6, .w6pr1, .h5pr5, .w5pr1, .h4pr4, .w4pr1, .h3pr3, .w3pr1, .h2pr2, .w2pr1, .h1pr1, .w1pr1 {
+  padding-right: 1%;
+}
+
+.pl1, .plb1, .plr1, .plt1, .h20pl20, .w20pl1, .h19pl19, .w19pl1, .h18pl18, .w18pl1, .h17pl17, .w17pl1, .h16pl16, .w16pl1, .h15pl15, .w15pl1, .h14pl14, .w14pl1, .h13pl13, .w13pl1, .h12pl12, .w12pl1, .h11pl11, .w11pl1, .h10pl10, .w10pl1, .h9pl9, .w9pl1, .h8pl8, .w8pl1, .h7pl7, .w7pl1, .h6pl6, .w6pl1, .h5pl5, .w5pl1, .h4pl4, .w4pl1, .h3pl3, .w3pl1, .h2pl2, .w2pl1, .h1pl1, .w1pl1 {
+  padding-left: 1%;
+}
+
+.m1 {
+  margin: 1%;
+}
+
+.mt1, .mtb1, .mtl1, .mtr1, .h20mt1, .w20mt1, .h19mt1, .w19mt1, .h18mt1, .w18mt1, .h17mt1, .w17mt1, .h16mt1, .w16mt1, .h15mt1, .w15mt1, .h14mt1, .w14mt1, .h13mt1, .w13mt1, .h12mt1, .w12mt1, .h11mt1, .w11mt1, .h10mt1, .w10mt1, .h9mt1, .w9mt1, .h8mt1, .w8mt1, .h7mt1, .w7mt1, .h6mt1, .w6mt1, .h5mt1, .w5mt1, .h4mt1, .w4mt1, .h3mt1, .w3mt1, .h2mt1, .w2mt1, .h1mt1, .w1mt1 {
+  margin-top: 1%;
+}
+
+.mb1, .mbl1, .mbr1, .mbt1, .h20mb1, .w20mb1, .h19mb1, .w19mb1, .h18mb1, .w18mb1, .h17mb1, .w17mb1, .h16mb1, .w16mb1, .h15mb1, .w15mb1, .h14mb1, .w14mb1, .h13mb1, .w13mb1, .h12mb1, .w12mb1, .h11mb1, .w11mb1, .h10mb1, .w10mb1, .h9mb1, .w9mb1, .h8mb1, .w8mb1, .h7mb1, .w7mb1, .h6mb1, .w6mb1, .h5mb1, .w5mb1, .h4mb1, .w4mb1, .h3mb1, .w3mb1, .h2mb1, .w2mb1, .h1mb1, .w1mb1 {
+  margin-bottom: 1%;
+}
+
+.mr1, .mrb1, .mrl1, .mrt1, .h20mr1, .w20mr1, .h19mr1, .w19mr1, .h18mr1, .w18mr1, .h17mr1, .w17mr1, .h16mr1, .w16mr1, .h15mr1, .w15mr1, .h14mr1, .w14mr1, .h13mr1, .w13mr1, .h12mr1, .w12mr1, .h11mr1, .w11mr1, .h10mr1, .w10mr1, .h9mr1, .w9mr1, .h8mr1, .w8mr1, .h7mr1, .w7mr1, .h6mr1, .w6mr1, .h5mr1, .w5mr1, .h4mr1, .w4mr1, .h3mr1, .w3mr1, .h2mr1, .w2mr1, .h1mr1, .w1mr1 {
+  margin-right: 1%;
+}
+
+.ml1, .mlb1, .mlr1, .mlt1, .h20ml1, .w20ml1, .h19ml1, .w19ml1, .h18ml1, .w18ml1, .h17ml1, .w17ml1, .h16ml1, .w16ml1, .h15ml1, .w15ml1, .h14ml1, .w14ml1, .h13ml1, .w13ml1, .h12ml1, .w12ml1, .h11ml1, .w11ml1, .h10ml1, .w10ml1, .h9ml1, .w9ml1, .h8ml1, .w8ml1, .h7ml1, .w7ml1, .h6ml1, .w6ml1, .h5ml1, .w5ml1, .h4ml1, .w4ml1, .h3ml1, .w3ml1, .h2ml1, .w2ml1, .h1ml1, .w1ml1 {
+  margin-left: 1%;
+}
+
+.w2, .w2mb20, .w2ml20, .w2mr20, .w2mt20, .w2pb20, .w2pl20, .w2pr20, .w2pt20, .w2mb19, .w2ml19, .w2mr19, .w2mt19, .w2pb19, .w2pl19, .w2pr19, .w2pt19, .w2mb18, .w2ml18, .w2mr18, .w2mt18, .w2pb18, .w2pl18, .w2pr18, .w2pt18, .w2mb17, .w2ml17, .w2mr17, .w2mt17, .w2pb17, .w2pl17, .w2pr17, .w2pt17, .w2mb16, .w2ml16, .w2mr16, .w2mt16, .w2pb16, .w2pl16, .w2pr16, .w2pt16, .w2mb15, .w2ml15, .w2mr15, .w2mt15, .w2pb15, .w2pl15, .w2pr15, .w2pt15, .w2mb14, .w2ml14, .w2mr14, .w2mt14, .w2pb14, .w2pl14, .w2pr14, .w2pt14, .w2mb13, .w2ml13, .w2mr13, .w2mt13, .w2pb13, .w2pl13, .w2pr13, .w2pt13, .w2mb12, .w2ml12, .w2mr12, .w2mt12, .w2pb12, .w2pl12, .w2pr12, .w2pt12, .w2mb11, .w2ml11, .w2mr11, .w2mt11, .w2pb11, .w2pl11, .w2pr11, .w2pt11, .w2mb10, .w2ml10, .w2mr10, .w2mt10, .w2pb10, .w2pl10, .w2pr10, .w2pt10, .w2mb9, .w2ml9, .w2mr9, .w2mt9, .w2pb9, .w2pl9, .w2pr9, .w2pt9, .w2mb8, .w2ml8, .w2mr8, .w2mt8, .w2pb8, .w2pl8, .w2pr8, .w2pt8, .w2mb7, .w2ml7, .w2mr7, .w2mt7, .w2pb7, .w2pl7, .w2pr7, .w2pt7, .w2mb6, .w2ml6, .w2mr6, .w2mt6, .w2pb6, .w2pl6, .w2pr6, .w2pt6, .w2mb5, .w2ml5, .w2mr5, .w2mt5, .w2pb5, .w2pl5, .w2pr5, .w2pt5, .w2mb4, .w2ml4, .w2mr4, .w2mt4, .w2pb4, .w2pl4, .w2pr4, .w2pt4, .w2mb3, .w2ml3, .w2mr3, .w2mt3, .w2pb3, .w2pl3, .w2pr3, .w2pt3, .w2mb2, .w2ml2, .w2mr2, .w2mt2, .w2pb2, .w2pl2, .w2pr2, .w2pt2, .w2mb1, .w2ml1, .w2mr1, .w2mt1, .w2pb1, .w2pl1, .w2pr1, .w2pt1 {
+  width: 10%;
+}
+
+.h2, .h2mb20, .h2ml20, .h2mr20, .h2mt20, .h2mb19, .h2ml19, .h2mr19, .h2mt19, .h2mb18, .h2ml18, .h2mr18, .h2mt18, .h2mb17, .h2ml17, .h2mr17, .h2mt17, .h2mb16, .h2ml16, .h2mr16, .h2mt16, .h2mb15, .h2ml15, .h2mr15, .h2mt15, .h2mb14, .h2ml14, .h2mr14, .h2mt14, .h2mb13, .h2ml13, .h2mr13, .h2mt13, .h2mb12, .h2ml12, .h2mr12, .h2mt12, .h2mb11, .h2ml11, .h2mr11, .h2mt11, .h2mb10, .h2ml10, .h2mr10, .h2mt10, .h2mb9, .h2ml9, .h2mr9, .h2mt9, .h2mb8, .h2ml8, .h2mr8, .h2mt8, .h2mb7, .h2ml7, .h2mr7, .h2mt7, .h2mb6, .h2ml6, .h2mr6, .h2mt6, .h2mb5, .h2ml5, .h2mr5, .h2mt5, .h2mb4, .h2ml4, .h2mr4, .h2mt4, .h2mb3, .h2ml3, .h2mr3, .h2mt3, .h2mb2, .h2ml2, .h2mr2, .h2mt2, .h2mb1, .h2ml1, .h2mr1, .h2mt1, .h2pb2, .h2pl2, .h2pr2, .h2pt2 {
+  height: 10%;
+}
+
+.pt2, .ptb2, .ptl2, .ptr2, .h20pt20, .w20pt2, .h19pt19, .w19pt2, .h18pt18, .w18pt2, .h17pt17, .w17pt2, .h16pt16, .w16pt2, .h15pt15, .w15pt2, .h14pt14, .w14pt2, .h13pt13, .w13pt2, .h12pt12, .w12pt2, .h11pt11, .w11pt2, .h10pt10, .w10pt2, .h9pt9, .w9pt2, .h8pt8, .w8pt2, .h7pt7, .w7pt2, .h6pt6, .w6pt2, .h5pt5, .w5pt2, .h4pt4, .w4pt2, .h3pt3, .w3pt2, .h2pt2, .w2pt2, .h1pt1, .w1pt2 {
+  padding-top: 2%;
+}
+
+.pb2, .pbl2, .pbr2, .pbt2, .h20pb20, .w20pb2, .h19pb19, .w19pb2, .h18pb18, .w18pb2, .h17pb17, .w17pb2, .h16pb16, .w16pb2, .h15pb15, .w15pb2, .h14pb14, .w14pb2, .h13pb13, .w13pb2, .h12pb12, .w12pb2, .h11pb11, .w11pb2, .h10pb10, .w10pb2, .h9pb9, .w9pb2, .h8pb8, .w8pb2, .h7pb7, .w7pb2, .h6pb6, .w6pb2, .h5pb5, .w5pb2, .h4pb4, .w4pb2, .h3pb3, .w3pb2, .h2pb2, .w2pb2, .h1pb1, .w1pb2 {
+  padding-bottom: 2%;
+}
+
+.pr2, .prb2, .prl2, .prt2, .h20pr20, .w20pr2, .h19pr19, .w19pr2, .h18pr18, .w18pr2, .h17pr17, .w17pr2, .h16pr16, .w16pr2, .h15pr15, .w15pr2, .h14pr14, .w14pr2, .h13pr13, .w13pr2, .h12pr12, .w12pr2, .h11pr11, .w11pr2, .h10pr10, .w10pr2, .h9pr9, .w9pr2, .h8pr8, .w8pr2, .h7pr7, .w7pr2, .h6pr6, .w6pr2, .h5pr5, .w5pr2, .h4pr4, .w4pr2, .h3pr3, .w3pr2, .h2pr2, .w2pr2, .h1pr1, .w1pr2 {
+  padding-right: 2%;
+}
+
+.pl2, .plb2, .plr2, .plt2, .h20pl20, .w20pl2, .h19pl19, .w19pl2, .h18pl18, .w18pl2, .h17pl17, .w17pl2, .h16pl16, .w16pl2, .h15pl15, .w15pl2, .h14pl14, .w14pl2, .h13pl13, .w13pl2, .h12pl12, .w12pl2, .h11pl11, .w11pl2, .h10pl10, .w10pl2, .h9pl9, .w9pl2, .h8pl8, .w8pl2, .h7pl7, .w7pl2, .h6pl6, .w6pl2, .h5pl5, .w5pl2, .h4pl4, .w4pl2, .h3pl3, .w3pl2, .h2pl2, .w2pl2, .h1pl1, .w1pl2 {
+  padding-left: 2%;
+}
+
+.m2 {
+  margin: 2%;
+}
+
+.mt2, .mtb2, .mtl2, .mtr2, .h20mt2, .w20mt2, .h19mt2, .w19mt2, .h18mt2, .w18mt2, .h17mt2, .w17mt2, .h16mt2, .w16mt2, .h15mt2, .w15mt2, .h14mt2, .w14mt2, .h13mt2, .w13mt2, .h12mt2, .w12mt2, .h11mt2, .w11mt2, .h10mt2, .w10mt2, .h9mt2, .w9mt2, .h8mt2, .w8mt2, .h7mt2, .w7mt2, .h6mt2, .w6mt2, .h5mt2, .w5mt2, .h4mt2, .w4mt2, .h3mt2, .w3mt2, .h2mt2, .w2mt2, .h1mt2, .w1mt2 {
+  margin-top: 2%;
+}
+
+.mb2, .mbl2, .mbr2, .mbt2, .h20mb2, .w20mb2, .h19mb2, .w19mb2, .h18mb2, .w18mb2, .h17mb2, .w17mb2, .h16mb2, .w16mb2, .h15mb2, .w15mb2, .h14mb2, .w14mb2, .h13mb2, .w13mb2, .h12mb2, .w12mb2, .h11mb2, .w11mb2, .h10mb2, .w10mb2, .h9mb2, .w9mb2, .h8mb2, .w8mb2, .h7mb2, .w7mb2, .h6mb2, .w6mb2, .h5mb2, .w5mb2, .h4mb2, .w4mb2, .h3mb2, .w3mb2, .h2mb2, .w2mb2, .h1mb2, .w1mb2 {
+  margin-bottom: 2%;
+}
+
+.mr2, .mrb2, .mrl2, .mrt2, .h20mr2, .w20mr2, .h19mr2, .w19mr2, .h18mr2, .w18mr2, .h17mr2, .w17mr2, .h16mr2, .w16mr2, .h15mr2, .w15mr2, .h14mr2, .w14mr2, .h13mr2, .w13mr2, .h12mr2, .w12mr2, .h11mr2, .w11mr2, .h10mr2, .w10mr2, .h9mr2, .w9mr2, .h8mr2, .w8mr2, .h7mr2, .w7mr2, .h6mr2, .w6mr2, .h5mr2, .w5mr2, .h4mr2, .w4mr2, .h3mr2, .w3mr2, .h2mr2, .w2mr2, .h1mr2, .w1mr2 {
+  margin-right: 2%;
+}
+
+.ml2, .mlb2, .mlr2, .mlt2, .h20ml2, .w20ml2, .h19ml2, .w19ml2, .h18ml2, .w18ml2, .h17ml2, .w17ml2, .h16ml2, .w16ml2, .h15ml2, .w15ml2, .h14ml2, .w14ml2, .h13ml2, .w13ml2, .h12ml2, .w12ml2, .h11ml2, .w11ml2, .h10ml2, .w10ml2, .h9ml2, .w9ml2, .h8ml2, .w8ml2, .h7ml2, .w7ml2, .h6ml2, .w6ml2, .h5ml2, .w5ml2, .h4ml2, .w4ml2, .h3ml2, .w3ml2, .h2ml2, .w2ml2, .h1ml2, .w1ml2 {
+  margin-left: 2%;
+}
+
+.w3, .w3mb20, .w3ml20, .w3mr20, .w3mt20, .w3pb20, .w3pl20, .w3pr20, .w3pt20, .w3mb19, .w3ml19, .w3mr19, .w3mt19, .w3pb19, .w3pl19, .w3pr19, .w3pt19, .w3mb18, .w3ml18, .w3mr18, .w3mt18, .w3pb18, .w3pl18, .w3pr18, .w3pt18, .w3mb17, .w3ml17, .w3mr17, .w3mt17, .w3pb17, .w3pl17, .w3pr17, .w3pt17, .w3mb16, .w3ml16, .w3mr16, .w3mt16, .w3pb16, .w3pl16, .w3pr16, .w3pt16, .w3mb15, .w3ml15, .w3mr15, .w3mt15, .w3pb15, .w3pl15, .w3pr15, .w3pt15, .w3mb14, .w3ml14, .w3mr14, .w3mt14, .w3pb14, .w3pl14, .w3pr14, .w3pt14, .w3mb13, .w3ml13, .w3mr13, .w3mt13, .w3pb13, .w3pl13, .w3pr13, .w3pt13, .w3mb12, .w3ml12, .w3mr12, .w3mt12, .w3pb12, .w3pl12, .w3pr12, .w3pt12, .w3mb11, .w3ml11, .w3mr11, .w3mt11, .w3pb11, .w3pl11, .w3pr11, .w3pt11, .w3mb10, .w3ml10, .w3mr10, .w3mt10, .w3pb10, .w3pl10, .w3pr10, .w3pt10, .w3mb9, .w3ml9, .w3mr9, .w3mt9, .w3pb9, .w3pl9, .w3pr9, .w3pt9, .w3mb8, .w3ml8, .w3mr8, .w3mt8, .w3pb8, .w3pl8, .w3pr8, .w3pt8, .w3mb7, .w3ml7, .w3mr7, .w3mt7, .w3pb7, .w3pl7, .w3pr7, .w3pt7, .w3mb6, .w3ml6, .w3mr6, .w3mt6, .w3pb6, .w3pl6, .w3pr6, .w3pt6, .w3mb5, .w3ml5, .w3mr5, .w3mt5, .w3pb5, .w3pl5, .w3pr5, .w3pt5, .w3mb4, .w3ml4, .w3mr4, .w3mt4, .w3pb4, .w3pl4, .w3pr4, .w3pt4, .w3mb3, .w3ml3, .w3mr3, .w3mt3, .w3pb3, .w3pl3, .w3pr3, .w3pt3, .w3mb2, .w3ml2, .w3mr2, .w3mt2, .w3pb2, .w3pl2, .w3pr2, .w3pt2, .w3mb1, .w3ml1, .w3mr1, .w3mt1, .w3pb1, .w3pl1, .w3pr1, .w3pt1 {
+  width: 15%;
+}
+
+.h3, .h3mb20, .h3ml20, .h3mr20, .h3mt20, .h3mb19, .h3ml19, .h3mr19, .h3mt19, .h3mb18, .h3ml18, .h3mr18, .h3mt18, .h3mb17, .h3ml17, .h3mr17, .h3mt17, .h3mb16, .h3ml16, .h3mr16, .h3mt16, .h3mb15, .h3ml15, .h3mr15, .h3mt15, .h3mb14, .h3ml14, .h3mr14, .h3mt14, .h3mb13, .h3ml13, .h3mr13, .h3mt13, .h3mb12, .h3ml12, .h3mr12, .h3mt12, .h3mb11, .h3ml11, .h3mr11, .h3mt11, .h3mb10, .h3ml10, .h3mr10, .h3mt10, .h3mb9, .h3ml9, .h3mr9, .h3mt9, .h3mb8, .h3ml8, .h3mr8, .h3mt8, .h3mb7, .h3ml7, .h3mr7, .h3mt7, .h3mb6, .h3ml6, .h3mr6, .h3mt6, .h3mb5, .h3ml5, .h3mr5, .h3mt5, .h3mb4, .h3ml4, .h3mr4, .h3mt4, .h3mb3, .h3ml3, .h3mr3, .h3mt3, .h3mb2, .h3ml2, .h3mr2, .h3mt2, .h3mb1, .h3ml1, .h3mr1, .h3mt1, .h3pb3, .h3pl3, .h3pr3, .h3pt3 {
+  height: 15%;
+}
+
+.pt3, .ptb3, .ptl3, .ptr3, .h20pt20, .w20pt3, .h19pt19, .w19pt3, .h18pt18, .w18pt3, .h17pt17, .w17pt3, .h16pt16, .w16pt3, .h15pt15, .w15pt3, .h14pt14, .w14pt3, .h13pt13, .w13pt3, .h12pt12, .w12pt3, .h11pt11, .w11pt3, .h10pt10, .w10pt3, .h9pt9, .w9pt3, .h8pt8, .w8pt3, .h7pt7, .w7pt3, .h6pt6, .w6pt3, .h5pt5, .w5pt3, .h4pt4, .w4pt3, .h3pt3, .w3pt3, .h2pt2, .w2pt3, .h1pt1, .w1pt3 {
+  padding-top: 3%;
+}
+
+.pb3, .pbl3, .pbr3, .pbt3, .h20pb20, .w20pb3, .h19pb19, .w19pb3, .h18pb18, .w18pb3, .h17pb17, .w17pb3, .h16pb16, .w16pb3, .h15pb15, .w15pb3, .h14pb14, .w14pb3, .h13pb13, .w13pb3, .h12pb12, .w12pb3, .h11pb11, .w11pb3, .h10pb10, .w10pb3, .h9pb9, .w9pb3, .h8pb8, .w8pb3, .h7pb7, .w7pb3, .h6pb6, .w6pb3, .h5pb5, .w5pb3, .h4pb4, .w4pb3, .h3pb3, .w3pb3, .h2pb2, .w2pb3, .h1pb1, .w1pb3 {
+  padding-bottom: 3%;
+}
+
+.pr3, .prb3, .prl3, .prt3, .h20pr20, .w20pr3, .h19pr19, .w19pr3, .h18pr18, .w18pr3, .h17pr17, .w17pr3, .h16pr16, .w16pr3, .h15pr15, .w15pr3, .h14pr14, .w14pr3, .h13pr13, .w13pr3, .h12pr12, .w12pr3, .h11pr11, .w11pr3, .h10pr10, .w10pr3, .h9pr9, .w9pr3, .h8pr8, .w8pr3, .h7pr7, .w7pr3, .h6pr6, .w6pr3, .h5pr5, .w5pr3, .h4pr4, .w4pr3, .h3pr3, .w3pr3, .h2pr2, .w2pr3, .h1pr1, .w1pr3 {
+  padding-right: 3%;
+}
+
+.pl3, .plb3, .plr3, .plt3, .h20pl20, .w20pl3, .h19pl19, .w19pl3, .h18pl18, .w18pl3, .h17pl17, .w17pl3, .h16pl16, .w16pl3, .h15pl15, .w15pl3, .h14pl14, .w14pl3, .h13pl13, .w13pl3, .h12pl12, .w12pl3, .h11pl11, .w11pl3, .h10pl10, .w10pl3, .h9pl9, .w9pl3, .h8pl8, .w8pl3, .h7pl7, .w7pl3, .h6pl6, .w6pl3, .h5pl5, .w5pl3, .h4pl4, .w4pl3, .h3pl3, .w3pl3, .h2pl2, .w2pl3, .h1pl1, .w1pl3 {
+  padding-left: 3%;
+}
+
+.m3 {
+  margin: 3%;
+}
+
+.mt3, .mtb3, .mtl3, .mtr3, .h20mt3, .w20mt3, .h19mt3, .w19mt3, .h18mt3, .w18mt3, .h17mt3, .w17mt3, .h16mt3, .w16mt3, .h15mt3, .w15mt3, .h14mt3, .w14mt3, .h13mt3, .w13mt3, .h12mt3, .w12mt3, .h11mt3, .w11mt3, .h10mt3, .w10mt3, .h9mt3, .w9mt3, .h8mt3, .w8mt3, .h7mt3, .w7mt3, .h6mt3, .w6mt3, .h5mt3, .w5mt3, .h4mt3, .w4mt3, .h3mt3, .w3mt3, .h2mt3, .w2mt3, .h1mt3, .w1mt3 {
+  margin-top: 3%;
+}
+
+.mb3, .mbl3, .mbr3, .mbt3, .h20mb3, .w20mb3, .h19mb3, .w19mb3, .h18mb3, .w18mb3, .h17mb3, .w17mb3, .h16mb3, .w16mb3, .h15mb3, .w15mb3, .h14mb3, .w14mb3, .h13mb3, .w13mb3, .h12mb3, .w12mb3, .h11mb3, .w11mb3, .h10mb3, .w10mb3, .h9mb3, .w9mb3, .h8mb3, .w8mb3, .h7mb3, .w7mb3, .h6mb3, .w6mb3, .h5mb3, .w5mb3, .h4mb3, .w4mb3, .h3mb3, .w3mb3, .h2mb3, .w2mb3, .h1mb3, .w1mb3 {
+  margin-bottom: 3%;
+}
+
+.mr3, .mrb3, .mrl3, .mrt3, .h20mr3, .w20mr3, .h19mr3, .w19mr3, .h18mr3, .w18mr3, .h17mr3, .w17mr3, .h16mr3, .w16mr3, .h15mr3, .w15mr3, .h14mr3, .w14mr3, .h13mr3, .w13mr3, .h12mr3, .w12mr3, .h11mr3, .w11mr3, .h10mr3, .w10mr3, .h9mr3, .w9mr3, .h8mr3, .w8mr3, .h7mr3, .w7mr3, .h6mr3, .w6mr3, .h5mr3, .w5mr3, .h4mr3, .w4mr3, .h3mr3, .w3mr3, .h2mr3, .w2mr3, .h1mr3, .w1mr3 {
+  margin-right: 3%;
+}
+
+.ml3, .mlb3, .mlr3, .mlt3, .h20ml3, .w20ml3, .h19ml3, .w19ml3, .h18ml3, .w18ml3, .h17ml3, .w17ml3, .h16ml3, .w16ml3, .h15ml3, .w15ml3, .h14ml3, .w14ml3, .h13ml3, .w13ml3, .h12ml3, .w12ml3, .h11ml3, .w11ml3, .h10ml3, .w10ml3, .h9ml3, .w9ml3, .h8ml3, .w8ml3, .h7ml3, .w7ml3, .h6ml3, .w6ml3, .h5ml3, .w5ml3, .h4ml3, .w4ml3, .h3ml3, .w3ml3, .h2ml3, .w2ml3, .h1ml3, .w1ml3 {
+  margin-left: 3%;
+}
+
+.w4, .w4mb20, .w4ml20, .w4mr20, .w4mt20, .w4pb20, .w4pl20, .w4pr20, .w4pt20, .w4mb19, .w4ml19, .w4mr19, .w4mt19, .w4pb19, .w4pl19, .w4pr19, .w4pt19, .w4mb18, .w4ml18, .w4mr18, .w4mt18, .w4pb18, .w4pl18, .w4pr18, .w4pt18, .w4mb17, .w4ml17, .w4mr17, .w4mt17, .w4pb17, .w4pl17, .w4pr17, .w4pt17, .w4mb16, .w4ml16, .w4mr16, .w4mt16, .w4pb16, .w4pl16, .w4pr16, .w4pt16, .w4mb15, .w4ml15, .w4mr15, .w4mt15, .w4pb15, .w4pl15, .w4pr15, .w4pt15, .w4mb14, .w4ml14, .w4mr14, .w4mt14, .w4pb14, .w4pl14, .w4pr14, .w4pt14, .w4mb13, .w4ml13, .w4mr13, .w4mt13, .w4pb13, .w4pl13, .w4pr13, .w4pt13, .w4mb12, .w4ml12, .w4mr12, .w4mt12, .w4pb12, .w4pl12, .w4pr12, .w4pt12, .w4mb11, .w4ml11, .w4mr11, .w4mt11, .w4pb11, .w4pl11, .w4pr11, .w4pt11, .w4mb10, .w4ml10, .w4mr10, .w4mt10, .w4pb10, .w4pl10, .w4pr10, .w4pt10, .w4mb9, .w4ml9, .w4mr9, .w4mt9, .w4pb9, .w4pl9, .w4pr9, .w4pt9, .w4mb8, .w4ml8, .w4mr8, .w4mt8, .w4pb8, .w4pl8, .w4pr8, .w4pt8, .w4mb7, .w4ml7, .w4mr7, .w4mt7, .w4pb7, .w4pl7, .w4pr7, .w4pt7, .w4mb6, .w4ml6, .w4mr6, .w4mt6, .w4pb6, .w4pl6, .w4pr6, .w4pt6, .w4mb5, .w4ml5, .w4mr5, .w4mt5, .w4pb5, .w4pl5, .w4pr5, .w4pt5, .w4mb4, .w4ml4, .w4mr4, .w4mt4, .w4pb4, .w4pl4, .w4pr4, .w4pt4, .w4mb3, .w4ml3, .w4mr3, .w4mt3, .w4pb3, .w4pl3, .w4pr3, .w4pt3, .w4mb2, .w4ml2, .w4mr2, .w4mt2, .w4pb2, .w4pl2, .w4pr2, .w4pt2, .w4mb1, .w4ml1, .w4mr1, .w4mt1, .w4pb1, .w4pl1, .w4pr1, .w4pt1 {
+  width: 20%;
+}
+
+.h4, .h4mb20, .h4ml20, .h4mr20, .h4mt20, .h4mb19, .h4ml19, .h4mr19, .h4mt19, .h4mb18, .h4ml18, .h4mr18, .h4mt18, .h4mb17, .h4ml17, .h4mr17, .h4mt17, .h4mb16, .h4ml16, .h4mr16, .h4mt16, .h4mb15, .h4ml15, .h4mr15, .h4mt15, .h4mb14, .h4ml14, .h4mr14, .h4mt14, .h4mb13, .h4ml13, .h4mr13, .h4mt13, .h4mb12, .h4ml12, .h4mr12, .h4mt12, .h4mb11, .h4ml11, .h4mr11, .h4mt11, .h4mb10, .h4ml10, .h4mr10, .h4mt10, .h4mb9, .h4ml9, .h4mr9, .h4mt9, .h4mb8, .h4ml8, .h4mr8, .h4mt8, .h4mb7, .h4ml7, .h4mr7, .h4mt7, .h4mb6, .h4ml6, .h4mr6, .h4mt6, .h4mb5, .h4ml5, .h4mr5, .h4mt5, .h4mb4, .h4ml4, .h4mr4, .h4mt4, .h4mb3, .h4ml3, .h4mr3, .h4mt3, .h4mb2, .h4ml2, .h4mr2, .h4mt2, .h4mb1, .h4ml1, .h4mr1, .h4mt1, .h4pb4, .h4pl4, .h4pr4, .h4pt4 {
+  height: 20%;
+}
+
+.pt4, .ptb4, .ptl4, .ptr4, .h20pt20, .w20pt4, .h19pt19, .w19pt4, .h18pt18, .w18pt4, .h17pt17, .w17pt4, .h16pt16, .w16pt4, .h15pt15, .w15pt4, .h14pt14, .w14pt4, .h13pt13, .w13pt4, .h12pt12, .w12pt4, .h11pt11, .w11pt4, .h10pt10, .w10pt4, .h9pt9, .w9pt4, .h8pt8, .w8pt4, .h7pt7, .w7pt4, .h6pt6, .w6pt4, .h5pt5, .w5pt4, .h4pt4, .w4pt4, .h3pt3, .w3pt4, .h2pt2, .w2pt4, .h1pt1, .w1pt4 {
+  padding-top: 4%;
+}
+
+.pb4, .pbl4, .pbr4, .pbt4, .h20pb20, .w20pb4, .h19pb19, .w19pb4, .h18pb18, .w18pb4, .h17pb17, .w17pb4, .h16pb16, .w16pb4, .h15pb15, .w15pb4, .h14pb14, .w14pb4, .h13pb13, .w13pb4, .h12pb12, .w12pb4, .h11pb11, .w11pb4, .h10pb10, .w10pb4, .h9pb9, .w9pb4, .h8pb8, .w8pb4, .h7pb7, .w7pb4, .h6pb6, .w6pb4, .h5pb5, .w5pb4, .h4pb4, .w4pb4, .h3pb3, .w3pb4, .h2pb2, .w2pb4, .h1pb1, .w1pb4 {
+  padding-bottom: 4%;
+}
+
+.pr4, .prb4, .prl4, .prt4, .h20pr20, .w20pr4, .h19pr19, .w19pr4, .h18pr18, .w18pr4, .h17pr17, .w17pr4, .h16pr16, .w16pr4, .h15pr15, .w15pr4, .h14pr14, .w14pr4, .h13pr13, .w13pr4, .h12pr12, .w12pr4, .h11pr11, .w11pr4, .h10pr10, .w10pr4, .h9pr9, .w9pr4, .h8pr8, .w8pr4, .h7pr7, .w7pr4, .h6pr6, .w6pr4, .h5pr5, .w5pr4, .h4pr4, .w4pr4, .h3pr3, .w3pr4, .h2pr2, .w2pr4, .h1pr1, .w1pr4 {
+  padding-right: 4%;
+}
+
+.pl4, .plb4, .plr4, .plt4, .h20pl20, .w20pl4, .h19pl19, .w19pl4, .h18pl18, .w18pl4, .h17pl17, .w17pl4, .h16pl16, .w16pl4, .h15pl15, .w15pl4, .h14pl14, .w14pl4, .h13pl13, .w13pl4, .h12pl12, .w12pl4, .h11pl11, .w11pl4, .h10pl10, .w10pl4, .h9pl9, .w9pl4, .h8pl8, .w8pl4, .h7pl7, .w7pl4, .h6pl6, .w6pl4, .h5pl5, .w5pl4, .h4pl4, .w4pl4, .h3pl3, .w3pl4, .h2pl2, .w2pl4, .h1pl1, .w1pl4 {
+  padding-left: 4%;
+}
+
+.m4 {
+  margin: 4%;
+}
+
+.mt4, .mtb4, .mtl4, .mtr4, .h20mt4, .w20mt4, .h19mt4, .w19mt4, .h18mt4, .w18mt4, .h17mt4, .w17mt4, .h16mt4, .w16mt4, .h15mt4, .w15mt4, .h14mt4, .w14mt4, .h13mt4, .w13mt4, .h12mt4, .w12mt4, .h11mt4, .w11mt4, .h10mt4, .w10mt4, .h9mt4, .w9mt4, .h8mt4, .w8mt4, .h7mt4, .w7mt4, .h6mt4, .w6mt4, .h5mt4, .w5mt4, .h4mt4, .w4mt4, .h3mt4, .w3mt4, .h2mt4, .w2mt4, .h1mt4, .w1mt4 {
+  margin-top: 4%;
+}
+
+.mb4, .mbl4, .mbr4, .mbt4, .h20mb4, .w20mb4, .h19mb4, .w19mb4, .h18mb4, .w18mb4, .h17mb4, .w17mb4, .h16mb4, .w16mb4, .h15mb4, .w15mb4, .h14mb4, .w14mb4, .h13mb4, .w13mb4, .h12mb4, .w12mb4, .h11mb4, .w11mb4, .h10mb4, .w10mb4, .h9mb4, .w9mb4, .h8mb4, .w8mb4, .h7mb4, .w7mb4, .h6mb4, .w6mb4, .h5mb4, .w5mb4, .h4mb4, .w4mb4, .h3mb4, .w3mb4, .h2mb4, .w2mb4, .h1mb4, .w1mb4 {
+  margin-bottom: 4%;
+}
+
+.mr4, .mrb4, .mrl4, .mrt4, .h20mr4, .w20mr4, .h19mr4, .w19mr4, .h18mr4, .w18mr4, .h17mr4, .w17mr4, .h16mr4, .w16mr4, .h15mr4, .w15mr4, .h14mr4, .w14mr4, .h13mr4, .w13mr4, .h12mr4, .w12mr4, .h11mr4, .w11mr4, .h10mr4, .w10mr4, .h9mr4, .w9mr4, .h8mr4, .w8mr4, .h7mr4, .w7mr4, .h6mr4, .w6mr4, .h5mr4, .w5mr4, .h4mr4, .w4mr4, .h3mr4, .w3mr4, .h2mr4, .w2mr4, .h1mr4, .w1mr4 {
+  margin-right: 4%;
+}
+
+.ml4, .mlb4, .mlr4, .mlt4, .h20ml4, .w20ml4, .h19ml4, .w19ml4, .h18ml4, .w18ml4, .h17ml4, .w17ml4, .h16ml4, .w16ml4, .h15ml4, .w15ml4, .h14ml4, .w14ml4, .h13ml4, .w13ml4, .h12ml4, .w12ml4, .h11ml4, .w11ml4, .h10ml4, .w10ml4, .h9ml4, .w9ml4, .h8ml4, .w8ml4, .h7ml4, .w7ml4, .h6ml4, .w6ml4, .h5ml4, .w5ml4, .h4ml4, .w4ml4, .h3ml4, .w3ml4, .h2ml4, .w2ml4, .h1ml4, .w1ml4 {
+  margin-left: 4%;
+}
+
+.w5, .w5mb20, .w5ml20, .w5mr20, .w5mt20, .w5pb20, .w5pl20, .w5pr20, .w5pt20, .w5mb19, .w5ml19, .w5mr19, .w5mt19, .w5pb19, .w5pl19, .w5pr19, .w5pt19, .w5mb18, .w5ml18, .w5mr18, .w5mt18, .w5pb18, .w5pl18, .w5pr18, .w5pt18, .w5mb17, .w5ml17, .w5mr17, .w5mt17, .w5pb17, .w5pl17, .w5pr17, .w5pt17, .w5mb16, .w5ml16, .w5mr16, .w5mt16, .w5pb16, .w5pl16, .w5pr16, .w5pt16, .w5mb15, .w5ml15, .w5mr15, .w5mt15, .w5pb15, .w5pl15, .w5pr15, .w5pt15, .w5mb14, .w5ml14, .w5mr14, .w5mt14, .w5pb14, .w5pl14, .w5pr14, .w5pt14, .w5mb13, .w5ml13, .w5mr13, .w5mt13, .w5pb13, .w5pl13, .w5pr13, .w5pt13, .w5mb12, .w5ml12, .w5mr12, .w5mt12, .w5pb12, .w5pl12, .w5pr12, .w5pt12, .w5mb11, .w5ml11, .w5mr11, .w5mt11, .w5pb11, .w5pl11, .w5pr11, .w5pt11, .w5mb10, .w5ml10, .w5mr10, .w5mt10, .w5pb10, .w5pl10, .w5pr10, .w5pt10, .w5mb9, .w5ml9, .w5mr9, .w5mt9, .w5pb9, .w5pl9, .w5pr9, .w5pt9, .w5mb8, .w5ml8, .w5mr8, .w5mt8, .w5pb8, .w5pl8, .w5pr8, .w5pt8, .w5mb7, .w5ml7, .w5mr7, .w5mt7, .w5pb7, .w5pl7, .w5pr7, .w5pt7, .w5mb6, .w5ml6, .w5mr6, .w5mt6, .w5pb6, .w5pl6, .w5pr6, .w5pt6, .w5mb5, .w5ml5, .w5mr5, .w5mt5, .w5pb5, .w5pl5, .w5pr5, .w5pt5, .w5mb4, .w5ml4, .w5mr4, .w5mt4, .w5pb4, .w5pl4, .w5pr4, .w5pt4, .w5mb3, .w5ml3, .w5mr3, .w5mt3, .w5pb3, .w5pl3, .w5pr3, .w5pt3, .w5mb2, .w5ml2, .w5mr2, .w5mt2, .w5pb2, .w5pl2, .w5pr2, .w5pt2, .w5mb1, .w5ml1, .w5mr1, .w5mt1, .w5pb1, .w5pl1, .w5pr1, .w5pt1 {
+  width: 25%;
+}
+
+.h5, .h5mb20, .h5ml20, .h5mr20, .h5mt20, .h5mb19, .h5ml19, .h5mr19, .h5mt19, .h5mb18, .h5ml18, .h5mr18, .h5mt18, .h5mb17, .h5ml17, .h5mr17, .h5mt17, .h5mb16, .h5ml16, .h5mr16, .h5mt16, .h5mb15, .h5ml15, .h5mr15, .h5mt15, .h5mb14, .h5ml14, .h5mr14, .h5mt14, .h5mb13, .h5ml13, .h5mr13, .h5mt13, .h5mb12, .h5ml12, .h5mr12, .h5mt12, .h5mb11, .h5ml11, .h5mr11, .h5mt11, .h5mb10, .h5ml10, .h5mr10, .h5mt10, .h5mb9, .h5ml9, .h5mr9, .h5mt9, .h5mb8, .h5ml8, .h5mr8, .h5mt8, .h5mb7, .h5ml7, .h5mr7, .h5mt7, .h5mb6, .h5ml6, .h5mr6, .h5mt6, .h5mb5, .h5ml5, .h5mr5, .h5mt5, .h5mb4, .h5ml4, .h5mr4, .h5mt4, .h5mb3, .h5ml3, .h5mr3, .h5mt3, .h5mb2, .h5ml2, .h5mr2, .h5mt2, .h5mb1, .h5ml1, .h5mr1, .h5mt1, .h5pb5, .h5pl5, .h5pr5, .h5pt5 {
+  height: 25%;
+}
+
+.pt5, .ptb5, .ptl5, .ptr5, .h20pt20, .w20pt5, .h19pt19, .w19pt5, .h18pt18, .w18pt5, .h17pt17, .w17pt5, .h16pt16, .w16pt5, .h15pt15, .w15pt5, .h14pt14, .w14pt5, .h13pt13, .w13pt5, .h12pt12, .w12pt5, .h11pt11, .w11pt5, .h10pt10, .w10pt5, .h9pt9, .w9pt5, .h8pt8, .w8pt5, .h7pt7, .w7pt5, .h6pt6, .w6pt5, .h5pt5, .w5pt5, .h4pt4, .w4pt5, .h3pt3, .w3pt5, .h2pt2, .w2pt5, .h1pt1, .w1pt5 {
+  padding-top: 5%;
+}
+
+.pb5, .pbl5, .pbr5, .pbt5, .h20pb20, .w20pb5, .h19pb19, .w19pb5, .h18pb18, .w18pb5, .h17pb17, .w17pb5, .h16pb16, .w16pb5, .h15pb15, .w15pb5, .h14pb14, .w14pb5, .h13pb13, .w13pb5, .h12pb12, .w12pb5, .h11pb11, .w11pb5, .h10pb10, .w10pb5, .h9pb9, .w9pb5, .h8pb8, .w8pb5, .h7pb7, .w7pb5, .h6pb6, .w6pb5, .h5pb5, .w5pb5, .h4pb4, .w4pb5, .h3pb3, .w3pb5, .h2pb2, .w2pb5, .h1pb1, .w1pb5 {
+  padding-bottom: 5%;
+}
+
+.pr5, .prb5, .prl5, .prt5, .h20pr20, .w20pr5, .h19pr19, .w19pr5, .h18pr18, .w18pr5, .h17pr17, .w17pr5, .h16pr16, .w16pr5, .h15pr15, .w15pr5, .h14pr14, .w14pr5, .h13pr13, .w13pr5, .h12pr12, .w12pr5, .h11pr11, .w11pr5, .h10pr10, .w10pr5, .h9pr9, .w9pr5, .h8pr8, .w8pr5, .h7pr7, .w7pr5, .h6pr6, .w6pr5, .h5pr5, .w5pr5, .h4pr4, .w4pr5, .h3pr3, .w3pr5, .h2pr2, .w2pr5, .h1pr1, .w1pr5 {
+  padding-right: 5%;
+}
+
+.pl5, .plb5, .plr5, .plt5, .h20pl20, .w20pl5, .h19pl19, .w19pl5, .h18pl18, .w18pl5, .h17pl17, .w17pl5, .h16pl16, .w16pl5, .h15pl15, .w15pl5, .h14pl14, .w14pl5, .h13pl13, .w13pl5, .h12pl12, .w12pl5, .h11pl11, .w11pl5, .h10pl10, .w10pl5, .h9pl9, .w9pl5, .h8pl8, .w8pl5, .h7pl7, .w7pl5, .h6pl6, .w6pl5, .h5pl5, .w5pl5, .h4pl4, .w4pl5, .h3pl3, .w3pl5, .h2pl2, .w2pl5, .h1pl1, .w1pl5 {
+  padding-left: 5%;
+}
+
+.m5 {
+  margin: 5%;
+}
+
+.mt5, .mtb5, .mtl5, .mtr5, .h20mt5, .w20mt5, .h19mt5, .w19mt5, .h18mt5, .w18mt5, .h17mt5, .w17mt5, .h16mt5, .w16mt5, .h15mt5, .w15mt5, .h14mt5, .w14mt5, .h13mt5, .w13mt5, .h12mt5, .w12mt5, .h11mt5, .w11mt5, .h10mt5, .w10mt5, .h9mt5, .w9mt5, .h8mt5, .w8mt5, .h7mt5, .w7mt5, .h6mt5, .w6mt5, .h5mt5, .w5mt5, .h4mt5, .w4mt5, .h3mt5, .w3mt5, .h2mt5, .w2mt5, .h1mt5, .w1mt5 {
+  margin-top: 5%;
+}
+
+.mb5, .mbl5, .mbr5, .mbt5, .h20mb5, .w20mb5, .h19mb5, .w19mb5, .h18mb5, .w18mb5, .h17mb5, .w17mb5, .h16mb5, .w16mb5, .h15mb5, .w15mb5, .h14mb5, .w14mb5, .h13mb5, .w13mb5, .h12mb5, .w12mb5, .h11mb5, .w11mb5, .h10mb5, .w10mb5, .h9mb5, .w9mb5, .h8mb5, .w8mb5, .h7mb5, .w7mb5, .h6mb5, .w6mb5, .h5mb5, .w5mb5, .h4mb5, .w4mb5, .h3mb5, .w3mb5, .h2mb5, .w2mb5, .h1mb5, .w1mb5 {
+  margin-bottom: 5%;
+}
+
+.mr5, .mrb5, .mrl5, .mrt5, .h20mr5, .w20mr5, .h19mr5, .w19mr5, .h18mr5, .w18mr5, .h17mr5, .w17mr5, .h16mr5, .w16mr5, .h15mr5, .w15mr5, .h14mr5, .w14mr5, .h13mr5, .w13mr5, .h12mr5, .w12mr5, .h11mr5, .w11mr5, .h10mr5, .w10mr5, .h9mr5, .w9mr5, .h8mr5, .w8mr5, .h7mr5, .w7mr5, .h6mr5, .w6mr5, .h5mr5, .w5mr5, .h4mr5, .w4mr5, .h3mr5, .w3mr5, .h2mr5, .w2mr5, .h1mr5, .w1mr5 {
+  margin-right: 5%;
+}
+
+.ml5, .mlb5, .mlr5, .mlt5, .h20ml5, .w20ml5, .h19ml5, .w19ml5, .h18ml5, .w18ml5, .h17ml5, .w17ml5, .h16ml5, .w16ml5, .h15ml5, .w15ml5, .h14ml5, .w14ml5, .h13ml5, .w13ml5, .h12ml5, .w12ml5, .h11ml5, .w11ml5, .h10ml5, .w10ml5, .h9ml5, .w9ml5, .h8ml5, .w8ml5, .h7ml5, .w7ml5, .h6ml5, .w6ml5, .h5ml5, .w5ml5, .h4ml5, .w4ml5, .h3ml5, .w3ml5, .h2ml5, .w2ml5, .h1ml5, .w1ml5 {
+  margin-left: 5%;
+}
+
+.w6, .w6mb20, .w6ml20, .w6mr20, .w6mt20, .w6pb20, .w6pl20, .w6pr20, .w6pt20, .w6mb19, .w6ml19, .w6mr19, .w6mt19, .w6pb19, .w6pl19, .w6pr19, .w6pt19, .w6mb18, .w6ml18, .w6mr18, .w6mt18, .w6pb18, .w6pl18, .w6pr18, .w6pt18, .w6mb17, .w6ml17, .w6mr17, .w6mt17, .w6pb17, .w6pl17, .w6pr17, .w6pt17, .w6mb16, .w6ml16, .w6mr16, .w6mt16, .w6pb16, .w6pl16, .w6pr16, .w6pt16, .w6mb15, .w6ml15, .w6mr15, .w6mt15, .w6pb15, .w6pl15, .w6pr15, .w6pt15, .w6mb14, .w6ml14, .w6mr14, .w6mt14, .w6pb14, .w6pl14, .w6pr14, .w6pt14, .w6mb13, .w6ml13, .w6mr13, .w6mt13, .w6pb13, .w6pl13, .w6pr13, .w6pt13, .w6mb12, .w6ml12, .w6mr12, .w6mt12, .w6pb12, .w6pl12, .w6pr12, .w6pt12, .w6mb11, .w6ml11, .w6mr11, .w6mt11, .w6pb11, .w6pl11, .w6pr11, .w6pt11, .w6mb10, .w6ml10, .w6mr10, .w6mt10, .w6pb10, .w6pl10, .w6pr10, .w6pt10, .w6mb9, .w6ml9, .w6mr9, .w6mt9, .w6pb9, .w6pl9, .w6pr9, .w6pt9, .w6mb8, .w6ml8, .w6mr8, .w6mt8, .w6pb8, .w6pl8, .w6pr8, .w6pt8, .w6mb7, .w6ml7, .w6mr7, .w6mt7, .w6pb7, .w6pl7, .w6pr7, .w6pt7, .w6mb6, .w6ml6, .w6mr6, .w6mt6, .w6pb6, .w6pl6, .w6pr6, .w6pt6, .w6mb5, .w6ml5, .w6mr5, .w6mt5, .w6pb5, .w6pl5, .w6pr5, .w6pt5, .w6mb4, .w6ml4, .w6mr4, .w6mt4, .w6pb4, .w6pl4, .w6pr4, .w6pt4, .w6mb3, .w6ml3, .w6mr3, .w6mt3, .w6pb3, .w6pl3, .w6pr3, .w6pt3, .w6mb2, .w6ml2, .w6mr2, .w6mt2, .w6pb2, .w6pl2, .w6pr2, .w6pt2, .w6mb1, .w6ml1, .w6mr1, .w6mt1, .w6pb1, .w6pl1, .w6pr1, .w6pt1 {
+  width: 30%;
+}
+
+.h6, .h6mb20, .h6ml20, .h6mr20, .h6mt20, .h6mb19, .h6ml19, .h6mr19, .h6mt19, .h6mb18, .h6ml18, .h6mr18, .h6mt18, .h6mb17, .h6ml17, .h6mr17, .h6mt17, .h6mb16, .h6ml16, .h6mr16, .h6mt16, .h6mb15, .h6ml15, .h6mr15, .h6mt15, .h6mb14, .h6ml14, .h6mr14, .h6mt14, .h6mb13, .h6ml13, .h6mr13, .h6mt13, .h6mb12, .h6ml12, .h6mr12, .h6mt12, .h6mb11, .h6ml11, .h6mr11, .h6mt11, .h6mb10, .h6ml10, .h6mr10, .h6mt10, .h6mb9, .h6ml9, .h6mr9, .h6mt9, .h6mb8, .h6ml8, .h6mr8, .h6mt8, .h6mb7, .h6ml7, .h6mr7, .h6mt7, .h6mb6, .h6ml6, .h6mr6, .h6mt6, .h6mb5, .h6ml5, .h6mr5, .h6mt5, .h6mb4, .h6ml4, .h6mr4, .h6mt4, .h6mb3, .h6ml3, .h6mr3, .h6mt3, .h6mb2, .h6ml2, .h6mr2, .h6mt2, .h6mb1, .h6ml1, .h6mr1, .h6mt1, .h6pb6, .h6pl6, .h6pr6, .h6pt6 {
+  height: 30%;
+}
+
+.pt6, .ptb6, .ptl6, .ptr6, .h20pt20, .w20pt6, .h19pt19, .w19pt6, .h18pt18, .w18pt6, .h17pt17, .w17pt6, .h16pt16, .w16pt6, .h15pt15, .w15pt6, .h14pt14, .w14pt6, .h13pt13, .w13pt6, .h12pt12, .w12pt6, .h11pt11, .w11pt6, .h10pt10, .w10pt6, .h9pt9, .w9pt6, .h8pt8, .w8pt6, .h7pt7, .w7pt6, .h6pt6, .w6pt6, .h5pt5, .w5pt6, .h4pt4, .w4pt6, .h3pt3, .w3pt6, .h2pt2, .w2pt6, .h1pt1, .w1pt6 {
+  padding-top: 6%;
+}
+
+.pb6, .pbl6, .pbr6, .pbt6, .h20pb20, .w20pb6, .h19pb19, .w19pb6, .h18pb18, .w18pb6, .h17pb17, .w17pb6, .h16pb16, .w16pb6, .h15pb15, .w15pb6, .h14pb14, .w14pb6, .h13pb13, .w13pb6, .h12pb12, .w12pb6, .h11pb11, .w11pb6, .h10pb10, .w10pb6, .h9pb9, .w9pb6, .h8pb8, .w8pb6, .h7pb7, .w7pb6, .h6pb6, .w6pb6, .h5pb5, .w5pb6, .h4pb4, .w4pb6, .h3pb3, .w3pb6, .h2pb2, .w2pb6, .h1pb1, .w1pb6 {
+  padding-bottom: 6%;
+}
+
+.pr6, .prb6, .prl6, .prt6, .h20pr20, .w20pr6, .h19pr19, .w19pr6, .h18pr18, .w18pr6, .h17pr17, .w17pr6, .h16pr16, .w16pr6, .h15pr15, .w15pr6, .h14pr14, .w14pr6, .h13pr13, .w13pr6, .h12pr12, .w12pr6, .h11pr11, .w11pr6, .h10pr10, .w10pr6, .h9pr9, .w9pr6, .h8pr8, .w8pr6, .h7pr7, .w7pr6, .h6pr6, .w6pr6, .h5pr5, .w5pr6, .h4pr4, .w4pr6, .h3pr3, .w3pr6, .h2pr2, .w2pr6, .h1pr1, .w1pr6 {
+  padding-right: 6%;
+}
+
+.pl6, .plb6, .plr6, .plt6, .h20pl20, .w20pl6, .h19pl19, .w19pl6, .h18pl18, .w18pl6, .h17pl17, .w17pl6, .h16pl16, .w16pl6, .h15pl15, .w15pl6, .h14pl14, .w14pl6, .h13pl13, .w13pl6, .h12pl12, .w12pl6, .h11pl11, .w11pl6, .h10pl10, .w10pl6, .h9pl9, .w9pl6, .h8pl8, .w8pl6, .h7pl7, .w7pl6, .h6pl6, .w6pl6, .h5pl5, .w5pl6, .h4pl4, .w4pl6, .h3pl3, .w3pl6, .h2pl2, .w2pl6, .h1pl1, .w1pl6 {
+  padding-left: 6%;
+}
+
+.m6 {
+  margin: 6%;
+}
+
+.mt6, .mtb6, .mtl6, .mtr6, .h20mt6, .w20mt6, .h19mt6, .w19mt6, .h18mt6, .w18mt6, .h17mt6, .w17mt6, .h16mt6, .w16mt6, .h15mt6, .w15mt6, .h14mt6, .w14mt6, .h13mt6, .w13mt6, .h12mt6, .w12mt6, .h11mt6, .w11mt6, .h10mt6, .w10mt6, .h9mt6, .w9mt6, .h8mt6, .w8mt6, .h7mt6, .w7mt6, .h6mt6, .w6mt6, .h5mt6, .w5mt6, .h4mt6, .w4mt6, .h3mt6, .w3mt6, .h2mt6, .w2mt6, .h1mt6, .w1mt6 {
+  margin-top: 6%;
+}
+
+.mb6, .mbl6, .mbr6, .mbt6, .h20mb6, .w20mb6, .h19mb6, .w19mb6, .h18mb6, .w18mb6, .h17mb6, .w17mb6, .h16mb6, .w16mb6, .h15mb6, .w15mb6, .h14mb6, .w14mb6, .h13mb6, .w13mb6, .h12mb6, .w12mb6, .h11mb6, .w11mb6, .h10mb6, .w10mb6, .h9mb6, .w9mb6, .h8mb6, .w8mb6, .h7mb6, .w7mb6, .h6mb6, .w6mb6, .h5mb6, .w5mb6, .h4mb6, .w4mb6, .h3mb6, .w3mb6, .h2mb6, .w2mb6, .h1mb6, .w1mb6 {
+  margin-bottom: 6%;
+}
+
+.mr6, .mrb6, .mrl6, .mrt6, .h20mr6, .w20mr6, .h19mr6, .w19mr6, .h18mr6, .w18mr6, .h17mr6, .w17mr6, .h16mr6, .w16mr6, .h15mr6, .w15mr6, .h14mr6, .w14mr6, .h13mr6, .w13mr6, .h12mr6, .w12mr6, .h11mr6, .w11mr6, .h10mr6, .w10mr6, .h9mr6, .w9mr6, .h8mr6, .w8mr6, .h7mr6, .w7mr6, .h6mr6, .w6mr6, .h5mr6, .w5mr6, .h4mr6, .w4mr6, .h3mr6, .w3mr6, .h2mr6, .w2mr6, .h1mr6, .w1mr6 {
+  margin-right: 6%;
+}
+
+.ml6, .mlb6, .mlr6, .mlt6, .h20ml6, .w20ml6, .h19ml6, .w19ml6, .h18ml6, .w18ml6, .h17ml6, .w17ml6, .h16ml6, .w16ml6, .h15ml6, .w15ml6, .h14ml6, .w14ml6, .h13ml6, .w13ml6, .h12ml6, .w12ml6, .h11ml6, .w11ml6, .h10ml6, .w10ml6, .h9ml6, .w9ml6, .h8ml6, .w8ml6, .h7ml6, .w7ml6, .h6ml6, .w6ml6, .h5ml6, .w5ml6, .h4ml6, .w4ml6, .h3ml6, .w3ml6, .h2ml6, .w2ml6, .h1ml6, .w1ml6 {
+  margin-left: 6%;
+}
+
+.w7, .w7mb20, .w7ml20, .w7mr20, .w7mt20, .w7pb20, .w7pl20, .w7pr20, .w7pt20, .w7mb19, .w7ml19, .w7mr19, .w7mt19, .w7pb19, .w7pl19, .w7pr19, .w7pt19, .w7mb18, .w7ml18, .w7mr18, .w7mt18, .w7pb18, .w7pl18, .w7pr18, .w7pt18, .w7mb17, .w7ml17, .w7mr17, .w7mt17, .w7pb17, .w7pl17, .w7pr17, .w7pt17, .w7mb16, .w7ml16, .w7mr16, .w7mt16, .w7pb16, .w7pl16, .w7pr16, .w7pt16, .w7mb15, .w7ml15, .w7mr15, .w7mt15, .w7pb15, .w7pl15, .w7pr15, .w7pt15, .w7mb14, .w7ml14, .w7mr14, .w7mt14, .w7pb14, .w7pl14, .w7pr14, .w7pt14, .w7mb13, .w7ml13, .w7mr13, .w7mt13, .w7pb13, .w7pl13, .w7pr13, .w7pt13, .w7mb12, .w7ml12, .w7mr12, .w7mt12, .w7pb12, .w7pl12, .w7pr12, .w7pt12, .w7mb11, .w7ml11, .w7mr11, .w7mt11, .w7pb11, .w7pl11, .w7pr11, .w7pt11, .w7mb10, .w7ml10, .w7mr10, .w7mt10, .w7pb10, .w7pl10, .w7pr10, .w7pt10, .w7mb9, .w7ml9, .w7mr9, .w7mt9, .w7pb9, .w7pl9, .w7pr9, .w7pt9, .w7mb8, .w7ml8, .w7mr8, .w7mt8, .w7pb8, .w7pl8, .w7pr8, .w7pt8, .w7mb7, .w7ml7, .w7mr7, .w7mt7, .w7pb7, .w7pl7, .w7pr7, .w7pt7, .w7mb6, .w7ml6, .w7mr6, .w7mt6, .w7pb6, .w7pl6, .w7pr6, .w7pt6, .w7mb5, .w7ml5, .w7mr5, .w7mt5, .w7pb5, .w7pl5, .w7pr5, .w7pt5, .w7mb4, .w7ml4, .w7mr4, .w7mt4, .w7pb4, .w7pl4, .w7pr4, .w7pt4, .w7mb3, .w7ml3, .w7mr3, .w7mt3, .w7pb3, .w7pl3, .w7pr3, .w7pt3, .w7mb2, .w7ml2, .w7mr2, .w7mt2, .w7pb2, .w7pl2, .w7pr2, .w7pt2, .w7mb1, .w7ml1, .w7mr1, .w7mt1, .w7pb1, .w7pl1, .w7pr1, .w7pt1 {
+  width: 35%;
+}
+
+.h7, .h7mb20, .h7ml20, .h7mr20, .h7mt20, .h7mb19, .h7ml19, .h7mr19, .h7mt19, .h7mb18, .h7ml18, .h7mr18, .h7mt18, .h7mb17, .h7ml17, .h7mr17, .h7mt17, .h7mb16, .h7ml16, .h7mr16, .h7mt16, .h7mb15, .h7ml15, .h7mr15, .h7mt15, .h7mb14, .h7ml14, .h7mr14, .h7mt14, .h7mb13, .h7ml13, .h7mr13, .h7mt13, .h7mb12, .h7ml12, .h7mr12, .h7mt12, .h7mb11, .h7ml11, .h7mr11, .h7mt11, .h7mb10, .h7ml10, .h7mr10, .h7mt10, .h7mb9, .h7ml9, .h7mr9, .h7mt9, .h7mb8, .h7ml8, .h7mr8, .h7mt8, .h7mb7, .h7ml7, .h7mr7, .h7mt7, .h7mb6, .h7ml6, .h7mr6, .h7mt6, .h7mb5, .h7ml5, .h7mr5, .h7mt5, .h7mb4, .h7ml4, .h7mr4, .h7mt4, .h7mb3, .h7ml3, .h7mr3, .h7mt3, .h7mb2, .h7ml2, .h7mr2, .h7mt2, .h7mb1, .h7ml1, .h7mr1, .h7mt1, .h7pb7, .h7pl7, .h7pr7, .h7pt7 {
+  height: 35%;
+}
+
+.pt7, .ptb7, .ptl7, .ptr7, .h20pt20, .w20pt7, .h19pt19, .w19pt7, .h18pt18, .w18pt7, .h17pt17, .w17pt7, .h16pt16, .w16pt7, .h15pt15, .w15pt7, .h14pt14, .w14pt7, .h13pt13, .w13pt7, .h12pt12, .w12pt7, .h11pt11, .w11pt7, .h10pt10, .w10pt7, .h9pt9, .w9pt7, .h8pt8, .w8pt7, .h7pt7, .w7pt7, .h6pt6, .w6pt7, .h5pt5, .w5pt7, .h4pt4, .w4pt7, .h3pt3, .w3pt7, .h2pt2, .w2pt7, .h1pt1, .w1pt7 {
+  padding-top: 7%;
+}
+
+.pb7, .pbl7, .pbr7, .pbt7, .h20pb20, .w20pb7, .h19pb19, .w19pb7, .h18pb18, .w18pb7, .h17pb17, .w17pb7, .h16pb16, .w16pb7, .h15pb15, .w15pb7, .h14pb14, .w14pb7, .h13pb13, .w13pb7, .h12pb12, .w12pb7, .h11pb11, .w11pb7, .h10pb10, .w10pb7, .h9pb9, .w9pb7, .h8pb8, .w8pb7, .h7pb7, .w7pb7, .h6pb6, .w6pb7, .h5pb5, .w5pb7, .h4pb4, .w4pb7, .h3pb3, .w3pb7, .h2pb2, .w2pb7, .h1pb1, .w1pb7 {
+  padding-bottom: 7%;
+}
+
+.pr7, .prb7, .prl7, .prt7, .h20pr20, .w20pr7, .h19pr19, .w19pr7, .h18pr18, .w18pr7, .h17pr17, .w17pr7, .h16pr16, .w16pr7, .h15pr15, .w15pr7, .h14pr14, .w14pr7, .h13pr13, .w13pr7, .h12pr12, .w12pr7, .h11pr11, .w11pr7, .h10pr10, .w10pr7, .h9pr9, .w9pr7, .h8pr8, .w8pr7, .h7pr7, .w7pr7, .h6pr6, .w6pr7, .h5pr5, .w5pr7, .h4pr4, .w4pr7, .h3pr3, .w3pr7, .h2pr2, .w2pr7, .h1pr1, .w1pr7 {
+  padding-right: 7%;
+}
+
+.pl7, .plb7, .plr7, .plt7, .h20pl20, .w20pl7, .h19pl19, .w19pl7, .h18pl18, .w18pl7, .h17pl17, .w17pl7, .h16pl16, .w16pl7, .h15pl15, .w15pl7, .h14pl14, .w14pl7, .h13pl13, .w13pl7, .h12pl12, .w12pl7, .h11pl11, .w11pl7, .h10pl10, .w10pl7, .h9pl9, .w9pl7, .h8pl8, .w8pl7, .h7pl7, .w7pl7, .h6pl6, .w6pl7, .h5pl5, .w5pl7, .h4pl4, .w4pl7, .h3pl3, .w3pl7, .h2pl2, .w2pl7, .h1pl1, .w1pl7 {
+  padding-left: 7%;
+}
+
+.m7 {
+  margin: 7%;
+}
+
+.mt7, .mtb7, .mtl7, .mtr7, .h20mt7, .w20mt7, .h19mt7, .w19mt7, .h18mt7, .w18mt7, .h17mt7, .w17mt7, .h16mt7, .w16mt7, .h15mt7, .w15mt7, .h14mt7, .w14mt7, .h13mt7, .w13mt7, .h12mt7, .w12mt7, .h11mt7, .w11mt7, .h10mt7, .w10mt7, .h9mt7, .w9mt7, .h8mt7, .w8mt7, .h7mt7, .w7mt7, .h6mt7, .w6mt7, .h5mt7, .w5mt7, .h4mt7, .w4mt7, .h3mt7, .w3mt7, .h2mt7, .w2mt7, .h1mt7, .w1mt7 {
+  margin-top: 7%;
+}
+
+.mb7, .mbl7, .mbr7, .mbt7, .h20mb7, .w20mb7, .h19mb7, .w19mb7, .h18mb7, .w18mb7, .h17mb7, .w17mb7, .h16mb7, .w16mb7, .h15mb7, .w15mb7, .h14mb7, .w14mb7, .h13mb7, .w13mb7, .h12mb7, .w12mb7, .h11mb7, .w11mb7, .h10mb7, .w10mb7, .h9mb7, .w9mb7, .h8mb7, .w8mb7, .h7mb7, .w7mb7, .h6mb7, .w6mb7, .h5mb7, .w5mb7, .h4mb7, .w4mb7, .h3mb7, .w3mb7, .h2mb7, .w2mb7, .h1mb7, .w1mb7 {
+  margin-bottom: 7%;
+}
+
+.mr7, .mrb7, .mrl7, .mrt7, .h20mr7, .w20mr7, .h19mr7, .w19mr7, .h18mr7, .w18mr7, .h17mr7, .w17mr7, .h16mr7, .w16mr7, .h15mr7, .w15mr7, .h14mr7, .w14mr7, .h13mr7, .w13mr7, .h12mr7, .w12mr7, .h11mr7, .w11mr7, .h10mr7, .w10mr7, .h9mr7, .w9mr7, .h8mr7, .w8mr7, .h7mr7, .w7mr7, .h6mr7, .w6mr7, .h5mr7, .w5mr7, .h4mr7, .w4mr7, .h3mr7, .w3mr7, .h2mr7, .w2mr7, .h1mr7, .w1mr7 {
+  margin-right: 7%;
+}
+
+.ml7, .mlb7, .mlr7, .mlt7, .h20ml7, .w20ml7, .h19ml7, .w19ml7, .h18ml7, .w18ml7, .h17ml7, .w17ml7, .h16ml7, .w16ml7, .h15ml7, .w15ml7, .h14ml7, .w14ml7, .h13ml7, .w13ml7, .h12ml7, .w12ml7, .h11ml7, .w11ml7, .h10ml7, .w10ml7, .h9ml7, .w9ml7, .h8ml7, .w8ml7, .h7ml7, .w7ml7, .h6ml7, .w6ml7, .h5ml7, .w5ml7, .h4ml7, .w4ml7, .h3ml7, .w3ml7, .h2ml7, .w2ml7, .h1ml7, .w1ml7 {
+  margin-left: 7%;
+}
+
+.w8, .w8mb20, .w8ml20, .w8mr20, .w8mt20, .w8pb20, .w8pl20, .w8pr20, .w8pt20, .w8mb19, .w8ml19, .w8mr19, .w8mt19, .w8pb19, .w8pl19, .w8pr19, .w8pt19, .w8mb18, .w8ml18, .w8mr18, .w8mt18, .w8pb18, .w8pl18, .w8pr18, .w8pt18, .w8mb17, .w8ml17, .w8mr17, .w8mt17, .w8pb17, .w8pl17, .w8pr17, .w8pt17, .w8mb16, .w8ml16, .w8mr16, .w8mt16, .w8pb16, .w8pl16, .w8pr16, .w8pt16, .w8mb15, .w8ml15, .w8mr15, .w8mt15, .w8pb15, .w8pl15, .w8pr15, .w8pt15, .w8mb14, .w8ml14, .w8mr14, .w8mt14, .w8pb14, .w8pl14, .w8pr14, .w8pt14, .w8mb13, .w8ml13, .w8mr13, .w8mt13, .w8pb13, .w8pl13, .w8pr13, .w8pt13, .w8mb12, .w8ml12, .w8mr12, .w8mt12, .w8pb12, .w8pl12, .w8pr12, .w8pt12, .w8mb11, .w8ml11, .w8mr11, .w8mt11, .w8pb11, .w8pl11, .w8pr11, .w8pt11, .w8mb10, .w8ml10, .w8mr10, .w8mt10, .w8pb10, .w8pl10, .w8pr10, .w8pt10, .w8mb9, .w8ml9, .w8mr9, .w8mt9, .w8pb9, .w8pl9, .w8pr9, .w8pt9, .w8mb8, .w8ml8, .w8mr8, .w8mt8, .w8pb8, .w8pl8, .w8pr8, .w8pt8, .w8mb7, .w8ml7, .w8mr7, .w8mt7, .w8pb7, .w8pl7, .w8pr7, .w8pt7, .w8mb6, .w8ml6, .w8mr6, .w8mt6, .w8pb6, .w8pl6, .w8pr6, .w8pt6, .w8mb5, .w8ml5, .w8mr5, .w8mt5, .w8pb5, .w8pl5, .w8pr5, .w8pt5, .w8mb4, .w8ml4, .w8mr4, .w8mt4, .w8pb4, .w8pl4, .w8pr4, .w8pt4, .w8mb3, .w8ml3, .w8mr3, .w8mt3, .w8pb3, .w8pl3, .w8pr3, .w8pt3, .w8mb2, .w8ml2, .w8mr2, .w8mt2, .w8pb2, .w8pl2, .w8pr2, .w8pt2, .w8mb1, .w8ml1, .w8mr1, .w8mt1, .w8pb1, .w8pl1, .w8pr1, .w8pt1 {
+  width: 40%;
+}
+
+.h8, .h8mb20, .h8ml20, .h8mr20, .h8mt20, .h8mb19, .h8ml19, .h8mr19, .h8mt19, .h8mb18, .h8ml18, .h8mr18, .h8mt18, .h8mb17, .h8ml17, .h8mr17, .h8mt17, .h8mb16, .h8ml16, .h8mr16, .h8mt16, .h8mb15, .h8ml15, .h8mr15, .h8mt15, .h8mb14, .h8ml14, .h8mr14, .h8mt14, .h8mb13, .h8ml13, .h8mr13, .h8mt13, .h8mb12, .h8ml12, .h8mr12, .h8mt12, .h8mb11, .h8ml11, .h8mr11, .h8mt11, .h8mb10, .h8ml10, .h8mr10, .h8mt10, .h8mb9, .h8ml9, .h8mr9, .h8mt9, .h8mb8, .h8ml8, .h8mr8, .h8mt8, .h8mb7, .h8ml7, .h8mr7, .h8mt7, .h8mb6, .h8ml6, .h8mr6, .h8mt6, .h8mb5, .h8ml5, .h8mr5, .h8mt5, .h8mb4, .h8ml4, .h8mr4, .h8mt4, .h8mb3, .h8ml3, .h8mr3, .h8mt3, .h8mb2, .h8ml2, .h8mr2, .h8mt2, .h8mb1, .h8ml1, .h8mr1, .h8mt1, .h8pb8, .h8pl8, .h8pr8, .h8pt8 {
+  height: 40%;
+}
+
+.pt8, .ptb8, .ptl8, .ptr8, .h20pt20, .w20pt8, .h19pt19, .w19pt8, .h18pt18, .w18pt8, .h17pt17, .w17pt8, .h16pt16, .w16pt8, .h15pt15, .w15pt8, .h14pt14, .w14pt8, .h13pt13, .w13pt8, .h12pt12, .w12pt8, .h11pt11, .w11pt8, .h10pt10, .w10pt8, .h9pt9, .w9pt8, .h8pt8, .w8pt8, .h7pt7, .w7pt8, .h6pt6, .w6pt8, .h5pt5, .w5pt8, .h4pt4, .w4pt8, .h3pt3, .w3pt8, .h2pt2, .w2pt8, .h1pt1, .w1pt8 {
+  padding-top: 8%;
+}
+
+.pb8, .pbl8, .pbr8, .pbt8, .h20pb20, .w20pb8, .h19pb19, .w19pb8, .h18pb18, .w18pb8, .h17pb17, .w17pb8, .h16pb16, .w16pb8, .h15pb15, .w15pb8, .h14pb14, .w14pb8, .h13pb13, .w13pb8, .h12pb12, .w12pb8, .h11pb11, .w11pb8, .h10pb10, .w10pb8, .h9pb9, .w9pb8, .h8pb8, .w8pb8, .h7pb7, .w7pb8, .h6pb6, .w6pb8, .h5pb5, .w5pb8, .h4pb4, .w4pb8, .h3pb3, .w3pb8, .h2pb2, .w2pb8, .h1pb1, .w1pb8 {
+  padding-bottom: 8%;
+}
+
+.pr8, .prb8, .prl8, .prt8, .h20pr20, .w20pr8, .h19pr19, .w19pr8, .h18pr18, .w18pr8, .h17pr17, .w17pr8, .h16pr16, .w16pr8, .h15pr15, .w15pr8, .h14pr14, .w14pr8, .h13pr13, .w13pr8, .h12pr12, .w12pr8, .h11pr11, .w11pr8, .h10pr10, .w10pr8, .h9pr9, .w9pr8, .h8pr8, .w8pr8, .h7pr7, .w7pr8, .h6pr6, .w6pr8, .h5pr5, .w5pr8, .h4pr4, .w4pr8, .h3pr3, .w3pr8, .h2pr2, .w2pr8, .h1pr1, .w1pr8 {
+  padding-right: 8%;
+}
+
+.pl8, .plb8, .plr8, .plt8, .h20pl20, .w20pl8, .h19pl19, .w19pl8, .h18pl18, .w18pl8, .h17pl17, .w17pl8, .h16pl16, .w16pl8, .h15pl15, .w15pl8, .h14pl14, .w14pl8, .h13pl13, .w13pl8, .h12pl12, .w12pl8, .h11pl11, .w11pl8, .h10pl10, .w10pl8, .h9pl9, .w9pl8, .h8pl8, .w8pl8, .h7pl7, .w7pl8, .h6pl6, .w6pl8, .h5pl5, .w5pl8, .h4pl4, .w4pl8, .h3pl3, .w3pl8, .h2pl2, .w2pl8, .h1pl1, .w1pl8 {
+  padding-left: 8%;
+}
+
+.m8 {
+  margin: 8%;
+}
+
+.mt8, .mtb8, .mtl8, .mtr8, .h20mt8, .w20mt8, .h19mt8, .w19mt8, .h18mt8, .w18mt8, .h17mt8, .w17mt8, .h16mt8, .w16mt8, .h15mt8, .w15mt8, .h14mt8, .w14mt8, .h13mt8, .w13mt8, .h12mt8, .w12mt8, .h11mt8, .w11mt8, .h10mt8, .w10mt8, .h9mt8, .w9mt8, .h8mt8, .w8mt8, .h7mt8, .w7mt8, .h6mt8, .w6mt8, .h5mt8, .w5mt8, .h4mt8, .w4mt8, .h3mt8, .w3mt8, .h2mt8, .w2mt8, .h1mt8, .w1mt8 {
+  margin-top: 8%;
+}
+
+.mb8, .mbl8, .mbr8, .mbt8, .h20mb8, .w20mb8, .h19mb8, .w19mb8, .h18mb8, .w18mb8, .h17mb8, .w17mb8, .h16mb8, .w16mb8, .h15mb8, .w15mb8, .h14mb8, .w14mb8, .h13mb8, .w13mb8, .h12mb8, .w12mb8, .h11mb8, .w11mb8, .h10mb8, .w10mb8, .h9mb8, .w9mb8, .h8mb8, .w8mb8, .h7mb8, .w7mb8, .h6mb8, .w6mb8, .h5mb8, .w5mb8, .h4mb8, .w4mb8, .h3mb8, .w3mb8, .h2mb8, .w2mb8, .h1mb8, .w1mb8 {
+  margin-bottom: 8%;
+}
+
+.mr8, .mrb8, .mrl8, .mrt8, .h20mr8, .w20mr8, .h19mr8, .w19mr8, .h18mr8, .w18mr8, .h17mr8, .w17mr8, .h16mr8, .w16mr8, .h15mr8, .w15mr8, .h14mr8, .w14mr8, .h13mr8, .w13mr8, .h12mr8, .w12mr8, .h11mr8, .w11mr8, .h10mr8, .w10mr8, .h9mr8, .w9mr8, .h8mr8, .w8mr8, .h7mr8, .w7mr8, .h6mr8, .w6mr8, .h5mr8, .w5mr8, .h4mr8, .w4mr8, .h3mr8, .w3mr8, .h2mr8, .w2mr8, .h1mr8, .w1mr8 {
+  margin-right: 8%;
+}
+
+.ml8, .mlb8, .mlr8, .mlt8, .h20ml8, .w20ml8, .h19ml8, .w19ml8, .h18ml8, .w18ml8, .h17ml8, .w17ml8, .h16ml8, .w16ml8, .h15ml8, .w15ml8, .h14ml8, .w14ml8, .h13ml8, .w13ml8, .h12ml8, .w12ml8, .h11ml8, .w11ml8, .h10ml8, .w10ml8, .h9ml8, .w9ml8, .h8ml8, .w8ml8, .h7ml8, .w7ml8, .h6ml8, .w6ml8, .h5ml8, .w5ml8, .h4ml8, .w4ml8, .h3ml8, .w3ml8, .h2ml8, .w2ml8, .h1ml8, .w1ml8 {
+  margin-left: 8%;
+}
+
+.w9, .w9mb20, .w9ml20, .w9mr20, .w9mt20, .w9pb20, .w9pl20, .w9pr20, .w9pt20, .w9mb19, .w9ml19, .w9mr19, .w9mt19, .w9pb19, .w9pl19, .w9pr19, .w9pt19, .w9mb18, .w9ml18, .w9mr18, .w9mt18, .w9pb18, .w9pl18, .w9pr18, .w9pt18, .w9mb17, .w9ml17, .w9mr17, .w9mt17, .w9pb17, .w9pl17, .w9pr17, .w9pt17, .w9mb16, .w9ml16, .w9mr16, .w9mt16, .w9pb16, .w9pl16, .w9pr16, .w9pt16, .w9mb15, .w9ml15, .w9mr15, .w9mt15, .w9pb15, .w9pl15, .w9pr15, .w9pt15, .w9mb14, .w9ml14, .w9mr14, .w9mt14, .w9pb14, .w9pl14, .w9pr14, .w9pt14, .w9mb13, .w9ml13, .w9mr13, .w9mt13, .w9pb13, .w9pl13, .w9pr13, .w9pt13, .w9mb12, .w9ml12, .w9mr12, .w9mt12, .w9pb12, .w9pl12, .w9pr12, .w9pt12, .w9mb11, .w9ml11, .w9mr11, .w9mt11, .w9pb11, .w9pl11, .w9pr11, .w9pt11, .w9mb10, .w9ml10, .w9mr10, .w9mt10, .w9pb10, .w9pl10, .w9pr10, .w9pt10, .w9mb9, .w9ml9, .w9mr9, .w9mt9, .w9pb9, .w9pl9, .w9pr9, .w9pt9, .w9mb8, .w9ml8, .w9mr8, .w9mt8, .w9pb8, .w9pl8, .w9pr8, .w9pt8, .w9mb7, .w9ml7, .w9mr7, .w9mt7, .w9pb7, .w9pl7, .w9pr7, .w9pt7, .w9mb6, .w9ml6, .w9mr6, .w9mt6, .w9pb6, .w9pl6, .w9pr6, .w9pt6, .w9mb5, .w9ml5, .w9mr5, .w9mt5, .w9pb5, .w9pl5, .w9pr5, .w9pt5, .w9mb4, .w9ml4, .w9mr4, .w9mt4, .w9pb4, .w9pl4, .w9pr4, .w9pt4, .w9mb3, .w9ml3, .w9mr3, .w9mt3, .w9pb3, .w9pl3, .w9pr3, .w9pt3, .w9mb2, .w9ml2, .w9mr2, .w9mt2, .w9pb2, .w9pl2, .w9pr2, .w9pt2, .w9mb1, .w9ml1, .w9mr1, .w9mt1, .w9pb1, .w9pl1, .w9pr1, .w9pt1 {
+  width: 45%;
+}
+
+.h9, .h9mb20, .h9ml20, .h9mr20, .h9mt20, .h9mb19, .h9ml19, .h9mr19, .h9mt19, .h9mb18, .h9ml18, .h9mr18, .h9mt18, .h9mb17, .h9ml17, .h9mr17, .h9mt17, .h9mb16, .h9ml16, .h9mr16, .h9mt16, .h9mb15, .h9ml15, .h9mr15, .h9mt15, .h9mb14, .h9ml14, .h9mr14, .h9mt14, .h9mb13, .h9ml13, .h9mr13, .h9mt13, .h9mb12, .h9ml12, .h9mr12, .h9mt12, .h9mb11, .h9ml11, .h9mr11, .h9mt11, .h9mb10, .h9ml10, .h9mr10, .h9mt10, .h9mb9, .h9ml9, .h9mr9, .h9mt9, .h9mb8, .h9ml8, .h9mr8, .h9mt8, .h9mb7, .h9ml7, .h9mr7, .h9mt7, .h9mb6, .h9ml6, .h9mr6, .h9mt6, .h9mb5, .h9ml5, .h9mr5, .h9mt5, .h9mb4, .h9ml4, .h9mr4, .h9mt4, .h9mb3, .h9ml3, .h9mr3, .h9mt3, .h9mb2, .h9ml2, .h9mr2, .h9mt2, .h9mb1, .h9ml1, .h9mr1, .h9mt1, .h9pb9, .h9pl9, .h9pr9, .h9pt9 {
+  height: 45%;
+}
+
+.pt9, .ptb9, .ptl9, .ptr9, .h20pt20, .w20pt9, .h19pt19, .w19pt9, .h18pt18, .w18pt9, .h17pt17, .w17pt9, .h16pt16, .w16pt9, .h15pt15, .w15pt9, .h14pt14, .w14pt9, .h13pt13, .w13pt9, .h12pt12, .w12pt9, .h11pt11, .w11pt9, .h10pt10, .w10pt9, .h9pt9, .w9pt9, .h8pt8, .w8pt9, .h7pt7, .w7pt9, .h6pt6, .w6pt9, .h5pt5, .w5pt9, .h4pt4, .w4pt9, .h3pt3, .w3pt9, .h2pt2, .w2pt9, .h1pt1, .w1pt9 {
+  padding-top: 9%;
+}
+
+.pb9, .pbl9, .pbr9, .pbt9, .h20pb20, .w20pb9, .h19pb19, .w19pb9, .h18pb18, .w18pb9, .h17pb17, .w17pb9, .h16pb16, .w16pb9, .h15pb15, .w15pb9, .h14pb14, .w14pb9, .h13pb13, .w13pb9, .h12pb12, .w12pb9, .h11pb11, .w11pb9, .h10pb10, .w10pb9, .h9pb9, .w9pb9, .h8pb8, .w8pb9, .h7pb7, .w7pb9, .h6pb6, .w6pb9, .h5pb5, .w5pb9, .h4pb4, .w4pb9, .h3pb3, .w3pb9, .h2pb2, .w2pb9, .h1pb1, .w1pb9 {
+  padding-bottom: 9%;
+}
+
+.pr9, .prb9, .prl9, .prt9, .h20pr20, .w20pr9, .h19pr19, .w19pr9, .h18pr18, .w18pr9, .h17pr17, .w17pr9, .h16pr16, .w16pr9, .h15pr15, .w15pr9, .h14pr14, .w14pr9, .h13pr13, .w13pr9, .h12pr12, .w12pr9, .h11pr11, .w11pr9, .h10pr10, .w10pr9, .h9pr9, .w9pr9, .h8pr8, .w8pr9, .h7pr7, .w7pr9, .h6pr6, .w6pr9, .h5pr5, .w5pr9, .h4pr4, .w4pr9, .h3pr3, .w3pr9, .h2pr2, .w2pr9, .h1pr1, .w1pr9 {
+  padding-right: 9%;
+}
+
+.pl9, .plb9, .plr9, .plt9, .h20pl20, .w20pl9, .h19pl19, .w19pl9, .h18pl18, .w18pl9, .h17pl17, .w17pl9, .h16pl16, .w16pl9, .h15pl15, .w15pl9, .h14pl14, .w14pl9, .h13pl13, .w13pl9, .h12pl12, .w12pl9, .h11pl11, .w11pl9, .h10pl10, .w10pl9, .h9pl9, .w9pl9, .h8pl8, .w8pl9, .h7pl7, .w7pl9, .h6pl6, .w6pl9, .h5pl5, .w5pl9, .h4pl4, .w4pl9, .h3pl3, .w3pl9, .h2pl2, .w2pl9, .h1pl1, .w1pl9 {
+  padding-left: 9%;
+}
+
+.m9 {
+  margin: 9%;
+}
+
+.mt9, .mtb9, .mtl9, .mtr9, .h20mt9, .w20mt9, .h19mt9, .w19mt9, .h18mt9, .w18mt9, .h17mt9, .w17mt9, .h16mt9, .w16mt9, .h15mt9, .w15mt9, .h14mt9, .w14mt9, .h13mt9, .w13mt9, .h12mt9, .w12mt9, .h11mt9, .w11mt9, .h10mt9, .w10mt9, .h9mt9, .w9mt9, .h8mt9, .w8mt9, .h7mt9, .w7mt9, .h6mt9, .w6mt9, .h5mt9, .w5mt9, .h4mt9, .w4mt9, .h3mt9, .w3mt9, .h2mt9, .w2mt9, .h1mt9, .w1mt9 {
+  margin-top: 9%;
+}
+
+.mb9, .mbl9, .mbr9, .mbt9, .h20mb9, .w20mb9, .h19mb9, .w19mb9, .h18mb9, .w18mb9, .h17mb9, .w17mb9, .h16mb9, .w16mb9, .h15mb9, .w15mb9, .h14mb9, .w14mb9, .h13mb9, .w13mb9, .h12mb9, .w12mb9, .h11mb9, .w11mb9, .h10mb9, .w10mb9, .h9mb9, .w9mb9, .h8mb9, .w8mb9, .h7mb9, .w7mb9, .h6mb9, .w6mb9, .h5mb9, .w5mb9, .h4mb9, .w4mb9, .h3mb9, .w3mb9, .h2mb9, .w2mb9, .h1mb9, .w1mb9 {
+  margin-bottom: 9%;
+}
+
+.mr9, .mrb9, .mrl9, .mrt9, .h20mr9, .w20mr9, .h19mr9, .w19mr9, .h18mr9, .w18mr9, .h17mr9, .w17mr9, .h16mr9, .w16mr9, .h15mr9, .w15mr9, .h14mr9, .w14mr9, .h13mr9, .w13mr9, .h12mr9, .w12mr9, .h11mr9, .w11mr9, .h10mr9, .w10mr9, .h9mr9, .w9mr9, .h8mr9, .w8mr9, .h7mr9, .w7mr9, .h6mr9, .w6mr9, .h5mr9, .w5mr9, .h4mr9, .w4mr9, .h3mr9, .w3mr9, .h2mr9, .w2mr9, .h1mr9, .w1mr9 {
+  margin-right: 9%;
+}
+
+.ml9, .mlb9, .mlr9, .mlt9, .h20ml9, .w20ml9, .h19ml9, .w19ml9, .h18ml9, .w18ml9, .h17ml9, .w17ml9, .h16ml9, .w16ml9, .h15ml9, .w15ml9, .h14ml9, .w14ml9, .h13ml9, .w13ml9, .h12ml9, .w12ml9, .h11ml9, .w11ml9, .h10ml9, .w10ml9, .h9ml9, .w9ml9, .h8ml9, .w8ml9, .h7ml9, .w7ml9, .h6ml9, .w6ml9, .h5ml9, .w5ml9, .h4ml9, .w4ml9, .h3ml9, .w3ml9, .h2ml9, .w2ml9, .h1ml9, .w1ml9 {
+  margin-left: 9%;
+}
+
+.w10, .w10mb20, .w10ml20, .w10mr20, .w10mt20, .w10pb20, .w10pl20, .w10pr20, .w10pt20, .w10mb19, .w10ml19, .w10mr19, .w10mt19, .w10pb19, .w10pl19, .w10pr19, .w10pt19, .w10mb18, .w10ml18, .w10mr18, .w10mt18, .w10pb18, .w10pl18, .w10pr18, .w10pt18, .w10mb17, .w10ml17, .w10mr17, .w10mt17, .w10pb17, .w10pl17, .w10pr17, .w10pt17, .w10mb16, .w10ml16, .w10mr16, .w10mt16, .w10pb16, .w10pl16, .w10pr16, .w10pt16, .w10mb15, .w10ml15, .w10mr15, .w10mt15, .w10pb15, .w10pl15, .w10pr15, .w10pt15, .w10mb14, .w10ml14, .w10mr14, .w10mt14, .w10pb14, .w10pl14, .w10pr14, .w10pt14, .w10mb13, .w10ml13, .w10mr13, .w10mt13, .w10pb13, .w10pl13, .w10pr13, .w10pt13, .w10mb12, .w10ml12, .w10mr12, .w10mt12, .w10pb12, .w10pl12, .w10pr12, .w10pt12, .w10mb11, .w10ml11, .w10mr11, .w10mt11, .w10pb11, .w10pl11, .w10pr11, .w10pt11, .w10mb10, .w10ml10, .w10mr10, .w10mt10, .w10pb10, .w10pl10, .w10pr10, .w10pt10, .w10mb9, .w10ml9, .w10mr9, .w10mt9, .w10pb9, .w10pl9, .w10pr9, .w10pt9, .w10mb8, .w10ml8, .w10mr8, .w10mt8, .w10pb8, .w10pl8, .w10pr8, .w10pt8, .w10mb7, .w10ml7, .w10mr7, .w10mt7, .w10pb7, .w10pl7, .w10pr7, .w10pt7, .w10mb6, .w10ml6, .w10mr6, .w10mt6, .w10pb6, .w10pl6, .w10pr6, .w10pt6, .w10mb5, .w10ml5, .w10mr5, .w10mt5, .w10pb5, .w10pl5, .w10pr5, .w10pt5, .w10mb4, .w10ml4, .w10mr4, .w10mt4, .w10pb4, .w10pl4, .w10pr4, .w10pt4, .w10mb3, .w10ml3, .w10mr3, .w10mt3, .w10pb3, .w10pl3, .w10pr3, .w10pt3, .w10mb2, .w10ml2, .w10mr2, .w10mt2, .w10pb2, .w10pl2, .w10pr2, .w10pt2, .w10mb1, .w10ml1, .w10mr1, .w10mt1, .w10pb1, .w10pl1, .w10pr1, .w10pt1 {
+  width: 50%;
+}
+
+.h10, .h10mb20, .h10ml20, .h10mr20, .h10mt20, .h10mb19, .h10ml19, .h10mr19, .h10mt19, .h10mb18, .h10ml18, .h10mr18, .h10mt18, .h10mb17, .h10ml17, .h10mr17, .h10mt17, .h10mb16, .h10ml16, .h10mr16, .h10mt16, .h10mb15, .h10ml15, .h10mr15, .h10mt15, .h10mb14, .h10ml14, .h10mr14, .h10mt14, .h10mb13, .h10ml13, .h10mr13, .h10mt13, .h10mb12, .h10ml12, .h10mr12, .h10mt12, .h10mb11, .h10ml11, .h10mr11, .h10mt11, .h10mb10, .h10ml10, .h10mr10, .h10mt10, .h10mb9, .h10ml9, .h10mr9, .h10mt9, .h10mb8, .h10ml8, .h10mr8, .h10mt8, .h10mb7, .h10ml7, .h10mr7, .h10mt7, .h10mb6, .h10ml6, .h10mr6, .h10mt6, .h10mb5, .h10ml5, .h10mr5, .h10mt5, .h10mb4, .h10ml4, .h10mr4, .h10mt4, .h10mb3, .h10ml3, .h10mr3, .h10mt3, .h10mb2, .h10ml2, .h10mr2, .h10mt2, .h10mb1, .h10ml1, .h10mr1, .h10mt1, .h10pb10, .h10pl10, .h10pr10, .h10pt10 {
+  height: 50%;
+}
+
+.pt10, .ptb10, .ptl10, .ptr10, .h20pt20, .w20pt10, .h19pt19, .w19pt10, .h18pt18, .w18pt10, .h17pt17, .w17pt10, .h16pt16, .w16pt10, .h15pt15, .w15pt10, .h14pt14, .w14pt10, .h13pt13, .w13pt10, .h12pt12, .w12pt10, .h11pt11, .w11pt10, .h10pt10, .w10pt10, .h9pt9, .w9pt10, .h8pt8, .w8pt10, .h7pt7, .w7pt10, .h6pt6, .w6pt10, .h5pt5, .w5pt10, .h4pt4, .w4pt10, .h3pt3, .w3pt10, .h2pt2, .w2pt10, .h1pt1, .w1pt10 {
+  padding-top: 10%;
+}
+
+.pb10, .pbl10, .pbr10, .pbt10, .h20pb20, .w20pb10, .h19pb19, .w19pb10, .h18pb18, .w18pb10, .h17pb17, .w17pb10, .h16pb16, .w16pb10, .h15pb15, .w15pb10, .h14pb14, .w14pb10, .h13pb13, .w13pb10, .h12pb12, .w12pb10, .h11pb11, .w11pb10, .h10pb10, .w10pb10, .h9pb9, .w9pb10, .h8pb8, .w8pb10, .h7pb7, .w7pb10, .h6pb6, .w6pb10, .h5pb5, .w5pb10, .h4pb4, .w4pb10, .h3pb3, .w3pb10, .h2pb2, .w2pb10, .h1pb1, .w1pb10 {
+  padding-bottom: 10%;
+}
+
+.pr10, .prb10, .prl10, .prt10, .h20pr20, .w20pr10, .h19pr19, .w19pr10, .h18pr18, .w18pr10, .h17pr17, .w17pr10, .h16pr16, .w16pr10, .h15pr15, .w15pr10, .h14pr14, .w14pr10, .h13pr13, .w13pr10, .h12pr12, .w12pr10, .h11pr11, .w11pr10, .h10pr10, .w10pr10, .h9pr9, .w9pr10, .h8pr8, .w8pr10, .h7pr7, .w7pr10, .h6pr6, .w6pr10, .h5pr5, .w5pr10, .h4pr4, .w4pr10, .h3pr3, .w3pr10, .h2pr2, .w2pr10, .h1pr1, .w1pr10 {
+  padding-right: 10%;
+}
+
+.pl10, .plb10, .plr10, .plt10, .h20pl20, .w20pl10, .h19pl19, .w19pl10, .h18pl18, .w18pl10, .h17pl17, .w17pl10, .h16pl16, .w16pl10, .h15pl15, .w15pl10, .h14pl14, .w14pl10, .h13pl13, .w13pl10, .h12pl12, .w12pl10, .h11pl11, .w11pl10, .h10pl10, .w10pl10, .h9pl9, .w9pl10, .h8pl8, .w8pl10, .h7pl7, .w7pl10, .h6pl6, .w6pl10, .h5pl5, .w5pl10, .h4pl4, .w4pl10, .h3pl3, .w3pl10, .h2pl2, .w2pl10, .h1pl1, .w1pl10 {
+  padding-left: 10%;
+}
+
+.m10 {
+  margin: 10%;
+}
+
+.mt10, .mtb10, .mtl10, .mtr10, .h20mt10, .w20mt10, .h19mt10, .w19mt10, .h18mt10, .w18mt10, .h17mt10, .w17mt10, .h16mt10, .w16mt10, .h15mt10, .w15mt10, .h14mt10, .w14mt10, .h13mt10, .w13mt10, .h12mt10, .w12mt10, .h11mt10, .w11mt10, .h10mt10, .w10mt10, .h9mt10, .w9mt10, .h8mt10, .w8mt10, .h7mt10, .w7mt10, .h6mt10, .w6mt10, .h5mt10, .w5mt10, .h4mt10, .w4mt10, .h3mt10, .w3mt10, .h2mt10, .w2mt10, .h1mt10, .w1mt10 {
+  margin-top: 10%;
+}
+
+.mb10, .mbl10, .mbr10, .mbt10, .h20mb10, .w20mb10, .h19mb10, .w19mb10, .h18mb10, .w18mb10, .h17mb10, .w17mb10, .h16mb10, .w16mb10, .h15mb10, .w15mb10, .h14mb10, .w14mb10, .h13mb10, .w13mb10, .h12mb10, .w12mb10, .h11mb10, .w11mb10, .h10mb10, .w10mb10, .h9mb10, .w9mb10, .h8mb10, .w8mb10, .h7mb10, .w7mb10, .h6mb10, .w6mb10, .h5mb10, .w5mb10, .h4mb10, .w4mb10, .h3mb10, .w3mb10, .h2mb10, .w2mb10, .h1mb10, .w1mb10 {
+  margin-bottom: 10%;
+}
+
+.mr10, .mrb10, .mrl10, .mrt10, .h20mr10, .w20mr10, .h19mr10, .w19mr10, .h18mr10, .w18mr10, .h17mr10, .w17mr10, .h16mr10, .w16mr10, .h15mr10, .w15mr10, .h14mr10, .w14mr10, .h13mr10, .w13mr10, .h12mr10, .w12mr10, .h11mr10, .w11mr10, .h10mr10, .w10mr10, .h9mr10, .w9mr10, .h8mr10, .w8mr10, .h7mr10, .w7mr10, .h6mr10, .w6mr10, .h5mr10, .w5mr10, .h4mr10, .w4mr10, .h3mr10, .w3mr10, .h2mr10, .w2mr10, .h1mr10, .w1mr10 {
+  margin-right: 10%;
+}
+
+.ml10, .mlb10, .mlr10, .mlt10, .h20ml10, .w20ml10, .h19ml10, .w19ml10, .h18ml10, .w18ml10, .h17ml10, .w17ml10, .h16ml10, .w16ml10, .h15ml10, .w15ml10, .h14ml10, .w14ml10, .h13ml10, .w13ml10, .h12ml10, .w12ml10, .h11ml10, .w11ml10, .h10ml10, .w10ml10, .h9ml10, .w9ml10, .h8ml10, .w8ml10, .h7ml10, .w7ml10, .h6ml10, .w6ml10, .h5ml10, .w5ml10, .h4ml10, .w4ml10, .h3ml10, .w3ml10, .h2ml10, .w2ml10, .h1ml10, .w1ml10 {
+  margin-left: 10%;
+}
+
+.w11, .w11mb20, .w11ml20, .w11mr20, .w11mt20, .w11pb20, .w11pl20, .w11pr20, .w11pt20, .w11mb19, .w11ml19, .w11mr19, .w11mt19, .w11pb19, .w11pl19, .w11pr19, .w11pt19, .w11mb18, .w11ml18, .w11mr18, .w11mt18, .w11pb18, .w11pl18, .w11pr18, .w11pt18, .w11mb17, .w11ml17, .w11mr17, .w11mt17, .w11pb17, .w11pl17, .w11pr17, .w11pt17, .w11mb16, .w11ml16, .w11mr16, .w11mt16, .w11pb16, .w11pl16, .w11pr16, .w11pt16, .w11mb15, .w11ml15, .w11mr15, .w11mt15, .w11pb15, .w11pl15, .w11pr15, .w11pt15, .w11mb14, .w11ml14, .w11mr14, .w11mt14, .w11pb14, .w11pl14, .w11pr14, .w11pt14, .w11mb13, .w11ml13, .w11mr13, .w11mt13, .w11pb13, .w11pl13, .w11pr13, .w11pt13, .w11mb12, .w11ml12, .w11mr12, .w11mt12, .w11pb12, .w11pl12, .w11pr12, .w11pt12, .w11mb11, .w11ml11, .w11mr11, .w11mt11, .w11pb11, .w11pl11, .w11pr11, .w11pt11, .w11mb10, .w11ml10, .w11mr10, .w11mt10, .w11pb10, .w11pl10, .w11pr10, .w11pt10, .w11mb9, .w11ml9, .w11mr9, .w11mt9, .w11pb9, .w11pl9, .w11pr9, .w11pt9, .w11mb8, .w11ml8, .w11mr8, .w11mt8, .w11pb8, .w11pl8, .w11pr8, .w11pt8, .w11mb7, .w11ml7, .w11mr7, .w11mt7, .w11pb7, .w11pl7, .w11pr7, .w11pt7, .w11mb6, .w11ml6, .w11mr6, .w11mt6, .w11pb6, .w11pl6, .w11pr6, .w11pt6, .w11mb5, .w11ml5, .w11mr5, .w11mt5, .w11pb5, .w11pl5, .w11pr5, .w11pt5, .w11mb4, .w11ml4, .w11mr4, .w11mt4, .w11pb4, .w11pl4, .w11pr4, .w11pt4, .w11mb3, .w11ml3, .w11mr3, .w11mt3, .w11pb3, .w11pl3, .w11pr3, .w11pt3, .w11mb2, .w11ml2, .w11mr2, .w11mt2, .w11pb2, .w11pl2, .w11pr2, .w11pt2, .w11mb1, .w11ml1, .w11mr1, .w11mt1, .w11pb1, .w11pl1, .w11pr1, .w11pt1 {
+  width: 55%;
+}
+
+.h11, .h11mb20, .h11ml20, .h11mr20, .h11mt20, .h11mb19, .h11ml19, .h11mr19, .h11mt19, .h11mb18, .h11ml18, .h11mr18, .h11mt18, .h11mb17, .h11ml17, .h11mr17, .h11mt17, .h11mb16, .h11ml16, .h11mr16, .h11mt16, .h11mb15, .h11ml15, .h11mr15, .h11mt15, .h11mb14, .h11ml14, .h11mr14, .h11mt14, .h11mb13, .h11ml13, .h11mr13, .h11mt13, .h11mb12, .h11ml12, .h11mr12, .h11mt12, .h11mb11, .h11ml11, .h11mr11, .h11mt11, .h11mb10, .h11ml10, .h11mr10, .h11mt10, .h11mb9, .h11ml9, .h11mr9, .h11mt9, .h11mb8, .h11ml8, .h11mr8, .h11mt8, .h11mb7, .h11ml7, .h11mr7, .h11mt7, .h11mb6, .h11ml6, .h11mr6, .h11mt6, .h11mb5, .h11ml5, .h11mr5, .h11mt5, .h11mb4, .h11ml4, .h11mr4, .h11mt4, .h11mb3, .h11ml3, .h11mr3, .h11mt3, .h11mb2, .h11ml2, .h11mr2, .h11mt2, .h11mb1, .h11ml1, .h11mr1, .h11mt1, .h11pb11, .h11pl11, .h11pr11, .h11pt11 {
+  height: 55%;
+}
+
+.pt11, .ptb11, .ptl11, .ptr11, .h20pt20, .w20pt11, .h19pt19, .w19pt11, .h18pt18, .w18pt11, .h17pt17, .w17pt11, .h16pt16, .w16pt11, .h15pt15, .w15pt11, .h14pt14, .w14pt11, .h13pt13, .w13pt11, .h12pt12, .w12pt11, .h11pt11, .w11pt11, .h10pt10, .w10pt11, .h9pt9, .w9pt11, .h8pt8, .w8pt11, .h7pt7, .w7pt11, .h6pt6, .w6pt11, .h5pt5, .w5pt11, .h4pt4, .w4pt11, .h3pt3, .w3pt11, .h2pt2, .w2pt11, .h1pt1, .w1pt11 {
+  padding-top: 11%;
+}
+
+.pb11, .pbl11, .pbr11, .pbt11, .h20pb20, .w20pb11, .h19pb19, .w19pb11, .h18pb18, .w18pb11, .h17pb17, .w17pb11, .h16pb16, .w16pb11, .h15pb15, .w15pb11, .h14pb14, .w14pb11, .h13pb13, .w13pb11, .h12pb12, .w12pb11, .h11pb11, .w11pb11, .h10pb10, .w10pb11, .h9pb9, .w9pb11, .h8pb8, .w8pb11, .h7pb7, .w7pb11, .h6pb6, .w6pb11, .h5pb5, .w5pb11, .h4pb4, .w4pb11, .h3pb3, .w3pb11, .h2pb2, .w2pb11, .h1pb1, .w1pb11 {
+  padding-bottom: 11%;
+}
+
+.pr11, .prb11, .prl11, .prt11, .h20pr20, .w20pr11, .h19pr19, .w19pr11, .h18pr18, .w18pr11, .h17pr17, .w17pr11, .h16pr16, .w16pr11, .h15pr15, .w15pr11, .h14pr14, .w14pr11, .h13pr13, .w13pr11, .h12pr12, .w12pr11, .h11pr11, .w11pr11, .h10pr10, .w10pr11, .h9pr9, .w9pr11, .h8pr8, .w8pr11, .h7pr7, .w7pr11, .h6pr6, .w6pr11, .h5pr5, .w5pr11, .h4pr4, .w4pr11, .h3pr3, .w3pr11, .h2pr2, .w2pr11, .h1pr1, .w1pr11 {
+  padding-right: 11%;
+}
+
+.pl11, .plb11, .plr11, .plt11, .h20pl20, .w20pl11, .h19pl19, .w19pl11, .h18pl18, .w18pl11, .h17pl17, .w17pl11, .h16pl16, .w16pl11, .h15pl15, .w15pl11, .h14pl14, .w14pl11, .h13pl13, .w13pl11, .h12pl12, .w12pl11, .h11pl11, .w11pl11, .h10pl10, .w10pl11, .h9pl9, .w9pl11, .h8pl8, .w8pl11, .h7pl7, .w7pl11, .h6pl6, .w6pl11, .h5pl5, .w5pl11, .h4pl4, .w4pl11, .h3pl3, .w3pl11, .h2pl2, .w2pl11, .h1pl1, .w1pl11 {
+  padding-left: 11%;
+}
+
+.m11 {
+  margin: 11%;
+}
+
+.mt11, .mtb11, .mtl11, .mtr11, .h20mt11, .w20mt11, .h19mt11, .w19mt11, .h18mt11, .w18mt11, .h17mt11, .w17mt11, .h16mt11, .w16mt11, .h15mt11, .w15mt11, .h14mt11, .w14mt11, .h13mt11, .w13mt11, .h12mt11, .w12mt11, .h11mt11, .w11mt11, .h10mt11, .w10mt11, .h9mt11, .w9mt11, .h8mt11, .w8mt11, .h7mt11, .w7mt11, .h6mt11, .w6mt11, .h5mt11, .w5mt11, .h4mt11, .w4mt11, .h3mt11, .w3mt11, .h2mt11, .w2mt11, .h1mt11, .w1mt11 {
+  margin-top: 11%;
+}
+
+.mb11, .mbl11, .mbr11, .mbt11, .h20mb11, .w20mb11, .h19mb11, .w19mb11, .h18mb11, .w18mb11, .h17mb11, .w17mb11, .h16mb11, .w16mb11, .h15mb11, .w15mb11, .h14mb11, .w14mb11, .h13mb11, .w13mb11, .h12mb11, .w12mb11, .h11mb11, .w11mb11, .h10mb11, .w10mb11, .h9mb11, .w9mb11, .h8mb11, .w8mb11, .h7mb11, .w7mb11, .h6mb11, .w6mb11, .h5mb11, .w5mb11, .h4mb11, .w4mb11, .h3mb11, .w3mb11, .h2mb11, .w2mb11, .h1mb11, .w1mb11 {
+  margin-bottom: 11%;
+}
+
+.mr11, .mrb11, .mrl11, .mrt11, .h20mr11, .w20mr11, .h19mr11, .w19mr11, .h18mr11, .w18mr11, .h17mr11, .w17mr11, .h16mr11, .w16mr11, .h15mr11, .w15mr11, .h14mr11, .w14mr11, .h13mr11, .w13mr11, .h12mr11, .w12mr11, .h11mr11, .w11mr11, .h10mr11, .w10mr11, .h9mr11, .w9mr11, .h8mr11, .w8mr11, .h7mr11, .w7mr11, .h6mr11, .w6mr11, .h5mr11, .w5mr11, .h4mr11, .w4mr11, .h3mr11, .w3mr11, .h2mr11, .w2mr11, .h1mr11, .w1mr11 {
+  margin-right: 11%;
+}
+
+.ml11, .mlb11, .mlr11, .mlt11, .h20ml11, .w20ml11, .h19ml11, .w19ml11, .h18ml11, .w18ml11, .h17ml11, .w17ml11, .h16ml11, .w16ml11, .h15ml11, .w15ml11, .h14ml11, .w14ml11, .h13ml11, .w13ml11, .h12ml11, .w12ml11, .h11ml11, .w11ml11, .h10ml11, .w10ml11, .h9ml11, .w9ml11, .h8ml11, .w8ml11, .h7ml11, .w7ml11, .h6ml11, .w6ml11, .h5ml11, .w5ml11, .h4ml11, .w4ml11, .h3ml11, .w3ml11, .h2ml11, .w2ml11, .h1ml11, .w1ml11 {
+  margin-left: 11%;
+}
+
+.w12, .w12mb20, .w12ml20, .w12mr20, .w12mt20, .w12pb20, .w12pl20, .w12pr20, .w12pt20, .w12mb19, .w12ml19, .w12mr19, .w12mt19, .w12pb19, .w12pl19, .w12pr19, .w12pt19, .w12mb18, .w12ml18, .w12mr18, .w12mt18, .w12pb18, .w12pl18, .w12pr18, .w12pt18, .w12mb17, .w12ml17, .w12mr17, .w12mt17, .w12pb17, .w12pl17, .w12pr17, .w12pt17, .w12mb16, .w12ml16, .w12mr16, .w12mt16, .w12pb16, .w12pl16, .w12pr16, .w12pt16, .w12mb15, .w12ml15, .w12mr15, .w12mt15, .w12pb15, .w12pl15, .w12pr15, .w12pt15, .w12mb14, .w12ml14, .w12mr14, .w12mt14, .w12pb14, .w12pl14, .w12pr14, .w12pt14, .w12mb13, .w12ml13, .w12mr13, .w12mt13, .w12pb13, .w12pl13, .w12pr13, .w12pt13, .w12mb12, .w12ml12, .w12mr12, .w12mt12, .w12pb12, .w12pl12, .w12pr12, .w12pt12, .w12mb11, .w12ml11, .w12mr11, .w12mt11, .w12pb11, .w12pl11, .w12pr11, .w12pt11, .w12mb10, .w12ml10, .w12mr10, .w12mt10, .w12pb10, .w12pl10, .w12pr10, .w12pt10, .w12mb9, .w12ml9, .w12mr9, .w12mt9, .w12pb9, .w12pl9, .w12pr9, .w12pt9, .w12mb8, .w12ml8, .w12mr8, .w12mt8, .w12pb8, .w12pl8, .w12pr8, .w12pt8, .w12mb7, .w12ml7, .w12mr7, .w12mt7, .w12pb7, .w12pl7, .w12pr7, .w12pt7, .w12mb6, .w12ml6, .w12mr6, .w12mt6, .w12pb6, .w12pl6, .w12pr6, .w12pt6, .w12mb5, .w12ml5, .w12mr5, .w12mt5, .w12pb5, .w12pl5, .w12pr5, .w12pt5, .w12mb4, .w12ml4, .w12mr4, .w12mt4, .w12pb4, .w12pl4, .w12pr4, .w12pt4, .w12mb3, .w12ml3, .w12mr3, .w12mt3, .w12pb3, .w12pl3, .w12pr3, .w12pt3, .w12mb2, .w12ml2, .w12mr2, .w12mt2, .w12pb2, .w12pl2, .w12pr2, .w12pt2, .w12mb1, .w12ml1, .w12mr1, .w12mt1, .w12pb1, .w12pl1, .w12pr1, .w12pt1 {
+  width: 60%;
+}
+
+.h12, .h12mb20, .h12ml20, .h12mr20, .h12mt20, .h12mb19, .h12ml19, .h12mr19, .h12mt19, .h12mb18, .h12ml18, .h12mr18, .h12mt18, .h12mb17, .h12ml17, .h12mr17, .h12mt17, .h12mb16, .h12ml16, .h12mr16, .h12mt16, .h12mb15, .h12ml15, .h12mr15, .h12mt15, .h12mb14, .h12ml14, .h12mr14, .h12mt14, .h12mb13, .h12ml13, .h12mr13, .h12mt13, .h12mb12, .h12ml12, .h12mr12, .h12mt12, .h12mb11, .h12ml11, .h12mr11, .h12mt11, .h12mb10, .h12ml10, .h12mr10, .h12mt10, .h12mb9, .h12ml9, .h12mr9, .h12mt9, .h12mb8, .h12ml8, .h12mr8, .h12mt8, .h12mb7, .h12ml7, .h12mr7, .h12mt7, .h12mb6, .h12ml6, .h12mr6, .h12mt6, .h12mb5, .h12ml5, .h12mr5, .h12mt5, .h12mb4, .h12ml4, .h12mr4, .h12mt4, .h12mb3, .h12ml3, .h12mr3, .h12mt3, .h12mb2, .h12ml2, .h12mr2, .h12mt2, .h12mb1, .h12ml1, .h12mr1, .h12mt1, .h12pb12, .h12pl12, .h12pr12, .h12pt12 {
+  height: 60%;
+}
+
+.pt12, .ptb12, .ptl12, .ptr12, .h20pt20, .w20pt12, .h19pt19, .w19pt12, .h18pt18, .w18pt12, .h17pt17, .w17pt12, .h16pt16, .w16pt12, .h15pt15, .w15pt12, .h14pt14, .w14pt12, .h13pt13, .w13pt12, .h12pt12, .w12pt12, .h11pt11, .w11pt12, .h10pt10, .w10pt12, .h9pt9, .w9pt12, .h8pt8, .w8pt12, .h7pt7, .w7pt12, .h6pt6, .w6pt12, .h5pt5, .w5pt12, .h4pt4, .w4pt12, .h3pt3, .w3pt12, .h2pt2, .w2pt12, .h1pt1, .w1pt12 {
+  padding-top: 12%;
+}
+
+.pb12, .pbl12, .pbr12, .pbt12, .h20pb20, .w20pb12, .h19pb19, .w19pb12, .h18pb18, .w18pb12, .h17pb17, .w17pb12, .h16pb16, .w16pb12, .h15pb15, .w15pb12, .h14pb14, .w14pb12, .h13pb13, .w13pb12, .h12pb12, .w12pb12, .h11pb11, .w11pb12, .h10pb10, .w10pb12, .h9pb9, .w9pb12, .h8pb8, .w8pb12, .h7pb7, .w7pb12, .h6pb6, .w6pb12, .h5pb5, .w5pb12, .h4pb4, .w4pb12, .h3pb3, .w3pb12, .h2pb2, .w2pb12, .h1pb1, .w1pb12 {
+  padding-bottom: 12%;
+}
+
+.pr12, .prb12, .prl12, .prt12, .h20pr20, .w20pr12, .h19pr19, .w19pr12, .h18pr18, .w18pr12, .h17pr17, .w17pr12, .h16pr16, .w16pr12, .h15pr15, .w15pr12, .h14pr14, .w14pr12, .h13pr13, .w13pr12, .h12pr12, .w12pr12, .h11pr11, .w11pr12, .h10pr10, .w10pr12, .h9pr9, .w9pr12, .h8pr8, .w8pr12, .h7pr7, .w7pr12, .h6pr6, .w6pr12, .h5pr5, .w5pr12, .h4pr4, .w4pr12, .h3pr3, .w3pr12, .h2pr2, .w2pr12, .h1pr1, .w1pr12 {
+  padding-right: 12%;
+}
+
+.pl12, .plb12, .plr12, .plt12, .h20pl20, .w20pl12, .h19pl19, .w19pl12, .h18pl18, .w18pl12, .h17pl17, .w17pl12, .h16pl16, .w16pl12, .h15pl15, .w15pl12, .h14pl14, .w14pl12, .h13pl13, .w13pl12, .h12pl12, .w12pl12, .h11pl11, .w11pl12, .h10pl10, .w10pl12, .h9pl9, .w9pl12, .h8pl8, .w8pl12, .h7pl7, .w7pl12, .h6pl6, .w6pl12, .h5pl5, .w5pl12, .h4pl4, .w4pl12, .h3pl3, .w3pl12, .h2pl2, .w2pl12, .h1pl1, .w1pl12 {
+  padding-left: 12%;
+}
+
+.m12 {
+  margin: 12%;
+}
+
+.mt12, .mtb12, .mtl12, .mtr12, .h20mt12, .w20mt12, .h19mt12, .w19mt12, .h18mt12, .w18mt12, .h17mt12, .w17mt12, .h16mt12, .w16mt12, .h15mt12, .w15mt12, .h14mt12, .w14mt12, .h13mt12, .w13mt12, .h12mt12, .w12mt12, .h11mt12, .w11mt12, .h10mt12, .w10mt12, .h9mt12, .w9mt12, .h8mt12, .w8mt12, .h7mt12, .w7mt12, .h6mt12, .w6mt12, .h5mt12, .w5mt12, .h4mt12, .w4mt12, .h3mt12, .w3mt12, .h2mt12, .w2mt12, .h1mt12, .w1mt12 {
+  margin-top: 12%;
+}
+
+.mb12, .mbl12, .mbr12, .mbt12, .h20mb12, .w20mb12, .h19mb12, .w19mb12, .h18mb12, .w18mb12, .h17mb12, .w17mb12, .h16mb12, .w16mb12, .h15mb12, .w15mb12, .h14mb12, .w14mb12, .h13mb12, .w13mb12, .h12mb12, .w12mb12, .h11mb12, .w11mb12, .h10mb12, .w10mb12, .h9mb12, .w9mb12, .h8mb12, .w8mb12, .h7mb12, .w7mb12, .h6mb12, .w6mb12, .h5mb12, .w5mb12, .h4mb12, .w4mb12, .h3mb12, .w3mb12, .h2mb12, .w2mb12, .h1mb12, .w1mb12 {
+  margin-bottom: 12%;
+}
+
+.mr12, .mrb12, .mrl12, .mrt12, .h20mr12, .w20mr12, .h19mr12, .w19mr12, .h18mr12, .w18mr12, .h17mr12, .w17mr12, .h16mr12, .w16mr12, .h15mr12, .w15mr12, .h14mr12, .w14mr12, .h13mr12, .w13mr12, .h12mr12, .w12mr12, .h11mr12, .w11mr12, .h10mr12, .w10mr12, .h9mr12, .w9mr12, .h8mr12, .w8mr12, .h7mr12, .w7mr12, .h6mr12, .w6mr12, .h5mr12, .w5mr12, .h4mr12, .w4mr12, .h3mr12, .w3mr12, .h2mr12, .w2mr12, .h1mr12, .w1mr12 {
+  margin-right: 12%;
+}
+
+.ml12, .mlb12, .mlr12, .mlt12, .h20ml12, .w20ml12, .h19ml12, .w19ml12, .h18ml12, .w18ml12, .h17ml12, .w17ml12, .h16ml12, .w16ml12, .h15ml12, .w15ml12, .h14ml12, .w14ml12, .h13ml12, .w13ml12, .h12ml12, .w12ml12, .h11ml12, .w11ml12, .h10ml12, .w10ml12, .h9ml12, .w9ml12, .h8ml12, .w8ml12, .h7ml12, .w7ml12, .h6ml12, .w6ml12, .h5ml12, .w5ml12, .h4ml12, .w4ml12, .h3ml12, .w3ml12, .h2ml12, .w2ml12, .h1ml12, .w1ml12 {
+  margin-left: 12%;
+}
+
+.w13, .w13mb20, .w13ml20, .w13mr20, .w13mt20, .w13pb20, .w13pl20, .w13pr20, .w13pt20, .w13mb19, .w13ml19, .w13mr19, .w13mt19, .w13pb19, .w13pl19, .w13pr19, .w13pt19, .w13mb18, .w13ml18, .w13mr18, .w13mt18, .w13pb18, .w13pl18, .w13pr18, .w13pt18, .w13mb17, .w13ml17, .w13mr17, .w13mt17, .w13pb17, .w13pl17, .w13pr17, .w13pt17, .w13mb16, .w13ml16, .w13mr16, .w13mt16, .w13pb16, .w13pl16, .w13pr16, .w13pt16, .w13mb15, .w13ml15, .w13mr15, .w13mt15, .w13pb15, .w13pl15, .w13pr15, .w13pt15, .w13mb14, .w13ml14, .w13mr14, .w13mt14, .w13pb14, .w13pl14, .w13pr14, .w13pt14, .w13mb13, .w13ml13, .w13mr13, .w13mt13, .w13pb13, .w13pl13, .w13pr13, .w13pt13, .w13mb12, .w13ml12, .w13mr12, .w13mt12, .w13pb12, .w13pl12, .w13pr12, .w13pt12, .w13mb11, .w13ml11, .w13mr11, .w13mt11, .w13pb11, .w13pl11, .w13pr11, .w13pt11, .w13mb10, .w13ml10, .w13mr10, .w13mt10, .w13pb10, .w13pl10, .w13pr10, .w13pt10, .w13mb9, .w13ml9, .w13mr9, .w13mt9, .w13pb9, .w13pl9, .w13pr9, .w13pt9, .w13mb8, .w13ml8, .w13mr8, .w13mt8, .w13pb8, .w13pl8, .w13pr8, .w13pt8, .w13mb7, .w13ml7, .w13mr7, .w13mt7, .w13pb7, .w13pl7, .w13pr7, .w13pt7, .w13mb6, .w13ml6, .w13mr6, .w13mt6, .w13pb6, .w13pl6, .w13pr6, .w13pt6, .w13mb5, .w13ml5, .w13mr5, .w13mt5, .w13pb5, .w13pl5, .w13pr5, .w13pt5, .w13mb4, .w13ml4, .w13mr4, .w13mt4, .w13pb4, .w13pl4, .w13pr4, .w13pt4, .w13mb3, .w13ml3, .w13mr3, .w13mt3, .w13pb3, .w13pl3, .w13pr3, .w13pt3, .w13mb2, .w13ml2, .w13mr2, .w13mt2, .w13pb2, .w13pl2, .w13pr2, .w13pt2, .w13mb1, .w13ml1, .w13mr1, .w13mt1, .w13pb1, .w13pl1, .w13pr1, .w13pt1 {
+  width: 65%;
+}
+
+.h13, .h13mb20, .h13ml20, .h13mr20, .h13mt20, .h13mb19, .h13ml19, .h13mr19, .h13mt19, .h13mb18, .h13ml18, .h13mr18, .h13mt18, .h13mb17, .h13ml17, .h13mr17, .h13mt17, .h13mb16, .h13ml16, .h13mr16, .h13mt16, .h13mb15, .h13ml15, .h13mr15, .h13mt15, .h13mb14, .h13ml14, .h13mr14, .h13mt14, .h13mb13, .h13ml13, .h13mr13, .h13mt13, .h13mb12, .h13ml12, .h13mr12, .h13mt12, .h13mb11, .h13ml11, .h13mr11, .h13mt11, .h13mb10, .h13ml10, .h13mr10, .h13mt10, .h13mb9, .h13ml9, .h13mr9, .h13mt9, .h13mb8, .h13ml8, .h13mr8, .h13mt8, .h13mb7, .h13ml7, .h13mr7, .h13mt7, .h13mb6, .h13ml6, .h13mr6, .h13mt6, .h13mb5, .h13ml5, .h13mr5, .h13mt5, .h13mb4, .h13ml4, .h13mr4, .h13mt4, .h13mb3, .h13ml3, .h13mr3, .h13mt3, .h13mb2, .h13ml2, .h13mr2, .h13mt2, .h13mb1, .h13ml1, .h13mr1, .h13mt1, .h13pb13, .h13pl13, .h13pr13, .h13pt13 {
+  height: 65%;
+}
+
+.pt13, .ptb13, .ptl13, .ptr13, .h20pt20, .w20pt13, .h19pt19, .w19pt13, .h18pt18, .w18pt13, .h17pt17, .w17pt13, .h16pt16, .w16pt13, .h15pt15, .w15pt13, .h14pt14, .w14pt13, .h13pt13, .w13pt13, .h12pt12, .w12pt13, .h11pt11, .w11pt13, .h10pt10, .w10pt13, .h9pt9, .w9pt13, .h8pt8, .w8pt13, .h7pt7, .w7pt13, .h6pt6, .w6pt13, .h5pt5, .w5pt13, .h4pt4, .w4pt13, .h3pt3, .w3pt13, .h2pt2, .w2pt13, .h1pt1, .w1pt13 {
+  padding-top: 13%;
+}
+
+.pb13, .pbl13, .pbr13, .pbt13, .h20pb20, .w20pb13, .h19pb19, .w19pb13, .h18pb18, .w18pb13, .h17pb17, .w17pb13, .h16pb16, .w16pb13, .h15pb15, .w15pb13, .h14pb14, .w14pb13, .h13pb13, .w13pb13, .h12pb12, .w12pb13, .h11pb11, .w11pb13, .h10pb10, .w10pb13, .h9pb9, .w9pb13, .h8pb8, .w8pb13, .h7pb7, .w7pb13, .h6pb6, .w6pb13, .h5pb5, .w5pb13, .h4pb4, .w4pb13, .h3pb3, .w3pb13, .h2pb2, .w2pb13, .h1pb1, .w1pb13 {
+  padding-bottom: 13%;
+}
+
+.pr13, .prb13, .prl13, .prt13, .h20pr20, .w20pr13, .h19pr19, .w19pr13, .h18pr18, .w18pr13, .h17pr17, .w17pr13, .h16pr16, .w16pr13, .h15pr15, .w15pr13, .h14pr14, .w14pr13, .h13pr13, .w13pr13, .h12pr12, .w12pr13, .h11pr11, .w11pr13, .h10pr10, .w10pr13, .h9pr9, .w9pr13, .h8pr8, .w8pr13, .h7pr7, .w7pr13, .h6pr6, .w6pr13, .h5pr5, .w5pr13, .h4pr4, .w4pr13, .h3pr3, .w3pr13, .h2pr2, .w2pr13, .h1pr1, .w1pr13 {
+  padding-right: 13%;
+}
+
+.pl13, .plb13, .plr13, .plt13, .h20pl20, .w20pl13, .h19pl19, .w19pl13, .h18pl18, .w18pl13, .h17pl17, .w17pl13, .h16pl16, .w16pl13, .h15pl15, .w15pl13, .h14pl14, .w14pl13, .h13pl13, .w13pl13, .h12pl12, .w12pl13, .h11pl11, .w11pl13, .h10pl10, .w10pl13, .h9pl9, .w9pl13, .h8pl8, .w8pl13, .h7pl7, .w7pl13, .h6pl6, .w6pl13, .h5pl5, .w5pl13, .h4pl4, .w4pl13, .h3pl3, .w3pl13, .h2pl2, .w2pl13, .h1pl1, .w1pl13 {
+  padding-left: 13%;
+}
+
+.m13 {
+  margin: 13%;
+}
+
+.mt13, .mtb13, .mtl13, .mtr13, .h20mt13, .w20mt13, .h19mt13, .w19mt13, .h18mt13, .w18mt13, .h17mt13, .w17mt13, .h16mt13, .w16mt13, .h15mt13, .w15mt13, .h14mt13, .w14mt13, .h13mt13, .w13mt13, .h12mt13, .w12mt13, .h11mt13, .w11mt13, .h10mt13, .w10mt13, .h9mt13, .w9mt13, .h8mt13, .w8mt13, .h7mt13, .w7mt13, .h6mt13, .w6mt13, .h5mt13, .w5mt13, .h4mt13, .w4mt13, .h3mt13, .w3mt13, .h2mt13, .w2mt13, .h1mt13, .w1mt13 {
+  margin-top: 13%;
+}
+
+.mb13, .mbl13, .mbr13, .mbt13, .h20mb13, .w20mb13, .h19mb13, .w19mb13, .h18mb13, .w18mb13, .h17mb13, .w17mb13, .h16mb13, .w16mb13, .h15mb13, .w15mb13, .h14mb13, .w14mb13, .h13mb13, .w13mb13, .h12mb13, .w12mb13, .h11mb13, .w11mb13, .h10mb13, .w10mb13, .h9mb13, .w9mb13, .h8mb13, .w8mb13, .h7mb13, .w7mb13, .h6mb13, .w6mb13, .h5mb13, .w5mb13, .h4mb13, .w4mb13, .h3mb13, .w3mb13, .h2mb13, .w2mb13, .h1mb13, .w1mb13 {
+  margin-bottom: 13%;
+}
+
+.mr13, .mrb13, .mrl13, .mrt13, .h20mr13, .w20mr13, .h19mr13, .w19mr13, .h18mr13, .w18mr13, .h17mr13, .w17mr13, .h16mr13, .w16mr13, .h15mr13, .w15mr13, .h14mr13, .w14mr13, .h13mr13, .w13mr13, .h12mr13, .w12mr13, .h11mr13, .w11mr13, .h10mr13, .w10mr13, .h9mr13, .w9mr13, .h8mr13, .w8mr13, .h7mr13, .w7mr13, .h6mr13, .w6mr13, .h5mr13, .w5mr13, .h4mr13, .w4mr13, .h3mr13, .w3mr13, .h2mr13, .w2mr13, .h1mr13, .w1mr13 {
+  margin-right: 13%;
+}
+
+.ml13, .mlb13, .mlr13, .mlt13, .h20ml13, .w20ml13, .h19ml13, .w19ml13, .h18ml13, .w18ml13, .h17ml13, .w17ml13, .h16ml13, .w16ml13, .h15ml13, .w15ml13, .h14ml13, .w14ml13, .h13ml13, .w13ml13, .h12ml13, .w12ml13, .h11ml13, .w11ml13, .h10ml13, .w10ml13, .h9ml13, .w9ml13, .h8ml13, .w8ml13, .h7ml13, .w7ml13, .h6ml13, .w6ml13, .h5ml13, .w5ml13, .h4ml13, .w4ml13, .h3ml13, .w3ml13, .h2ml13, .w2ml13, .h1ml13, .w1ml13 {
+  margin-left: 13%;
+}
+
+.w14, .w14mb20, .w14ml20, .w14mr20, .w14mt20, .w14pb20, .w14pl20, .w14pr20, .w14pt20, .w14mb19, .w14ml19, .w14mr19, .w14mt19, .w14pb19, .w14pl19, .w14pr19, .w14pt19, .w14mb18, .w14ml18, .w14mr18, .w14mt18, .w14pb18, .w14pl18, .w14pr18, .w14pt18, .w14mb17, .w14ml17, .w14mr17, .w14mt17, .w14pb17, .w14pl17, .w14pr17, .w14pt17, .w14mb16, .w14ml16, .w14mr16, .w14mt16, .w14pb16, .w14pl16, .w14pr16, .w14pt16, .w14mb15, .w14ml15, .w14mr15, .w14mt15, .w14pb15, .w14pl15, .w14pr15, .w14pt15, .w14mb14, .w14ml14, .w14mr14, .w14mt14, .w14pb14, .w14pl14, .w14pr14, .w14pt14, .w14mb13, .w14ml13, .w14mr13, .w14mt13, .w14pb13, .w14pl13, .w14pr13, .w14pt13, .w14mb12, .w14ml12, .w14mr12, .w14mt12, .w14pb12, .w14pl12, .w14pr12, .w14pt12, .w14mb11, .w14ml11, .w14mr11, .w14mt11, .w14pb11, .w14pl11, .w14pr11, .w14pt11, .w14mb10, .w14ml10, .w14mr10, .w14mt10, .w14pb10, .w14pl10, .w14pr10, .w14pt10, .w14mb9, .w14ml9, .w14mr9, .w14mt9, .w14pb9, .w14pl9, .w14pr9, .w14pt9, .w14mb8, .w14ml8, .w14mr8, .w14mt8, .w14pb8, .w14pl8, .w14pr8, .w14pt8, .w14mb7, .w14ml7, .w14mr7, .w14mt7, .w14pb7, .w14pl7, .w14pr7, .w14pt7, .w14mb6, .w14ml6, .w14mr6, .w14mt6, .w14pb6, .w14pl6, .w14pr6, .w14pt6, .w14mb5, .w14ml5, .w14mr5, .w14mt5, .w14pb5, .w14pl5, .w14pr5, .w14pt5, .w14mb4, .w14ml4, .w14mr4, .w14mt4, .w14pb4, .w14pl4, .w14pr4, .w14pt4, .w14mb3, .w14ml3, .w14mr3, .w14mt3, .w14pb3, .w14pl3, .w14pr3, .w14pt3, .w14mb2, .w14ml2, .w14mr2, .w14mt2, .w14pb2, .w14pl2, .w14pr2, .w14pt2, .w14mb1, .w14ml1, .w14mr1, .w14mt1, .w14pb1, .w14pl1, .w14pr1, .w14pt1 {
+  width: 70%;
+}
+
+.h14, .h14mb20, .h14ml20, .h14mr20, .h14mt20, .h14mb19, .h14ml19, .h14mr19, .h14mt19, .h14mb18, .h14ml18, .h14mr18, .h14mt18, .h14mb17, .h14ml17, .h14mr17, .h14mt17, .h14mb16, .h14ml16, .h14mr16, .h14mt16, .h14mb15, .h14ml15, .h14mr15, .h14mt15, .h14mb14, .h14ml14, .h14mr14, .h14mt14, .h14mb13, .h14ml13, .h14mr13, .h14mt13, .h14mb12, .h14ml12, .h14mr12, .h14mt12, .h14mb11, .h14ml11, .h14mr11, .h14mt11, .h14mb10, .h14ml10, .h14mr10, .h14mt10, .h14mb9, .h14ml9, .h14mr9, .h14mt9, .h14mb8, .h14ml8, .h14mr8, .h14mt8, .h14mb7, .h14ml7, .h14mr7, .h14mt7, .h14mb6, .h14ml6, .h14mr6, .h14mt6, .h14mb5, .h14ml5, .h14mr5, .h14mt5, .h14mb4, .h14ml4, .h14mr4, .h14mt4, .h14mb3, .h14ml3, .h14mr3, .h14mt3, .h14mb2, .h14ml2, .h14mr2, .h14mt2, .h14mb1, .h14ml1, .h14mr1, .h14mt1, .h14pb14, .h14pl14, .h14pr14, .h14pt14 {
+  height: 70%;
+}
+
+.pt14, .ptb14, .ptl14, .ptr14, .h20pt20, .w20pt14, .h19pt19, .w19pt14, .h18pt18, .w18pt14, .h17pt17, .w17pt14, .h16pt16, .w16pt14, .h15pt15, .w15pt14, .h14pt14, .w14pt14, .h13pt13, .w13pt14, .h12pt12, .w12pt14, .h11pt11, .w11pt14, .h10pt10, .w10pt14, .h9pt9, .w9pt14, .h8pt8, .w8pt14, .h7pt7, .w7pt14, .h6pt6, .w6pt14, .h5pt5, .w5pt14, .h4pt4, .w4pt14, .h3pt3, .w3pt14, .h2pt2, .w2pt14, .h1pt1, .w1pt14 {
+  padding-top: 14%;
+}
+
+.pb14, .pbl14, .pbr14, .pbt14, .h20pb20, .w20pb14, .h19pb19, .w19pb14, .h18pb18, .w18pb14, .h17pb17, .w17pb14, .h16pb16, .w16pb14, .h15pb15, .w15pb14, .h14pb14, .w14pb14, .h13pb13, .w13pb14, .h12pb12, .w12pb14, .h11pb11, .w11pb14, .h10pb10, .w10pb14, .h9pb9, .w9pb14, .h8pb8, .w8pb14, .h7pb7, .w7pb14, .h6pb6, .w6pb14, .h5pb5, .w5pb14, .h4pb4, .w4pb14, .h3pb3, .w3pb14, .h2pb2, .w2pb14, .h1pb1, .w1pb14 {
+  padding-bottom: 14%;
+}
+
+.pr14, .prb14, .prl14, .prt14, .h20pr20, .w20pr14, .h19pr19, .w19pr14, .h18pr18, .w18pr14, .h17pr17, .w17pr14, .h16pr16, .w16pr14, .h15pr15, .w15pr14, .h14pr14, .w14pr14, .h13pr13, .w13pr14, .h12pr12, .w12pr14, .h11pr11, .w11pr14, .h10pr10, .w10pr14, .h9pr9, .w9pr14, .h8pr8, .w8pr14, .h7pr7, .w7pr14, .h6pr6, .w6pr14, .h5pr5, .w5pr14, .h4pr4, .w4pr14, .h3pr3, .w3pr14, .h2pr2, .w2pr14, .h1pr1, .w1pr14 {
+  padding-right: 14%;
+}
+
+.pl14, .plb14, .plr14, .plt14, .h20pl20, .w20pl14, .h19pl19, .w19pl14, .h18pl18, .w18pl14, .h17pl17, .w17pl14, .h16pl16, .w16pl14, .h15pl15, .w15pl14, .h14pl14, .w14pl14, .h13pl13, .w13pl14, .h12pl12, .w12pl14, .h11pl11, .w11pl14, .h10pl10, .w10pl14, .h9pl9, .w9pl14, .h8pl8, .w8pl14, .h7pl7, .w7pl14, .h6pl6, .w6pl14, .h5pl5, .w5pl14, .h4pl4, .w4pl14, .h3pl3, .w3pl14, .h2pl2, .w2pl14, .h1pl1, .w1pl14 {
+  padding-left: 14%;
+}
+
+.m14 {
+  margin: 14%;
+}
+
+.mt14, .mtb14, .mtl14, .mtr14, .h20mt14, .w20mt14, .h19mt14, .w19mt14, .h18mt14, .w18mt14, .h17mt14, .w17mt14, .h16mt14, .w16mt14, .h15mt14, .w15mt14, .h14mt14, .w14mt14, .h13mt14, .w13mt14, .h12mt14, .w12mt14, .h11mt14, .w11mt14, .h10mt14, .w10mt14, .h9mt14, .w9mt14, .h8mt14, .w8mt14, .h7mt14, .w7mt14, .h6mt14, .w6mt14, .h5mt14, .w5mt14, .h4mt14, .w4mt14, .h3mt14, .w3mt14, .h2mt14, .w2mt14, .h1mt14, .w1mt14 {
+  margin-top: 14%;
+}
+
+.mb14, .mbl14, .mbr14, .mbt14, .h20mb14, .w20mb14, .h19mb14, .w19mb14, .h18mb14, .w18mb14, .h17mb14, .w17mb14, .h16mb14, .w16mb14, .h15mb14, .w15mb14, .h14mb14, .w14mb14, .h13mb14, .w13mb14, .h12mb14, .w12mb14, .h11mb14, .w11mb14, .h10mb14, .w10mb14, .h9mb14, .w9mb14, .h8mb14, .w8mb14, .h7mb14, .w7mb14, .h6mb14, .w6mb14, .h5mb14, .w5mb14, .h4mb14, .w4mb14, .h3mb14, .w3mb14, .h2mb14, .w2mb14, .h1mb14, .w1mb14 {
+  margin-bottom: 14%;
+}
+
+.mr14, .mrb14, .mrl14, .mrt14, .h20mr14, .w20mr14, .h19mr14, .w19mr14, .h18mr14, .w18mr14, .h17mr14, .w17mr14, .h16mr14, .w16mr14, .h15mr14, .w15mr14, .h14mr14, .w14mr14, .h13mr14, .w13mr14, .h12mr14, .w12mr14, .h11mr14, .w11mr14, .h10mr14, .w10mr14, .h9mr14, .w9mr14, .h8mr14, .w8mr14, .h7mr14, .w7mr14, .h6mr14, .w6mr14, .h5mr14, .w5mr14, .h4mr14, .w4mr14, .h3mr14, .w3mr14, .h2mr14, .w2mr14, .h1mr14, .w1mr14 {
+  margin-right: 14%;
+}
+
+.ml14, .mlb14, .mlr14, .mlt14, .h20ml14, .w20ml14, .h19ml14, .w19ml14, .h18ml14, .w18ml14, .h17ml14, .w17ml14, .h16ml14, .w16ml14, .h15ml14, .w15ml14, .h14ml14, .w14ml14, .h13ml14, .w13ml14, .h12ml14, .w12ml14, .h11ml14, .w11ml14, .h10ml14, .w10ml14, .h9ml14, .w9ml14, .h8ml14, .w8ml14, .h7ml14, .w7ml14, .h6ml14, .w6ml14, .h5ml14, .w5ml14, .h4ml14, .w4ml14, .h3ml14, .w3ml14, .h2ml14, .w2ml14, .h1ml14, .w1ml14 {
+  margin-left: 14%;
+}
+
+.w15, .w15mb20, .w15ml20, .w15mr20, .w15mt20, .w15pb20, .w15pl20, .w15pr20, .w15pt20, .w15mb19, .w15ml19, .w15mr19, .w15mt19, .w15pb19, .w15pl19, .w15pr19, .w15pt19, .w15mb18, .w15ml18, .w15mr18, .w15mt18, .w15pb18, .w15pl18, .w15pr18, .w15pt18, .w15mb17, .w15ml17, .w15mr17, .w15mt17, .w15pb17, .w15pl17, .w15pr17, .w15pt17, .w15mb16, .w15ml16, .w15mr16, .w15mt16, .w15pb16, .w15pl16, .w15pr16, .w15pt16, .w15mb15, .w15ml15, .w15mr15, .w15mt15, .w15pb15, .w15pl15, .w15pr15, .w15pt15, .w15mb14, .w15ml14, .w15mr14, .w15mt14, .w15pb14, .w15pl14, .w15pr14, .w15pt14, .w15mb13, .w15ml13, .w15mr13, .w15mt13, .w15pb13, .w15pl13, .w15pr13, .w15pt13, .w15mb12, .w15ml12, .w15mr12, .w15mt12, .w15pb12, .w15pl12, .w15pr12, .w15pt12, .w15mb11, .w15ml11, .w15mr11, .w15mt11, .w15pb11, .w15pl11, .w15pr11, .w15pt11, .w15mb10, .w15ml10, .w15mr10, .w15mt10, .w15pb10, .w15pl10, .w15pr10, .w15pt10, .w15mb9, .w15ml9, .w15mr9, .w15mt9, .w15pb9, .w15pl9, .w15pr9, .w15pt9, .w15mb8, .w15ml8, .w15mr8, .w15mt8, .w15pb8, .w15pl8, .w15pr8, .w15pt8, .w15mb7, .w15ml7, .w15mr7, .w15mt7, .w15pb7, .w15pl7, .w15pr7, .w15pt7, .w15mb6, .w15ml6, .w15mr6, .w15mt6, .w15pb6, .w15pl6, .w15pr6, .w15pt6, .w15mb5, .w15ml5, .w15mr5, .w15mt5, .w15pb5, .w15pl5, .w15pr5, .w15pt5, .w15mb4, .w15ml4, .w15mr4, .w15mt4, .w15pb4, .w15pl4, .w15pr4, .w15pt4, .w15mb3, .w15ml3, .w15mr3, .w15mt3, .w15pb3, .w15pl3, .w15pr3, .w15pt3, .w15mb2, .w15ml2, .w15mr2, .w15mt2, .w15pb2, .w15pl2, .w15pr2, .w15pt2, .w15mb1, .w15ml1, .w15mr1, .w15mt1, .w15pb1, .w15pl1, .w15pr1, .w15pt1 {
+  width: 75%;
+}
+
+.h15, .h15mb20, .h15ml20, .h15mr20, .h15mt20, .h15mb19, .h15ml19, .h15mr19, .h15mt19, .h15mb18, .h15ml18, .h15mr18, .h15mt18, .h15mb17, .h15ml17, .h15mr17, .h15mt17, .h15mb16, .h15ml16, .h15mr16, .h15mt16, .h15mb15, .h15ml15, .h15mr15, .h15mt15, .h15mb14, .h15ml14, .h15mr14, .h15mt14, .h15mb13, .h15ml13, .h15mr13, .h15mt13, .h15mb12, .h15ml12, .h15mr12, .h15mt12, .h15mb11, .h15ml11, .h15mr11, .h15mt11, .h15mb10, .h15ml10, .h15mr10, .h15mt10, .h15mb9, .h15ml9, .h15mr9, .h15mt9, .h15mb8, .h15ml8, .h15mr8, .h15mt8, .h15mb7, .h15ml7, .h15mr7, .h15mt7, .h15mb6, .h15ml6, .h15mr6, .h15mt6, .h15mb5, .h15ml5, .h15mr5, .h15mt5, .h15mb4, .h15ml4, .h15mr4, .h15mt4, .h15mb3, .h15ml3, .h15mr3, .h15mt3, .h15mb2, .h15ml2, .h15mr2, .h15mt2, .h15mb1, .h15ml1, .h15mr1, .h15mt1, .h15pb15, .h15pl15, .h15pr15, .h15pt15 {
+  height: 75%;
+}
+
+.pt15, .ptb15, .ptl15, .ptr15, .h20pt20, .w20pt15, .h19pt19, .w19pt15, .h18pt18, .w18pt15, .h17pt17, .w17pt15, .h16pt16, .w16pt15, .h15pt15, .w15pt15, .h14pt14, .w14pt15, .h13pt13, .w13pt15, .h12pt12, .w12pt15, .h11pt11, .w11pt15, .h10pt10, .w10pt15, .h9pt9, .w9pt15, .h8pt8, .w8pt15, .h7pt7, .w7pt15, .h6pt6, .w6pt15, .h5pt5, .w5pt15, .h4pt4, .w4pt15, .h3pt3, .w3pt15, .h2pt2, .w2pt15, .h1pt1, .w1pt15 {
+  padding-top: 15%;
+}
+
+.pb15, .pbl15, .pbr15, .pbt15, .h20pb20, .w20pb15, .h19pb19, .w19pb15, .h18pb18, .w18pb15, .h17pb17, .w17pb15, .h16pb16, .w16pb15, .h15pb15, .w15pb15, .h14pb14, .w14pb15, .h13pb13, .w13pb15, .h12pb12, .w12pb15, .h11pb11, .w11pb15, .h10pb10, .w10pb15, .h9pb9, .w9pb15, .h8pb8, .w8pb15, .h7pb7, .w7pb15, .h6pb6, .w6pb15, .h5pb5, .w5pb15, .h4pb4, .w4pb15, .h3pb3, .w3pb15, .h2pb2, .w2pb15, .h1pb1, .w1pb15 {
+  padding-bottom: 15%;
+}
+
+.pr15, .prb15, .prl15, .prt15, .h20pr20, .w20pr15, .h19pr19, .w19pr15, .h18pr18, .w18pr15, .h17pr17, .w17pr15, .h16pr16, .w16pr15, .h15pr15, .w15pr15, .h14pr14, .w14pr15, .h13pr13, .w13pr15, .h12pr12, .w12pr15, .h11pr11, .w11pr15, .h10pr10, .w10pr15, .h9pr9, .w9pr15, .h8pr8, .w8pr15, .h7pr7, .w7pr15, .h6pr6, .w6pr15, .h5pr5, .w5pr15, .h4pr4, .w4pr15, .h3pr3, .w3pr15, .h2pr2, .w2pr15, .h1pr1, .w1pr15 {
+  padding-right: 15%;
+}
+
+.pl15, .plb15, .plr15, .plt15, .h20pl20, .w20pl15, .h19pl19, .w19pl15, .h18pl18, .w18pl15, .h17pl17, .w17pl15, .h16pl16, .w16pl15, .h15pl15, .w15pl15, .h14pl14, .w14pl15, .h13pl13, .w13pl15, .h12pl12, .w12pl15, .h11pl11, .w11pl15, .h10pl10, .w10pl15, .h9pl9, .w9pl15, .h8pl8, .w8pl15, .h7pl7, .w7pl15, .h6pl6, .w6pl15, .h5pl5, .w5pl15, .h4pl4, .w4pl15, .h3pl3, .w3pl15, .h2pl2, .w2pl15, .h1pl1, .w1pl15 {
+  padding-left: 15%;
+}
+
+.m15 {
+  margin: 15%;
+}
+
+.mt15, .mtb15, .mtl15, .mtr15, .h20mt15, .w20mt15, .h19mt15, .w19mt15, .h18mt15, .w18mt15, .h17mt15, .w17mt15, .h16mt15, .w16mt15, .h15mt15, .w15mt15, .h14mt15, .w14mt15, .h13mt15, .w13mt15, .h12mt15, .w12mt15, .h11mt15, .w11mt15, .h10mt15, .w10mt15, .h9mt15, .w9mt15, .h8mt15, .w8mt15, .h7mt15, .w7mt15, .h6mt15, .w6mt15, .h5mt15, .w5mt15, .h4mt15, .w4mt15, .h3mt15, .w3mt15, .h2mt15, .w2mt15, .h1mt15, .w1mt15 {
+  margin-top: 15%;
+}
+
+.mb15, .mbl15, .mbr15, .mbt15, .h20mb15, .w20mb15, .h19mb15, .w19mb15, .h18mb15, .w18mb15, .h17mb15, .w17mb15, .h16mb15, .w16mb15, .h15mb15, .w15mb15, .h14mb15, .w14mb15, .h13mb15, .w13mb15, .h12mb15, .w12mb15, .h11mb15, .w11mb15, .h10mb15, .w10mb15, .h9mb15, .w9mb15, .h8mb15, .w8mb15, .h7mb15, .w7mb15, .h6mb15, .w6mb15, .h5mb15, .w5mb15, .h4mb15, .w4mb15, .h3mb15, .w3mb15, .h2mb15, .w2mb15, .h1mb15, .w1mb15 {
+  margin-bottom: 15%;
+}
+
+.mr15, .mrb15, .mrl15, .mrt15, .h20mr15, .w20mr15, .h19mr15, .w19mr15, .h18mr15, .w18mr15, .h17mr15, .w17mr15, .h16mr15, .w16mr15, .h15mr15, .w15mr15, .h14mr15, .w14mr15, .h13mr15, .w13mr15, .h12mr15, .w12mr15, .h11mr15, .w11mr15, .h10mr15, .w10mr15, .h9mr15, .w9mr15, .h8mr15, .w8mr15, .h7mr15, .w7mr15, .h6mr15, .w6mr15, .h5mr15, .w5mr15, .h4mr15, .w4mr15, .h3mr15, .w3mr15, .h2mr15, .w2mr15, .h1mr15, .w1mr15 {
+  margin-right: 15%;
+}
+
+.ml15, .mlb15, .mlr15, .mlt15, .h20ml15, .w20ml15, .h19ml15, .w19ml15, .h18ml15, .w18ml15, .h17ml15, .w17ml15, .h16ml15, .w16ml15, .h15ml15, .w15ml15, .h14ml15, .w14ml15, .h13ml15, .w13ml15, .h12ml15, .w12ml15, .h11ml15, .w11ml15, .h10ml15, .w10ml15, .h9ml15, .w9ml15, .h8ml15, .w8ml15, .h7ml15, .w7ml15, .h6ml15, .w6ml15, .h5ml15, .w5ml15, .h4ml15, .w4ml15, .h3ml15, .w3ml15, .h2ml15, .w2ml15, .h1ml15, .w1ml15 {
+  margin-left: 15%;
+}
+
+.w16, .w16mb20, .w16ml20, .w16mr20, .w16mt20, .w16pb20, .w16pl20, .w16pr20, .w16pt20, .w16mb19, .w16ml19, .w16mr19, .w16mt19, .w16pb19, .w16pl19, .w16pr19, .w16pt19, .w16mb18, .w16ml18, .w16mr18, .w16mt18, .w16pb18, .w16pl18, .w16pr18, .w16pt18, .w16mb17, .w16ml17, .w16mr17, .w16mt17, .w16pb17, .w16pl17, .w16pr17, .w16pt17, .w16mb16, .w16ml16, .w16mr16, .w16mt16, .w16pb16, .w16pl16, .w16pr16, .w16pt16, .w16mb15, .w16ml15, .w16mr15, .w16mt15, .w16pb15, .w16pl15, .w16pr15, .w16pt15, .w16mb14, .w16ml14, .w16mr14, .w16mt14, .w16pb14, .w16pl14, .w16pr14, .w16pt14, .w16mb13, .w16ml13, .w16mr13, .w16mt13, .w16pb13, .w16pl13, .w16pr13, .w16pt13, .w16mb12, .w16ml12, .w16mr12, .w16mt12, .w16pb12, .w16pl12, .w16pr12, .w16pt12, .w16mb11, .w16ml11, .w16mr11, .w16mt11, .w16pb11, .w16pl11, .w16pr11, .w16pt11, .w16mb10, .w16ml10, .w16mr10, .w16mt10, .w16pb10, .w16pl10, .w16pr10, .w16pt10, .w16mb9, .w16ml9, .w16mr9, .w16mt9, .w16pb9, .w16pl9, .w16pr9, .w16pt9, .w16mb8, .w16ml8, .w16mr8, .w16mt8, .w16pb8, .w16pl8, .w16pr8, .w16pt8, .w16mb7, .w16ml7, .w16mr7, .w16mt7, .w16pb7, .w16pl7, .w16pr7, .w16pt7, .w16mb6, .w16ml6, .w16mr6, .w16mt6, .w16pb6, .w16pl6, .w16pr6, .w16pt6, .w16mb5, .w16ml5, .w16mr5, .w16mt5, .w16pb5, .w16pl5, .w16pr5, .w16pt5, .w16mb4, .w16ml4, .w16mr4, .w16mt4, .w16pb4, .w16pl4, .w16pr4, .w16pt4, .w16mb3, .w16ml3, .w16mr3, .w16mt3, .w16pb3, .w16pl3, .w16pr3, .w16pt3, .w16mb2, .w16ml2, .w16mr2, .w16mt2, .w16pb2, .w16pl2, .w16pr2, .w16pt2, .w16mb1, .w16ml1, .w16mr1, .w16mt1, .w16pb1, .w16pl1, .w16pr1, .w16pt1 {
+  width: 80%;
+}
+
+.h16, .h16mb20, .h16ml20, .h16mr20, .h16mt20, .h16mb19, .h16ml19, .h16mr19, .h16mt19, .h16mb18, .h16ml18, .h16mr18, .h16mt18, .h16mb17, .h16ml17, .h16mr17, .h16mt17, .h16mb16, .h16ml16, .h16mr16, .h16mt16, .h16mb15, .h16ml15, .h16mr15, .h16mt15, .h16mb14, .h16ml14, .h16mr14, .h16mt14, .h16mb13, .h16ml13, .h16mr13, .h16mt13, .h16mb12, .h16ml12, .h16mr12, .h16mt12, .h16mb11, .h16ml11, .h16mr11, .h16mt11, .h16mb10, .h16ml10, .h16mr10, .h16mt10, .h16mb9, .h16ml9, .h16mr9, .h16mt9, .h16mb8, .h16ml8, .h16mr8, .h16mt8, .h16mb7, .h16ml7, .h16mr7, .h16mt7, .h16mb6, .h16ml6, .h16mr6, .h16mt6, .h16mb5, .h16ml5, .h16mr5, .h16mt5, .h16mb4, .h16ml4, .h16mr4, .h16mt4, .h16mb3, .h16ml3, .h16mr3, .h16mt3, .h16mb2, .h16ml2, .h16mr2, .h16mt2, .h16mb1, .h16ml1, .h16mr1, .h16mt1, .h16pb16, .h16pl16, .h16pr16, .h16pt16 {
+  height: 80%;
+}
+
+.pt16, .ptb16, .ptl16, .ptr16, .h20pt20, .w20pt16, .h19pt19, .w19pt16, .h18pt18, .w18pt16, .h17pt17, .w17pt16, .h16pt16, .w16pt16, .h15pt15, .w15pt16, .h14pt14, .w14pt16, .h13pt13, .w13pt16, .h12pt12, .w12pt16, .h11pt11, .w11pt16, .h10pt10, .w10pt16, .h9pt9, .w9pt16, .h8pt8, .w8pt16, .h7pt7, .w7pt16, .h6pt6, .w6pt16, .h5pt5, .w5pt16, .h4pt4, .w4pt16, .h3pt3, .w3pt16, .h2pt2, .w2pt16, .h1pt1, .w1pt16 {
+  padding-top: 16%;
+}
+
+.pb16, .pbl16, .pbr16, .pbt16, .h20pb20, .w20pb16, .h19pb19, .w19pb16, .h18pb18, .w18pb16, .h17pb17, .w17pb16, .h16pb16, .w16pb16, .h15pb15, .w15pb16, .h14pb14, .w14pb16, .h13pb13, .w13pb16, .h12pb12, .w12pb16, .h11pb11, .w11pb16, .h10pb10, .w10pb16, .h9pb9, .w9pb16, .h8pb8, .w8pb16, .h7pb7, .w7pb16, .h6pb6, .w6pb16, .h5pb5, .w5pb16, .h4pb4, .w4pb16, .h3pb3, .w3pb16, .h2pb2, .w2pb16, .h1pb1, .w1pb16 {
+  padding-bottom: 16%;
+}
+
+.pr16, .prb16, .prl16, .prt16, .h20pr20, .w20pr16, .h19pr19, .w19pr16, .h18pr18, .w18pr16, .h17pr17, .w17pr16, .h16pr16, .w16pr16, .h15pr15, .w15pr16, .h14pr14, .w14pr16, .h13pr13, .w13pr16, .h12pr12, .w12pr16, .h11pr11, .w11pr16, .h10pr10, .w10pr16, .h9pr9, .w9pr16, .h8pr8, .w8pr16, .h7pr7, .w7pr16, .h6pr6, .w6pr16, .h5pr5, .w5pr16, .h4pr4, .w4pr16, .h3pr3, .w3pr16, .h2pr2, .w2pr16, .h1pr1, .w1pr16 {
+  padding-right: 16%;
+}
+
+.pl16, .plb16, .plr16, .plt16, .h20pl20, .w20pl16, .h19pl19, .w19pl16, .h18pl18, .w18pl16, .h17pl17, .w17pl16, .h16pl16, .w16pl16, .h15pl15, .w15pl16, .h14pl14, .w14pl16, .h13pl13, .w13pl16, .h12pl12, .w12pl16, .h11pl11, .w11pl16, .h10pl10, .w10pl16, .h9pl9, .w9pl16, .h8pl8, .w8pl16, .h7pl7, .w7pl16, .h6pl6, .w6pl16, .h5pl5, .w5pl16, .h4pl4, .w4pl16, .h3pl3, .w3pl16, .h2pl2, .w2pl16, .h1pl1, .w1pl16 {
+  padding-left: 16%;
+}
+
+.m16 {
+  margin: 16%;
+}
+
+.mt16, .mtb16, .mtl16, .mtr16, .h20mt16, .w20mt16, .h19mt16, .w19mt16, .h18mt16, .w18mt16, .h17mt16, .w17mt16, .h16mt16, .w16mt16, .h15mt16, .w15mt16, .h14mt16, .w14mt16, .h13mt16, .w13mt16, .h12mt16, .w12mt16, .h11mt16, .w11mt16, .h10mt16, .w10mt16, .h9mt16, .w9mt16, .h8mt16, .w8mt16, .h7mt16, .w7mt16, .h6mt16, .w6mt16, .h5mt16, .w5mt16, .h4mt16, .w4mt16, .h3mt16, .w3mt16, .h2mt16, .w2mt16, .h1mt16, .w1mt16 {
+  margin-top: 16%;
+}
+
+.mb16, .mbl16, .mbr16, .mbt16, .h20mb16, .w20mb16, .h19mb16, .w19mb16, .h18mb16, .w18mb16, .h17mb16, .w17mb16, .h16mb16, .w16mb16, .h15mb16, .w15mb16, .h14mb16, .w14mb16, .h13mb16, .w13mb16, .h12mb16, .w12mb16, .h11mb16, .w11mb16, .h10mb16, .w10mb16, .h9mb16, .w9mb16, .h8mb16, .w8mb16, .h7mb16, .w7mb16, .h6mb16, .w6mb16, .h5mb16, .w5mb16, .h4mb16, .w4mb16, .h3mb16, .w3mb16, .h2mb16, .w2mb16, .h1mb16, .w1mb16 {
+  margin-bottom: 16%;
+}
+
+.mr16, .mrb16, .mrl16, .mrt16, .h20mr16, .w20mr16, .h19mr16, .w19mr16, .h18mr16, .w18mr16, .h17mr16, .w17mr16, .h16mr16, .w16mr16, .h15mr16, .w15mr16, .h14mr16, .w14mr16, .h13mr16, .w13mr16, .h12mr16, .w12mr16, .h11mr16, .w11mr16, .h10mr16, .w10mr16, .h9mr16, .w9mr16, .h8mr16, .w8mr16, .h7mr16, .w7mr16, .h6mr16, .w6mr16, .h5mr16, .w5mr16, .h4mr16, .w4mr16, .h3mr16, .w3mr16, .h2mr16, .w2mr16, .h1mr16, .w1mr16 {
+  margin-right: 16%;
+}
+
+.ml16, .mlb16, .mlr16, .mlt16, .h20ml16, .w20ml16, .h19ml16, .w19ml16, .h18ml16, .w18ml16, .h17ml16, .w17ml16, .h16ml16, .w16ml16, .h15ml16, .w15ml16, .h14ml16, .w14ml16, .h13ml16, .w13ml16, .h12ml16, .w12ml16, .h11ml16, .w11ml16, .h10ml16, .w10ml16, .h9ml16, .w9ml16, .h8ml16, .w8ml16, .h7ml16, .w7ml16, .h6ml16, .w6ml16, .h5ml16, .w5ml16, .h4ml16, .w4ml16, .h3ml16, .w3ml16, .h2ml16, .w2ml16, .h1ml16, .w1ml16 {
+  margin-left: 16%;
+}
+
+.w17, .w17mb20, .w17ml20, .w17mr20, .w17mt20, .w17pb20, .w17pl20, .w17pr20, .w17pt20, .w17mb19, .w17ml19, .w17mr19, .w17mt19, .w17pb19, .w17pl19, .w17pr19, .w17pt19, .w17mb18, .w17ml18, .w17mr18, .w17mt18, .w17pb18, .w17pl18, .w17pr18, .w17pt18, .w17mb17, .w17ml17, .w17mr17, .w17mt17, .w17pb17, .w17pl17, .w17pr17, .w17pt17, .w17mb16, .w17ml16, .w17mr16, .w17mt16, .w17pb16, .w17pl16, .w17pr16, .w17pt16, .w17mb15, .w17ml15, .w17mr15, .w17mt15, .w17pb15, .w17pl15, .w17pr15, .w17pt15, .w17mb14, .w17ml14, .w17mr14, .w17mt14, .w17pb14, .w17pl14, .w17pr14, .w17pt14, .w17mb13, .w17ml13, .w17mr13, .w17mt13, .w17pb13, .w17pl13, .w17pr13, .w17pt13, .w17mb12, .w17ml12, .w17mr12, .w17mt12, .w17pb12, .w17pl12, .w17pr12, .w17pt12, .w17mb11, .w17ml11, .w17mr11, .w17mt11, .w17pb11, .w17pl11, .w17pr11, .w17pt11, .w17mb10, .w17ml10, .w17mr10, .w17mt10, .w17pb10, .w17pl10, .w17pr10, .w17pt10, .w17mb9, .w17ml9, .w17mr9, .w17mt9, .w17pb9, .w17pl9, .w17pr9, .w17pt9, .w17mb8, .w17ml8, .w17mr8, .w17mt8, .w17pb8, .w17pl8, .w17pr8, .w17pt8, .w17mb7, .w17ml7, .w17mr7, .w17mt7, .w17pb7, .w17pl7, .w17pr7, .w17pt7, .w17mb6, .w17ml6, .w17mr6, .w17mt6, .w17pb6, .w17pl6, .w17pr6, .w17pt6, .w17mb5, .w17ml5, .w17mr5, .w17mt5, .w17pb5, .w17pl5, .w17pr5, .w17pt5, .w17mb4, .w17ml4, .w17mr4, .w17mt4, .w17pb4, .w17pl4, .w17pr4, .w17pt4, .w17mb3, .w17ml3, .w17mr3, .w17mt3, .w17pb3, .w17pl3, .w17pr3, .w17pt3, .w17mb2, .w17ml2, .w17mr2, .w17mt2, .w17pb2, .w17pl2, .w17pr2, .w17pt2, .w17mb1, .w17ml1, .w17mr1, .w17mt1, .w17pb1, .w17pl1, .w17pr1, .w17pt1 {
+  width: 85%;
+}
+
+.h17, .h17mb20, .h17ml20, .h17mr20, .h17mt20, .h17mb19, .h17ml19, .h17mr19, .h17mt19, .h17mb18, .h17ml18, .h17mr18, .h17mt18, .h17mb17, .h17ml17, .h17mr17, .h17mt17, .h17mb16, .h17ml16, .h17mr16, .h17mt16, .h17mb15, .h17ml15, .h17mr15, .h17mt15, .h17mb14, .h17ml14, .h17mr14, .h17mt14, .h17mb13, .h17ml13, .h17mr13, .h17mt13, .h17mb12, .h17ml12, .h17mr12, .h17mt12, .h17mb11, .h17ml11, .h17mr11, .h17mt11, .h17mb10, .h17ml10, .h17mr10, .h17mt10, .h17mb9, .h17ml9, .h17mr9, .h17mt9, .h17mb8, .h17ml8, .h17mr8, .h17mt8, .h17mb7, .h17ml7, .h17mr7, .h17mt7, .h17mb6, .h17ml6, .h17mr6, .h17mt6, .h17mb5, .h17ml5, .h17mr5, .h17mt5, .h17mb4, .h17ml4, .h17mr4, .h17mt4, .h17mb3, .h17ml3, .h17mr3, .h17mt3, .h17mb2, .h17ml2, .h17mr2, .h17mt2, .h17mb1, .h17ml1, .h17mr1, .h17mt1, .h17pb17, .h17pl17, .h17pr17, .h17pt17 {
+  height: 85%;
+}
+
+.pt17, .ptb17, .ptl17, .ptr17, .h20pt20, .w20pt17, .h19pt19, .w19pt17, .h18pt18, .w18pt17, .h17pt17, .w17pt17, .h16pt16, .w16pt17, .h15pt15, .w15pt17, .h14pt14, .w14pt17, .h13pt13, .w13pt17, .h12pt12, .w12pt17, .h11pt11, .w11pt17, .h10pt10, .w10pt17, .h9pt9, .w9pt17, .h8pt8, .w8pt17, .h7pt7, .w7pt17, .h6pt6, .w6pt17, .h5pt5, .w5pt17, .h4pt4, .w4pt17, .h3pt3, .w3pt17, .h2pt2, .w2pt17, .h1pt1, .w1pt17 {
+  padding-top: 17%;
+}
+
+.pb17, .pbl17, .pbr17, .pbt17, .h20pb20, .w20pb17, .h19pb19, .w19pb17, .h18pb18, .w18pb17, .h17pb17, .w17pb17, .h16pb16, .w16pb17, .h15pb15, .w15pb17, .h14pb14, .w14pb17, .h13pb13, .w13pb17, .h12pb12, .w12pb17, .h11pb11, .w11pb17, .h10pb10, .w10pb17, .h9pb9, .w9pb17, .h8pb8, .w8pb17, .h7pb7, .w7pb17, .h6pb6, .w6pb17, .h5pb5, .w5pb17, .h4pb4, .w4pb17, .h3pb3, .w3pb17, .h2pb2, .w2pb17, .h1pb1, .w1pb17 {
+  padding-bottom: 17%;
+}
+
+.pr17, .prb17, .prl17, .prt17, .h20pr20, .w20pr17, .h19pr19, .w19pr17, .h18pr18, .w18pr17, .h17pr17, .w17pr17, .h16pr16, .w16pr17, .h15pr15, .w15pr17, .h14pr14, .w14pr17, .h13pr13, .w13pr17, .h12pr12, .w12pr17, .h11pr11, .w11pr17, .h10pr10, .w10pr17, .h9pr9, .w9pr17, .h8pr8, .w8pr17, .h7pr7, .w7pr17, .h6pr6, .w6pr17, .h5pr5, .w5pr17, .h4pr4, .w4pr17, .h3pr3, .w3pr17, .h2pr2, .w2pr17, .h1pr1, .w1pr17 {
+  padding-right: 17%;
+}
+
+.pl17, .plb17, .plr17, .plt17, .h20pl20, .w20pl17, .h19pl19, .w19pl17, .h18pl18, .w18pl17, .h17pl17, .w17pl17, .h16pl16, .w16pl17, .h15pl15, .w15pl17, .h14pl14, .w14pl17, .h13pl13, .w13pl17, .h12pl12, .w12pl17, .h11pl11, .w11pl17, .h10pl10, .w10pl17, .h9pl9, .w9pl17, .h8pl8, .w8pl17, .h7pl7, .w7pl17, .h6pl6, .w6pl17, .h5pl5, .w5pl17, .h4pl4, .w4pl17, .h3pl3, .w3pl17, .h2pl2, .w2pl17, .h1pl1, .w1pl17 {
+  padding-left: 17%;
+}
+
+.m17 {
+  margin: 17%;
+}
+
+.mt17, .mtb17, .mtl17, .mtr17, .h20mt17, .w20mt17, .h19mt17, .w19mt17, .h18mt17, .w18mt17, .h17mt17, .w17mt17, .h16mt17, .w16mt17, .h15mt17, .w15mt17, .h14mt17, .w14mt17, .h13mt17, .w13mt17, .h12mt17, .w12mt17, .h11mt17, .w11mt17, .h10mt17, .w10mt17, .h9mt17, .w9mt17, .h8mt17, .w8mt17, .h7mt17, .w7mt17, .h6mt17, .w6mt17, .h5mt17, .w5mt17, .h4mt17, .w4mt17, .h3mt17, .w3mt17, .h2mt17, .w2mt17, .h1mt17, .w1mt17 {
+  margin-top: 17%;
+}
+
+.mb17, .mbl17, .mbr17, .mbt17, .h20mb17, .w20mb17, .h19mb17, .w19mb17, .h18mb17, .w18mb17, .h17mb17, .w17mb17, .h16mb17, .w16mb17, .h15mb17, .w15mb17, .h14mb17, .w14mb17, .h13mb17, .w13mb17, .h12mb17, .w12mb17, .h11mb17, .w11mb17, .h10mb17, .w10mb17, .h9mb17, .w9mb17, .h8mb17, .w8mb17, .h7mb17, .w7mb17, .h6mb17, .w6mb17, .h5mb17, .w5mb17, .h4mb17, .w4mb17, .h3mb17, .w3mb17, .h2mb17, .w2mb17, .h1mb17, .w1mb17 {
+  margin-bottom: 17%;
+}
+
+.mr17, .mrb17, .mrl17, .mrt17, .h20mr17, .w20mr17, .h19mr17, .w19mr17, .h18mr17, .w18mr17, .h17mr17, .w17mr17, .h16mr17, .w16mr17, .h15mr17, .w15mr17, .h14mr17, .w14mr17, .h13mr17, .w13mr17, .h12mr17, .w12mr17, .h11mr17, .w11mr17, .h10mr17, .w10mr17, .h9mr17, .w9mr17, .h8mr17, .w8mr17, .h7mr17, .w7mr17, .h6mr17, .w6mr17, .h5mr17, .w5mr17, .h4mr17, .w4mr17, .h3mr17, .w3mr17, .h2mr17, .w2mr17, .h1mr17, .w1mr17 {
+  margin-right: 17%;
+}
+
+.ml17, .mlb17, .mlr17, .mlt17, .h20ml17, .w20ml17, .h19ml17, .w19ml17, .h18ml17, .w18ml17, .h17ml17, .w17ml17, .h16ml17, .w16ml17, .h15ml17, .w15ml17, .h14ml17, .w14ml17, .h13ml17, .w13ml17, .h12ml17, .w12ml17, .h11ml17, .w11ml17, .h10ml17, .w10ml17, .h9ml17, .w9ml17, .h8ml17, .w8ml17, .h7ml17, .w7ml17, .h6ml17, .w6ml17, .h5ml17, .w5ml17, .h4ml17, .w4ml17, .h3ml17, .w3ml17, .h2ml17, .w2ml17, .h1ml17, .w1ml17 {
+  margin-left: 17%;
+}
+
+.w18, .w18mb20, .w18ml20, .w18mr20, .w18mt20, .w18pb20, .w18pl20, .w18pr20, .w18pt20, .w18mb19, .w18ml19, .w18mr19, .w18mt19, .w18pb19, .w18pl19, .w18pr19, .w18pt19, .w18mb18, .w18ml18, .w18mr18, .w18mt18, .w18pb18, .w18pl18, .w18pr18, .w18pt18, .w18mb17, .w18ml17, .w18mr17, .w18mt17, .w18pb17, .w18pl17, .w18pr17, .w18pt17, .w18mb16, .w18ml16, .w18mr16, .w18mt16, .w18pb16, .w18pl16, .w18pr16, .w18pt16, .w18mb15, .w18ml15, .w18mr15, .w18mt15, .w18pb15, .w18pl15, .w18pr15, .w18pt15, .w18mb14, .w18ml14, .w18mr14, .w18mt14, .w18pb14, .w18pl14, .w18pr14, .w18pt14, .w18mb13, .w18ml13, .w18mr13, .w18mt13, .w18pb13, .w18pl13, .w18pr13, .w18pt13, .w18mb12, .w18ml12, .w18mr12, .w18mt12, .w18pb12, .w18pl12, .w18pr12, .w18pt12, .w18mb11, .w18ml11, .w18mr11, .w18mt11, .w18pb11, .w18pl11, .w18pr11, .w18pt11, .w18mb10, .w18ml10, .w18mr10, .w18mt10, .w18pb10, .w18pl10, .w18pr10, .w18pt10, .w18mb9, .w18ml9, .w18mr9, .w18mt9, .w18pb9, .w18pl9, .w18pr9, .w18pt9, .w18mb8, .w18ml8, .w18mr8, .w18mt8, .w18pb8, .w18pl8, .w18pr8, .w18pt8, .w18mb7, .w18ml7, .w18mr7, .w18mt7, .w18pb7, .w18pl7, .w18pr7, .w18pt7, .w18mb6, .w18ml6, .w18mr6, .w18mt6, .w18pb6, .w18pl6, .w18pr6, .w18pt6, .w18mb5, .w18ml5, .w18mr5, .w18mt5, .w18pb5, .w18pl5, .w18pr5, .w18pt5, .w18mb4, .w18ml4, .w18mr4, .w18mt4, .w18pb4, .w18pl4, .w18pr4, .w18pt4, .w18mb3, .w18ml3, .w18mr3, .w18mt3, .w18pb3, .w18pl3, .w18pr3, .w18pt3, .w18mb2, .w18ml2, .w18mr2, .w18mt2, .w18pb2, .w18pl2, .w18pr2, .w18pt2, .w18mb1, .w18ml1, .w18mr1, .w18mt1, .w18pb1, .w18pl1, .w18pr1, .w18pt1 {
+  width: 90%;
+}
+
+.h18, .h18mb20, .h18ml20, .h18mr20, .h18mt20, .h18mb19, .h18ml19, .h18mr19, .h18mt19, .h18mb18, .h18ml18, .h18mr18, .h18mt18, .h18mb17, .h18ml17, .h18mr17, .h18mt17, .h18mb16, .h18ml16, .h18mr16, .h18mt16, .h18mb15, .h18ml15, .h18mr15, .h18mt15, .h18mb14, .h18ml14, .h18mr14, .h18mt14, .h18mb13, .h18ml13, .h18mr13, .h18mt13, .h18mb12, .h18ml12, .h18mr12, .h18mt12, .h18mb11, .h18ml11, .h18mr11, .h18mt11, .h18mb10, .h18ml10, .h18mr10, .h18mt10, .h18mb9, .h18ml9, .h18mr9, .h18mt9, .h18mb8, .h18ml8, .h18mr8, .h18mt8, .h18mb7, .h18ml7, .h18mr7, .h18mt7, .h18mb6, .h18ml6, .h18mr6, .h18mt6, .h18mb5, .h18ml5, .h18mr5, .h18mt5, .h18mb4, .h18ml4, .h18mr4, .h18mt4, .h18mb3, .h18ml3, .h18mr3, .h18mt3, .h18mb2, .h18ml2, .h18mr2, .h18mt2, .h18mb1, .h18ml1, .h18mr1, .h18mt1, .h18pb18, .h18pl18, .h18pr18, .h18pt18 {
+  height: 90%;
+}
+
+.pt18, .ptb18, .ptl18, .ptr18, .h20pt20, .w20pt18, .h19pt19, .w19pt18, .h18pt18, .w18pt18, .h17pt17, .w17pt18, .h16pt16, .w16pt18, .h15pt15, .w15pt18, .h14pt14, .w14pt18, .h13pt13, .w13pt18, .h12pt12, .w12pt18, .h11pt11, .w11pt18, .h10pt10, .w10pt18, .h9pt9, .w9pt18, .h8pt8, .w8pt18, .h7pt7, .w7pt18, .h6pt6, .w6pt18, .h5pt5, .w5pt18, .h4pt4, .w4pt18, .h3pt3, .w3pt18, .h2pt2, .w2pt18, .h1pt1, .w1pt18 {
+  padding-top: 18%;
+}
+
+.pb18, .pbl18, .pbr18, .pbt18, .h20pb20, .w20pb18, .h19pb19, .w19pb18, .h18pb18, .w18pb18, .h17pb17, .w17pb18, .h16pb16, .w16pb18, .h15pb15, .w15pb18, .h14pb14, .w14pb18, .h13pb13, .w13pb18, .h12pb12, .w12pb18, .h11pb11, .w11pb18, .h10pb10, .w10pb18, .h9pb9, .w9pb18, .h8pb8, .w8pb18, .h7pb7, .w7pb18, .h6pb6, .w6pb18, .h5pb5, .w5pb18, .h4pb4, .w4pb18, .h3pb3, .w3pb18, .h2pb2, .w2pb18, .h1pb1, .w1pb18 {
+  padding-bottom: 18%;
+}
+
+.pr18, .prb18, .prl18, .prt18, .h20pr20, .w20pr18, .h19pr19, .w19pr18, .h18pr18, .w18pr18, .h17pr17, .w17pr18, .h16pr16, .w16pr18, .h15pr15, .w15pr18, .h14pr14, .w14pr18, .h13pr13, .w13pr18, .h12pr12, .w12pr18, .h11pr11, .w11pr18, .h10pr10, .w10pr18, .h9pr9, .w9pr18, .h8pr8, .w8pr18, .h7pr7, .w7pr18, .h6pr6, .w6pr18, .h5pr5, .w5pr18, .h4pr4, .w4pr18, .h3pr3, .w3pr18, .h2pr2, .w2pr18, .h1pr1, .w1pr18 {
+  padding-right: 18%;
+}
+
+.pl18, .plb18, .plr18, .plt18, .h20pl20, .w20pl18, .h19pl19, .w19pl18, .h18pl18, .w18pl18, .h17pl17, .w17pl18, .h16pl16, .w16pl18, .h15pl15, .w15pl18, .h14pl14, .w14pl18, .h13pl13, .w13pl18, .h12pl12, .w12pl18, .h11pl11, .w11pl18, .h10pl10, .w10pl18, .h9pl9, .w9pl18, .h8pl8, .w8pl18, .h7pl7, .w7pl18, .h6pl6, .w6pl18, .h5pl5, .w5pl18, .h4pl4, .w4pl18, .h3pl3, .w3pl18, .h2pl2, .w2pl18, .h1pl1, .w1pl18 {
+  padding-left: 18%;
+}
+
+.m18 {
+  margin: 18%;
+}
+
+.mt18, .mtb18, .mtl18, .mtr18, .h20mt18, .w20mt18, .h19mt18, .w19mt18, .h18mt18, .w18mt18, .h17mt18, .w17mt18, .h16mt18, .w16mt18, .h15mt18, .w15mt18, .h14mt18, .w14mt18, .h13mt18, .w13mt18, .h12mt18, .w12mt18, .h11mt18, .w11mt18, .h10mt18, .w10mt18, .h9mt18, .w9mt18, .h8mt18, .w8mt18, .h7mt18, .w7mt18, .h6mt18, .w6mt18, .h5mt18, .w5mt18, .h4mt18, .w4mt18, .h3mt18, .w3mt18, .h2mt18, .w2mt18, .h1mt18, .w1mt18 {
+  margin-top: 18%;
+}
+
+.mb18, .mbl18, .mbr18, .mbt18, .h20mb18, .w20mb18, .h19mb18, .w19mb18, .h18mb18, .w18mb18, .h17mb18, .w17mb18, .h16mb18, .w16mb18, .h15mb18, .w15mb18, .h14mb18, .w14mb18, .h13mb18, .w13mb18, .h12mb18, .w12mb18, .h11mb18, .w11mb18, .h10mb18, .w10mb18, .h9mb18, .w9mb18, .h8mb18, .w8mb18, .h7mb18, .w7mb18, .h6mb18, .w6mb18, .h5mb18, .w5mb18, .h4mb18, .w4mb18, .h3mb18, .w3mb18, .h2mb18, .w2mb18, .h1mb18, .w1mb18 {
+  margin-bottom: 18%;
+}
+
+.mr18, .mrb18, .mrl18, .mrt18, .h20mr18, .w20mr18, .h19mr18, .w19mr18, .h18mr18, .w18mr18, .h17mr18, .w17mr18, .h16mr18, .w16mr18, .h15mr18, .w15mr18, .h14mr18, .w14mr18, .h13mr18, .w13mr18, .h12mr18, .w12mr18, .h11mr18, .w11mr18, .h10mr18, .w10mr18, .h9mr18, .w9mr18, .h8mr18, .w8mr18, .h7mr18, .w7mr18, .h6mr18, .w6mr18, .h5mr18, .w5mr18, .h4mr18, .w4mr18, .h3mr18, .w3mr18, .h2mr18, .w2mr18, .h1mr18, .w1mr18 {
+  margin-right: 18%;
+}
+
+.ml18, .mlb18, .mlr18, .mlt18, .h20ml18, .w20ml18, .h19ml18, .w19ml18, .h18ml18, .w18ml18, .h17ml18, .w17ml18, .h16ml18, .w16ml18, .h15ml18, .w15ml18, .h14ml18, .w14ml18, .h13ml18, .w13ml18, .h12ml18, .w12ml18, .h11ml18, .w11ml18, .h10ml18, .w10ml18, .h9ml18, .w9ml18, .h8ml18, .w8ml18, .h7ml18, .w7ml18, .h6ml18, .w6ml18, .h5ml18, .w5ml18, .h4ml18, .w4ml18, .h3ml18, .w3ml18, .h2ml18, .w2ml18, .h1ml18, .w1ml18 {
+  margin-left: 18%;
+}
+
+.w19, .w19mb20, .w19ml20, .w19mr20, .w19mt20, .w19pb20, .w19pl20, .w19pr20, .w19pt20, .w19mb19, .w19ml19, .w19mr19, .w19mt19, .w19pb19, .w19pl19, .w19pr19, .w19pt19, .w19mb18, .w19ml18, .w19mr18, .w19mt18, .w19pb18, .w19pl18, .w19pr18, .w19pt18, .w19mb17, .w19ml17, .w19mr17, .w19mt17, .w19pb17, .w19pl17, .w19pr17, .w19pt17, .w19mb16, .w19ml16, .w19mr16, .w19mt16, .w19pb16, .w19pl16, .w19pr16, .w19pt16, .w19mb15, .w19ml15, .w19mr15, .w19mt15, .w19pb15, .w19pl15, .w19pr15, .w19pt15, .w19mb14, .w19ml14, .w19mr14, .w19mt14, .w19pb14, .w19pl14, .w19pr14, .w19pt14, .w19mb13, .w19ml13, .w19mr13, .w19mt13, .w19pb13, .w19pl13, .w19pr13, .w19pt13, .w19mb12, .w19ml12, .w19mr12, .w19mt12, .w19pb12, .w19pl12, .w19pr12, .w19pt12, .w19mb11, .w19ml11, .w19mr11, .w19mt11, .w19pb11, .w19pl11, .w19pr11, .w19pt11, .w19mb10, .w19ml10, .w19mr10, .w19mt10, .w19pb10, .w19pl10, .w19pr10, .w19pt10, .w19mb9, .w19ml9, .w19mr9, .w19mt9, .w19pb9, .w19pl9, .w19pr9, .w19pt9, .w19mb8, .w19ml8, .w19mr8, .w19mt8, .w19pb8, .w19pl8, .w19pr8, .w19pt8, .w19mb7, .w19ml7, .w19mr7, .w19mt7, .w19pb7, .w19pl7, .w19pr7, .w19pt7, .w19mb6, .w19ml6, .w19mr6, .w19mt6, .w19pb6, .w19pl6, .w19pr6, .w19pt6, .w19mb5, .w19ml5, .w19mr5, .w19mt5, .w19pb5, .w19pl5, .w19pr5, .w19pt5, .w19mb4, .w19ml4, .w19mr4, .w19mt4, .w19pb4, .w19pl4, .w19pr4, .w19pt4, .w19mb3, .w19ml3, .w19mr3, .w19mt3, .w19pb3, .w19pl3, .w19pr3, .w19pt3, .w19mb2, .w19ml2, .w19mr2, .w19mt2, .w19pb2, .w19pl2, .w19pr2, .w19pt2, .w19mb1, .w19ml1, .w19mr1, .w19mt1, .w19pb1, .w19pl1, .w19pr1, .w19pt1 {
+  width: 95%;
+}
+
+.h19, .h19mb20, .h19ml20, .h19mr20, .h19mt20, .h19mb19, .h19ml19, .h19mr19, .h19mt19, .h19mb18, .h19ml18, .h19mr18, .h19mt18, .h19mb17, .h19ml17, .h19mr17, .h19mt17, .h19mb16, .h19ml16, .h19mr16, .h19mt16, .h19mb15, .h19ml15, .h19mr15, .h19mt15, .h19mb14, .h19ml14, .h19mr14, .h19mt14, .h19mb13, .h19ml13, .h19mr13, .h19mt13, .h19mb12, .h19ml12, .h19mr12, .h19mt12, .h19mb11, .h19ml11, .h19mr11, .h19mt11, .h19mb10, .h19ml10, .h19mr10, .h19mt10, .h19mb9, .h19ml9, .h19mr9, .h19mt9, .h19mb8, .h19ml8, .h19mr8, .h19mt8, .h19mb7, .h19ml7, .h19mr7, .h19mt7, .h19mb6, .h19ml6, .h19mr6, .h19mt6, .h19mb5, .h19ml5, .h19mr5, .h19mt5, .h19mb4, .h19ml4, .h19mr4, .h19mt4, .h19mb3, .h19ml3, .h19mr3, .h19mt3, .h19mb2, .h19ml2, .h19mr2, .h19mt2, .h19mb1, .h19ml1, .h19mr1, .h19mt1, .h19pb19, .h19pl19, .h19pr19, .h19pt19 {
+  height: 95%;
+}
+
+.pt19, .ptb19, .ptl19, .ptr19, .h20pt20, .w20pt19, .h19pt19, .w19pt19, .h18pt18, .w18pt19, .h17pt17, .w17pt19, .h16pt16, .w16pt19, .h15pt15, .w15pt19, .h14pt14, .w14pt19, .h13pt13, .w13pt19, .h12pt12, .w12pt19, .h11pt11, .w11pt19, .h10pt10, .w10pt19, .h9pt9, .w9pt19, .h8pt8, .w8pt19, .h7pt7, .w7pt19, .h6pt6, .w6pt19, .h5pt5, .w5pt19, .h4pt4, .w4pt19, .h3pt3, .w3pt19, .h2pt2, .w2pt19, .h1pt1, .w1pt19 {
+  padding-top: 19%;
+}
+
+.pb19, .pbl19, .pbr19, .pbt19, .h20pb20, .w20pb19, .h19pb19, .w19pb19, .h18pb18, .w18pb19, .h17pb17, .w17pb19, .h16pb16, .w16pb19, .h15pb15, .w15pb19, .h14pb14, .w14pb19, .h13pb13, .w13pb19, .h12pb12, .w12pb19, .h11pb11, .w11pb19, .h10pb10, .w10pb19, .h9pb9, .w9pb19, .h8pb8, .w8pb19, .h7pb7, .w7pb19, .h6pb6, .w6pb19, .h5pb5, .w5pb19, .h4pb4, .w4pb19, .h3pb3, .w3pb19, .h2pb2, .w2pb19, .h1pb1, .w1pb19 {
+  padding-bottom: 19%;
+}
+
+.pr19, .prb19, .prl19, .prt19, .h20pr20, .w20pr19, .h19pr19, .w19pr19, .h18pr18, .w18pr19, .h17pr17, .w17pr19, .h16pr16, .w16pr19, .h15pr15, .w15pr19, .h14pr14, .w14pr19, .h13pr13, .w13pr19, .h12pr12, .w12pr19, .h11pr11, .w11pr19, .h10pr10, .w10pr19, .h9pr9, .w9pr19, .h8pr8, .w8pr19, .h7pr7, .w7pr19, .h6pr6, .w6pr19, .h5pr5, .w5pr19, .h4pr4, .w4pr19, .h3pr3, .w3pr19, .h2pr2, .w2pr19, .h1pr1, .w1pr19 {
+  padding-right: 19%;
+}
+
+.pl19, .plb19, .plr19, .plt19, .h20pl20, .w20pl19, .h19pl19, .w19pl19, .h18pl18, .w18pl19, .h17pl17, .w17pl19, .h16pl16, .w16pl19, .h15pl15, .w15pl19, .h14pl14, .w14pl19, .h13pl13, .w13pl19, .h12pl12, .w12pl19, .h11pl11, .w11pl19, .h10pl10, .w10pl19, .h9pl9, .w9pl19, .h8pl8, .w8pl19, .h7pl7, .w7pl19, .h6pl6, .w6pl19, .h5pl5, .w5pl19, .h4pl4, .w4pl19, .h3pl3, .w3pl19, .h2pl2, .w2pl19, .h1pl1, .w1pl19 {
+  padding-left: 19%;
+}
+
+.m19 {
+  margin: 19%;
+}
+
+.mt19, .mtb19, .mtl19, .mtr19, .h20mt19, .w20mt19, .h19mt19, .w19mt19, .h18mt19, .w18mt19, .h17mt19, .w17mt19, .h16mt19, .w16mt19, .h15mt19, .w15mt19, .h14mt19, .w14mt19, .h13mt19, .w13mt19, .h12mt19, .w12mt19, .h11mt19, .w11mt19, .h10mt19, .w10mt19, .h9mt19, .w9mt19, .h8mt19, .w8mt19, .h7mt19, .w7mt19, .h6mt19, .w6mt19, .h5mt19, .w5mt19, .h4mt19, .w4mt19, .h3mt19, .w3mt19, .h2mt19, .w2mt19, .h1mt19, .w1mt19 {
+  margin-top: 19%;
+}
+
+.mb19, .mbl19, .mbr19, .mbt19, .h20mb19, .w20mb19, .h19mb19, .w19mb19, .h18mb19, .w18mb19, .h17mb19, .w17mb19, .h16mb19, .w16mb19, .h15mb19, .w15mb19, .h14mb19, .w14mb19, .h13mb19, .w13mb19, .h12mb19, .w12mb19, .h11mb19, .w11mb19, .h10mb19, .w10mb19, .h9mb19, .w9mb19, .h8mb19, .w8mb19, .h7mb19, .w7mb19, .h6mb19, .w6mb19, .h5mb19, .w5mb19, .h4mb19, .w4mb19, .h3mb19, .w3mb19, .h2mb19, .w2mb19, .h1mb19, .w1mb19 {
+  margin-bottom: 19%;
+}
+
+.mr19, .mrb19, .mrl19, .mrt19, .h20mr19, .w20mr19, .h19mr19, .w19mr19, .h18mr19, .w18mr19, .h17mr19, .w17mr19, .h16mr19, .w16mr19, .h15mr19, .w15mr19, .h14mr19, .w14mr19, .h13mr19, .w13mr19, .h12mr19, .w12mr19, .h11mr19, .w11mr19, .h10mr19, .w10mr19, .h9mr19, .w9mr19, .h8mr19, .w8mr19, .h7mr19, .w7mr19, .h6mr19, .w6mr19, .h5mr19, .w5mr19, .h4mr19, .w4mr19, .h3mr19, .w3mr19, .h2mr19, .w2mr19, .h1mr19, .w1mr19 {
+  margin-right: 19%;
+}
+
+.ml19, .mlb19, .mlr19, .mlt19, .h20ml19, .w20ml19, .h19ml19, .w19ml19, .h18ml19, .w18ml19, .h17ml19, .w17ml19, .h16ml19, .w16ml19, .h15ml19, .w15ml19, .h14ml19, .w14ml19, .h13ml19, .w13ml19, .h12ml19, .w12ml19, .h11ml19, .w11ml19, .h10ml19, .w10ml19, .h9ml19, .w9ml19, .h8ml19, .w8ml19, .h7ml19, .w7ml19, .h6ml19, .w6ml19, .h5ml19, .w5ml19, .h4ml19, .w4ml19, .h3ml19, .w3ml19, .h2ml19, .w2ml19, .h1ml19, .w1ml19 {
+  margin-left: 19%;
+}
+
+.w20, .w20mb20, .w20ml20, .w20mr20, .w20mt20, .w20pb20, .w20pl20, .w20pr20, .w20pt20, .w20mb19, .w20ml19, .w20mr19, .w20mt19, .w20pb19, .w20pl19, .w20pr19, .w20pt19, .w20mb18, .w20ml18, .w20mr18, .w20mt18, .w20pb18, .w20pl18, .w20pr18, .w20pt18, .w20mb17, .w20ml17, .w20mr17, .w20mt17, .w20pb17, .w20pl17, .w20pr17, .w20pt17, .w20mb16, .w20ml16, .w20mr16, .w20mt16, .w20pb16, .w20pl16, .w20pr16, .w20pt16, .w20mb15, .w20ml15, .w20mr15, .w20mt15, .w20pb15, .w20pl15, .w20pr15, .w20pt15, .w20mb14, .w20ml14, .w20mr14, .w20mt14, .w20pb14, .w20pl14, .w20pr14, .w20pt14, .w20mb13, .w20ml13, .w20mr13, .w20mt13, .w20pb13, .w20pl13, .w20pr13, .w20pt13, .w20mb12, .w20ml12, .w20mr12, .w20mt12, .w20pb12, .w20pl12, .w20pr12, .w20pt12, .w20mb11, .w20ml11, .w20mr11, .w20mt11, .w20pb11, .w20pl11, .w20pr11, .w20pt11, .w20mb10, .w20ml10, .w20mr10, .w20mt10, .w20pb10, .w20pl10, .w20pr10, .w20pt10, .w20mb9, .w20ml9, .w20mr9, .w20mt9, .w20pb9, .w20pl9, .w20pr9, .w20pt9, .w20mb8, .w20ml8, .w20mr8, .w20mt8, .w20pb8, .w20pl8, .w20pr8, .w20pt8, .w20mb7, .w20ml7, .w20mr7, .w20mt7, .w20pb7, .w20pl7, .w20pr7, .w20pt7, .w20mb6, .w20ml6, .w20mr6, .w20mt6, .w20pb6, .w20pl6, .w20pr6, .w20pt6, .w20mb5, .w20ml5, .w20mr5, .w20mt5, .w20pb5, .w20pl5, .w20pr5, .w20pt5, .w20mb4, .w20ml4, .w20mr4, .w20mt4, .w20pb4, .w20pl4, .w20pr4, .w20pt4, .w20mb3, .w20ml3, .w20mr3, .w20mt3, .w20pb3, .w20pl3, .w20pr3, .w20pt3, .w20mb2, .w20ml2, .w20mr2, .w20mt2, .w20pb2, .w20pl2, .w20pr2, .w20pt2, .w20mb1, .w20ml1, .w20mr1, .w20mt1, .w20pb1, .w20pl1, .w20pr1, .w20pt1 {
+  width: 100%;
+}
+
+.h20, .h20mb20, .h20ml20, .h20mr20, .h20mt20, .h20mb19, .h20ml19, .h20mr19, .h20mt19, .h20mb18, .h20ml18, .h20mr18, .h20mt18, .h20mb17, .h20ml17, .h20mr17, .h20mt17, .h20mb16, .h20ml16, .h20mr16, .h20mt16, .h20mb15, .h20ml15, .h20mr15, .h20mt15, .h20mb14, .h20ml14, .h20mr14, .h20mt14, .h20mb13, .h20ml13, .h20mr13, .h20mt13, .h20mb12, .h20ml12, .h20mr12, .h20mt12, .h20mb11, .h20ml11, .h20mr11, .h20mt11, .h20mb10, .h20ml10, .h20mr10, .h20mt10, .h20mb9, .h20ml9, .h20mr9, .h20mt9, .h20mb8, .h20ml8, .h20mr8, .h20mt8, .h20mb7, .h20ml7, .h20mr7, .h20mt7, .h20mb6, .h20ml6, .h20mr6, .h20mt6, .h20mb5, .h20ml5, .h20mr5, .h20mt5, .h20mb4, .h20ml4, .h20mr4, .h20mt4, .h20mb3, .h20ml3, .h20mr3, .h20mt3, .h20mb2, .h20ml2, .h20mr2, .h20mt2, .h20mb1, .h20ml1, .h20mr1, .h20mt1, .h20pb20, .h20pl20, .h20pr20, .h20pt20 {
+  height: 100%;
+}
+
+.pt20, .ptb20, .ptl20, .ptr20, .h20pt20, .w20pt20, .h19pt19, .w19pt20, .h18pt18, .w18pt20, .h17pt17, .w17pt20, .h16pt16, .w16pt20, .h15pt15, .w15pt20, .h14pt14, .w14pt20, .h13pt13, .w13pt20, .h12pt12, .w12pt20, .h11pt11, .w11pt20, .h10pt10, .w10pt20, .h9pt9, .w9pt20, .h8pt8, .w8pt20, .h7pt7, .w7pt20, .h6pt6, .w6pt20, .h5pt5, .w5pt20, .h4pt4, .w4pt20, .h3pt3, .w3pt20, .h2pt2, .w2pt20, .h1pt1, .w1pt20 {
+  padding-top: 20%;
+}
+
+.pb20, .pbl20, .pbr20, .pbt20, .h20pb20, .w20pb20, .h19pb19, .w19pb20, .h18pb18, .w18pb20, .h17pb17, .w17pb20, .h16pb16, .w16pb20, .h15pb15, .w15pb20, .h14pb14, .w14pb20, .h13pb13, .w13pb20, .h12pb12, .w12pb20, .h11pb11, .w11pb20, .h10pb10, .w10pb20, .h9pb9, .w9pb20, .h8pb8, .w8pb20, .h7pb7, .w7pb20, .h6pb6, .w6pb20, .h5pb5, .w5pb20, .h4pb4, .w4pb20, .h3pb3, .w3pb20, .h2pb2, .w2pb20, .h1pb1, .w1pb20 {
+  padding-bottom: 20%;
+}
+
+.pr20, .prb20, .prl20, .prt20, .h20pr20, .w20pr20, .h19pr19, .w19pr20, .h18pr18, .w18pr20, .h17pr17, .w17pr20, .h16pr16, .w16pr20, .h15pr15, .w15pr20, .h14pr14, .w14pr20, .h13pr13, .w13pr20, .h12pr12, .w12pr20, .h11pr11, .w11pr20, .h10pr10, .w10pr20, .h9pr9, .w9pr20, .h8pr8, .w8pr20, .h7pr7, .w7pr20, .h6pr6, .w6pr20, .h5pr5, .w5pr20, .h4pr4, .w4pr20, .h3pr3, .w3pr20, .h2pr2, .w2pr20, .h1pr1, .w1pr20 {
+  padding-right: 20%;
+}
+
+.pl20, .plb20, .plr20, .plt20, .h20pl20, .w20pl20, .h19pl19, .w19pl20, .h18pl18, .w18pl20, .h17pl17, .w17pl20, .h16pl16, .w16pl20, .h15pl15, .w15pl20, .h14pl14, .w14pl20, .h13pl13, .w13pl20, .h12pl12, .w12pl20, .h11pl11, .w11pl20, .h10pl10, .w10pl20, .h9pl9, .w9pl20, .h8pl8, .w8pl20, .h7pl7, .w7pl20, .h6pl6, .w6pl20, .h5pl5, .w5pl20, .h4pl4, .w4pl20, .h3pl3, .w3pl20, .h2pl2, .w2pl20, .h1pl1, .w1pl20 {
+  padding-left: 20%;
+}
+
+.m20 {
+  margin: 20%;
+}
+
+.mt20, .mtb20, .mtl20, .mtr20, .h20mt20, .w20mt20, .h19mt20, .w19mt20, .h18mt20, .w18mt20, .h17mt20, .w17mt20, .h16mt20, .w16mt20, .h15mt20, .w15mt20, .h14mt20, .w14mt20, .h13mt20, .w13mt20, .h12mt20, .w12mt20, .h11mt20, .w11mt20, .h10mt20, .w10mt20, .h9mt20, .w9mt20, .h8mt20, .w8mt20, .h7mt20, .w7mt20, .h6mt20, .w6mt20, .h5mt20, .w5mt20, .h4mt20, .w4mt20, .h3mt20, .w3mt20, .h2mt20, .w2mt20, .h1mt20, .w1mt20 {
+  margin-top: 20%;
+}
+
+.mb20, .mbl20, .mbr20, .mbt20, .h20mb20, .w20mb20, .h19mb20, .w19mb20, .h18mb20, .w18mb20, .h17mb20, .w17mb20, .h16mb20, .w16mb20, .h15mb20, .w15mb20, .h14mb20, .w14mb20, .h13mb20, .w13mb20, .h12mb20, .w12mb20, .h11mb20, .w11mb20, .h10mb20, .w10mb20, .h9mb20, .w9mb20, .h8mb20, .w8mb20, .h7mb20, .w7mb20, .h6mb20, .w6mb20, .h5mb20, .w5mb20, .h4mb20, .w4mb20, .h3mb20, .w3mb20, .h2mb20, .w2mb20, .h1mb20, .w1mb20 {
+  margin-bottom: 20%;
+}
+
+.mr20, .mrb20, .mrl20, .mrt20, .h20mr20, .w20mr20, .h19mr20, .w19mr20, .h18mr20, .w18mr20, .h17mr20, .w17mr20, .h16mr20, .w16mr20, .h15mr20, .w15mr20, .h14mr20, .w14mr20, .h13mr20, .w13mr20, .h12mr20, .w12mr20, .h11mr20, .w11mr20, .h10mr20, .w10mr20, .h9mr20, .w9mr20, .h8mr20, .w8mr20, .h7mr20, .w7mr20, .h6mr20, .w6mr20, .h5mr20, .w5mr20, .h4mr20, .w4mr20, .h3mr20, .w3mr20, .h2mr20, .w2mr20, .h1mr20, .w1mr20 {
+  margin-right: 20%;
+}
+
+.ml20, .mlb20, .mlr20, .mlt20, .h20ml20, .w20ml20, .h19ml20, .w19ml20, .h18ml20, .w18ml20, .h17ml20, .w17ml20, .h16ml20, .w16ml20, .h15ml20, .w15ml20, .h14ml20, .w14ml20, .h13ml20, .w13ml20, .h12ml20, .w12ml20, .h11ml20, .w11ml20, .h10ml20, .w10ml20, .h9ml20, .w9ml20, .h8ml20, .w8ml20, .h7ml20, .w7ml20, .h6ml20, .w6ml20, .h5ml20, .w5ml20, .h4ml20, .w4ml20, .h3ml20, .w3ml20, .h2ml20, .w2ml20, .h1ml20, .w1ml20 {
+  margin-left: 20%;
+}
+
+.mbt1 {
+  margin-top: 1%;
+}
+
+.pbt1 {
+  padding-top: 1%;
+}
+
+.mlt1 {
+  margin-top: 1%;
+}
+
+.plt1 {
+  padding-top: 1%;
+}
+
+.mrt1 {
+  margin-top: 1%;
+}
+
+.prt1 {
+  padding-top: 1%;
+}
+
+.mtr1 {
+  margin-right: 1%;
+}
+
+.ptr1 {
+  padding-right: 1%;
+}
+
+.mbr1 {
+  margin-right: 1%;
+}
+
+.pbr1 {
+  padding-right: 1%;
+}
+
+.mlr1 {
+  margin-right: 1%;
+}
+
+.plr1 {
+  padding-right: 1%;
+}
+
+.mtl1 {
+  margin-left: 1%;
+}
+
+.ptl1 {
+  padding-left: 1%;
+}
+
+.mbl1 {
+  margin-left: 1%;
+}
+
+.pbl1 {
+  padding-left: 1%;
+}
+
+.mrl1 {
+  margin-left: 1%;
+}
+
+.prl1 {
+  padding-left: 1%;
+}
+
+.mtb1 {
+  margin-bottom: 1%;
+}
+
+.ptb1 {
+  padding-bottom: 1%;
+}
+
+.mlb1 {
+  margin-bottom: 1%;
+}
+
+.plb1 {
+  padding-bottom: 1%;
+}
+
+.mrb1 {
+  margin-bottom: 1%;
+}
+
+.prb1 {
+  padding-bottom: 1%;
+}
+
+.mbt2 {
+  margin-top: 2%;
+}
+
+.pbt2 {
+  padding-top: 2%;
+}
+
+.mlt2 {
+  margin-top: 2%;
+}
+
+.plt2 {
+  padding-top: 2%;
+}
+
+.mrt2 {
+  margin-top: 2%;
+}
+
+.prt2 {
+  padding-top: 2%;
+}
+
+.mtr2 {
+  margin-right: 2%;
+}
+
+.ptr2 {
+  padding-right: 2%;
+}
+
+.mbr2 {
+  margin-right: 2%;
+}
+
+.pbr2 {
+  padding-right: 2%;
+}
+
+.mlr2 {
+  margin-right: 2%;
+}
+
+.plr2 {
+  padding-right: 2%;
+}
+
+.mtl2 {
+  margin-left: 2%;
+}
+
+.ptl2 {
+  padding-left: 2%;
+}
+
+.mbl2 {
+  margin-left: 2%;
+}
+
+.pbl2 {
+  padding-left: 2%;
+}
+
+.mrl2 {
+  margin-left: 2%;
+}
+
+.prl2 {
+  padding-left: 2%;
+}
+
+.mtb2 {
+  margin-bottom: 2%;
+}
+
+.ptb2 {
+  padding-bottom: 2%;
+}
+
+.mlb2 {
+  margin-bottom: 2%;
+}
+
+.plb2 {
+  padding-bottom: 2%;
+}
+
+.mrb2 {
+  margin-bottom: 2%;
+}
+
+.prb2 {
+  padding-bottom: 2%;
+}
+
+.mbt3 {
+  margin-top: 3%;
+}
+
+.pbt3 {
+  padding-top: 3%;
+}
+
+.mlt3 {
+  margin-top: 3%;
+}
+
+.plt3 {
+  padding-top: 3%;
+}
+
+.mrt3 {
+  margin-top: 3%;
+}
+
+.prt3 {
+  padding-top: 3%;
+}
+
+.mtr3 {
+  margin-right: 3%;
+}
+
+.ptr3 {
+  padding-right: 3%;
+}
+
+.mbr3 {
+  margin-right: 3%;
+}
+
+.pbr3 {
+  padding-right: 3%;
+}
+
+.mlr3 {
+  margin-right: 3%;
+}
+
+.plr3 {
+  padding-right: 3%;
+}
+
+.mtl3 {
+  margin-left: 3%;
+}
+
+.ptl3 {
+  padding-left: 3%;
+}
+
+.mbl3 {
+  margin-left: 3%;
+}
+
+.pbl3 {
+  padding-left: 3%;
+}
+
+.mrl3 {
+  margin-left: 3%;
+}
+
+.prl3 {
+  padding-left: 3%;
+}
+
+.mtb3 {
+  margin-bottom: 3%;
+}
+
+.ptb3 {
+  padding-bottom: 3%;
+}
+
+.mlb3 {
+  margin-bottom: 3%;
+}
+
+.plb3 {
+  padding-bottom: 3%;
+}
+
+.mrb3 {
+  margin-bottom: 3%;
+}
+
+.prb3 {
+  padding-bottom: 3%;
+}
+
+.mbt4 {
+  margin-top: 4%;
+}
+
+.pbt4 {
+  padding-top: 4%;
+}
+
+.mlt4 {
+  margin-top: 4%;
+}
+
+.plt4 {
+  padding-top: 4%;
+}
+
+.mrt4 {
+  margin-top: 4%;
+}
+
+.prt4 {
+  padding-top: 4%;
+}
+
+.mtr4 {
+  margin-right: 4%;
+}
+
+.ptr4 {
+  padding-right: 4%;
+}
+
+.mbr4 {
+  margin-right: 4%;
+}
+
+.pbr4 {
+  padding-right: 4%;
+}
+
+.mlr4 {
+  margin-right: 4%;
+}
+
+.plr4 {
+  padding-right: 4%;
+}
+
+.mtl4 {
+  margin-left: 4%;
+}
+
+.ptl4 {
+  padding-left: 4%;
+}
+
+.mbl4 {
+  margin-left: 4%;
+}
+
+.pbl4 {
+  padding-left: 4%;
+}
+
+.mrl4 {
+  margin-left: 4%;
+}
+
+.prl4 {
+  padding-left: 4%;
+}
+
+.mtb4 {
+  margin-bottom: 4%;
+}
+
+.ptb4 {
+  padding-bottom: 4%;
+}
+
+.mlb4 {
+  margin-bottom: 4%;
+}
+
+.plb4 {
+  padding-bottom: 4%;
+}
+
+.mrb4 {
+  margin-bottom: 4%;
+}
+
+.prb4 {
+  padding-bottom: 4%;
+}
+
+.mbt5 {
+  margin-top: 5%;
+}
+
+.pbt5 {
+  padding-top: 5%;
+}
+
+.mlt5 {
+  margin-top: 5%;
+}
+
+.plt5 {
+  padding-top: 5%;
+}
+
+.mrt5 {
+  margin-top: 5%;
+}
+
+.prt5 {
+  padding-top: 5%;
+}
+
+.mtr5 {
+  margin-right: 5%;
+}
+
+.ptr5 {
+  padding-right: 5%;
+}
+
+.mbr5 {
+  margin-right: 5%;
+}
+
+.pbr5 {
+  padding-right: 5%;
+}
+
+.mlr5 {
+  margin-right: 5%;
+}
+
+.plr5 {
+  padding-right: 5%;
+}
+
+.mtl5 {
+  margin-left: 5%;
+}
+
+.ptl5 {
+  padding-left: 5%;
+}
+
+.mbl5 {
+  margin-left: 5%;
+}
+
+.pbl5 {
+  padding-left: 5%;
+}
+
+.mrl5 {
+  margin-left: 5%;
+}
+
+.prl5 {
+  padding-left: 5%;
+}
+
+.mtb5 {
+  margin-bottom: 5%;
+}
+
+.ptb5 {
+  padding-bottom: 5%;
+}
+
+.mlb5 {
+  margin-bottom: 5%;
+}
+
+.plb5 {
+  padding-bottom: 5%;
+}
+
+.mrb5 {
+  margin-bottom: 5%;
+}
+
+.prb5 {
+  padding-bottom: 5%;
+}
+
+.mbt6 {
+  margin-top: 6%;
+}
+
+.pbt6 {
+  padding-top: 6%;
+}
+
+.mlt6 {
+  margin-top: 6%;
+}
+
+.plt6 {
+  padding-top: 6%;
+}
+
+.mrt6 {
+  margin-top: 6%;
+}
+
+.prt6 {
+  padding-top: 6%;
+}
+
+.mtr6 {
+  margin-right: 6%;
+}
+
+.ptr6 {
+  padding-right: 6%;
+}
+
+.mbr6 {
+  margin-right: 6%;
+}
+
+.pbr6 {
+  padding-right: 6%;
+}
+
+.mlr6 {
+  margin-right: 6%;
+}
+
+.plr6 {
+  padding-right: 6%;
+}
+
+.mtl6 {
+  margin-left: 6%;
+}
+
+.ptl6 {
+  padding-left: 6%;
+}
+
+.mbl6 {
+  margin-left: 6%;
+}
+
+.pbl6 {
+  padding-left: 6%;
+}
+
+.mrl6 {
+  margin-left: 6%;
+}
+
+.prl6 {
+  padding-left: 6%;
+}
+
+.mtb6 {
+  margin-bottom: 6%;
+}
+
+.ptb6 {
+  padding-bottom: 6%;
+}
+
+.mlb6 {
+  margin-bottom: 6%;
+}
+
+.plb6 {
+  padding-bottom: 6%;
+}
+
+.mrb6 {
+  margin-bottom: 6%;
+}
+
+.prb6 {
+  padding-bottom: 6%;
+}
+
+.mbt7 {
+  margin-top: 7%;
+}
+
+.pbt7 {
+  padding-top: 7%;
+}
+
+.mlt7 {
+  margin-top: 7%;
+}
+
+.plt7 {
+  padding-top: 7%;
+}
+
+.mrt7 {
+  margin-top: 7%;
+}
+
+.prt7 {
+  padding-top: 7%;
+}
+
+.mtr7 {
+  margin-right: 7%;
+}
+
+.ptr7 {
+  padding-right: 7%;
+}
+
+.mbr7 {
+  margin-right: 7%;
+}
+
+.pbr7 {
+  padding-right: 7%;
+}
+
+.mlr7 {
+  margin-right: 7%;
+}
+
+.plr7 {
+  padding-right: 7%;
+}
+
+.mtl7 {
+  margin-left: 7%;
+}
+
+.ptl7 {
+  padding-left: 7%;
+}
+
+.mbl7 {
+  margin-left: 7%;
+}
+
+.pbl7 {
+  padding-left: 7%;
+}
+
+.mrl7 {
+  margin-left: 7%;
+}
+
+.prl7 {
+  padding-left: 7%;
+}
+
+.mtb7 {
+  margin-bottom: 7%;
+}
+
+.ptb7 {
+  padding-bottom: 7%;
+}
+
+.mlb7 {
+  margin-bottom: 7%;
+}
+
+.plb7 {
+  padding-bottom: 7%;
+}
+
+.mrb7 {
+  margin-bottom: 7%;
+}
+
+.prb7 {
+  padding-bottom: 7%;
+}
+
+.mbt8 {
+  margin-top: 8%;
+}
+
+.pbt8 {
+  padding-top: 8%;
+}
+
+.mlt8 {
+  margin-top: 8%;
+}
+
+.plt8 {
+  padding-top: 8%;
+}
+
+.mrt8 {
+  margin-top: 8%;
+}
+
+.prt8 {
+  padding-top: 8%;
+}
+
+.mtr8 {
+  margin-right: 8%;
+}
+
+.ptr8 {
+  padding-right: 8%;
+}
+
+.mbr8 {
+  margin-right: 8%;
+}
+
+.pbr8 {
+  padding-right: 8%;
+}
+
+.mlr8 {
+  margin-right: 8%;
+}
+
+.plr8 {
+  padding-right: 8%;
+}
+
+.mtl8 {
+  margin-left: 8%;
+}
+
+.ptl8 {
+  padding-left: 8%;
+}
+
+.mbl8 {
+  margin-left: 8%;
+}
+
+.pbl8 {
+  padding-left: 8%;
+}
+
+.mrl8 {
+  margin-left: 8%;
+}
+
+.prl8 {
+  padding-left: 8%;
+}
+
+.mtb8 {
+  margin-bottom: 8%;
+}
+
+.ptb8 {
+  padding-bottom: 8%;
+}
+
+.mlb8 {
+  margin-bottom: 8%;
+}
+
+.plb8 {
+  padding-bottom: 8%;
+}
+
+.mrb8 {
+  margin-bottom: 8%;
+}
+
+.prb8 {
+  padding-bottom: 8%;
+}
+
+.mbt9 {
+  margin-top: 9%;
+}
+
+.pbt9 {
+  padding-top: 9%;
+}
+
+.mlt9 {
+  margin-top: 9%;
+}
+
+.plt9 {
+  padding-top: 9%;
+}
+
+.mrt9 {
+  margin-top: 9%;
+}
+
+.prt9 {
+  padding-top: 9%;
+}
+
+.mtr9 {
+  margin-right: 9%;
+}
+
+.ptr9 {
+  padding-right: 9%;
+}
+
+.mbr9 {
+  margin-right: 9%;
+}
+
+.pbr9 {
+  padding-right: 9%;
+}
+
+.mlr9 {
+  margin-right: 9%;
+}
+
+.plr9 {
+  padding-right: 9%;
+}
+
+.mtl9 {
+  margin-left: 9%;
+}
+
+.ptl9 {
+  padding-left: 9%;
+}
+
+.mbl9 {
+  margin-left: 9%;
+}
+
+.pbl9 {
+  padding-left: 9%;
+}
+
+.mrl9 {
+  margin-left: 9%;
+}
+
+.prl9 {
+  padding-left: 9%;
+}
+
+.mtb9 {
+  margin-bottom: 9%;
+}
+
+.ptb9 {
+  padding-bottom: 9%;
+}
+
+.mlb9 {
+  margin-bottom: 9%;
+}
+
+.plb9 {
+  padding-bottom: 9%;
+}
+
+.mrb9 {
+  margin-bottom: 9%;
+}
+
+.prb9 {
+  padding-bottom: 9%;
+}
+
+.mbt10 {
+  margin-top: 10%;
+}
+
+.pbt10 {
+  padding-top: 10%;
+}
+
+.mlt10 {
+  margin-top: 10%;
+}
+
+.plt10 {
+  padding-top: 10%;
+}
+
+.mrt10 {
+  margin-top: 10%;
+}
+
+.prt10 {
+  padding-top: 10%;
+}
+
+.mtr10 {
+  margin-right: 10%;
+}
+
+.ptr10 {
+  padding-right: 10%;
+}
+
+.mbr10 {
+  margin-right: 10%;
+}
+
+.pbr10 {
+  padding-right: 10%;
+}
+
+.mlr10 {
+  margin-right: 10%;
+}
+
+.plr10 {
+  padding-right: 10%;
+}
+
+.mtl10 {
+  margin-left: 10%;
+}
+
+.ptl10 {
+  padding-left: 10%;
+}
+
+.mbl10 {
+  margin-left: 10%;
+}
+
+.pbl10 {
+  padding-left: 10%;
+}
+
+.mrl10 {
+  margin-left: 10%;
+}
+
+.prl10 {
+  padding-left: 10%;
+}
+
+.mtb10 {
+  margin-bottom: 10%;
+}
+
+.ptb10 {
+  padding-bottom: 10%;
+}
+
+.mlb10 {
+  margin-bottom: 10%;
+}
+
+.plb10 {
+  padding-bottom: 10%;
+}
+
+.mrb10 {
+  margin-bottom: 10%;
+}
+
+.prb10 {
+  padding-bottom: 10%;
+}
+
+.mbt11 {
+  margin-top: 11%;
+}
+
+.pbt11 {
+  padding-top: 11%;
+}
+
+.mlt11 {
+  margin-top: 11%;
+}
+
+.plt11 {
+  padding-top: 11%;
+}
+
+.mrt11 {
+  margin-top: 11%;
+}
+
+.prt11 {
+  padding-top: 11%;
+}
+
+.mtr11 {
+  margin-right: 11%;
+}
+
+.ptr11 {
+  padding-right: 11%;
+}
+
+.mbr11 {
+  margin-right: 11%;
+}
+
+.pbr11 {
+  padding-right: 11%;
+}
+
+.mlr11 {
+  margin-right: 11%;
+}
+
+.plr11 {
+  padding-right: 11%;
+}
+
+.mtl11 {
+  margin-left: 11%;
+}
+
+.ptl11 {
+  padding-left: 11%;
+}
+
+.mbl11 {
+  margin-left: 11%;
+}
+
+.pbl11 {
+  padding-left: 11%;
+}
+
+.mrl11 {
+  margin-left: 11%;
+}
+
+.prl11 {
+  padding-left: 11%;
+}
+
+.mtb11 {
+  margin-bottom: 11%;
+}
+
+.ptb11 {
+  padding-bottom: 11%;
+}
+
+.mlb11 {
+  margin-bottom: 11%;
+}
+
+.plb11 {
+  padding-bottom: 11%;
+}
+
+.mrb11 {
+  margin-bottom: 11%;
+}
+
+.prb11 {
+  padding-bottom: 11%;
+}
+
+.mbt12 {
+  margin-top: 12%;
+}
+
+.pbt12 {
+  padding-top: 12%;
+}
+
+.mlt12 {
+  margin-top: 12%;
+}
+
+.plt12 {
+  padding-top: 12%;
+}
+
+.mrt12 {
+  margin-top: 12%;
+}
+
+.prt12 {
+  padding-top: 12%;
+}
+
+.mtr12 {
+  margin-right: 12%;
+}
+
+.ptr12 {
+  padding-right: 12%;
+}
+
+.mbr12 {
+  margin-right: 12%;
+}
+
+.pbr12 {
+  padding-right: 12%;
+}
+
+.mlr12 {
+  margin-right: 12%;
+}
+
+.plr12 {
+  padding-right: 12%;
+}
+
+.mtl12 {
+  margin-left: 12%;
+}
+
+.ptl12 {
+  padding-left: 12%;
+}
+
+.mbl12 {
+  margin-left: 12%;
+}
+
+.pbl12 {
+  padding-left: 12%;
+}
+
+.mrl12 {
+  margin-left: 12%;
+}
+
+.prl12 {
+  padding-left: 12%;
+}
+
+.mtb12 {
+  margin-bottom: 12%;
+}
+
+.ptb12 {
+  padding-bottom: 12%;
+}
+
+.mlb12 {
+  margin-bottom: 12%;
+}
+
+.plb12 {
+  padding-bottom: 12%;
+}
+
+.mrb12 {
+  margin-bottom: 12%;
+}
+
+.prb12 {
+  padding-bottom: 12%;
+}
+
+.mbt13 {
+  margin-top: 13%;
+}
+
+.pbt13 {
+  padding-top: 13%;
+}
+
+.mlt13 {
+  margin-top: 13%;
+}
+
+.plt13 {
+  padding-top: 13%;
+}
+
+.mrt13 {
+  margin-top: 13%;
+}
+
+.prt13 {
+  padding-top: 13%;
+}
+
+.mtr13 {
+  margin-right: 13%;
+}
+
+.ptr13 {
+  padding-right: 13%;
+}
+
+.mbr13 {
+  margin-right: 13%;
+}
+
+.pbr13 {
+  padding-right: 13%;
+}
+
+.mlr13 {
+  margin-right: 13%;
+}
+
+.plr13 {
+  padding-right: 13%;
+}
+
+.mtl13 {
+  margin-left: 13%;
+}
+
+.ptl13 {
+  padding-left: 13%;
+}
+
+.mbl13 {
+  margin-left: 13%;
+}
+
+.pbl13 {
+  padding-left: 13%;
+}
+
+.mrl13 {
+  margin-left: 13%;
+}
+
+.prl13 {
+  padding-left: 13%;
+}
+
+.mtb13 {
+  margin-bottom: 13%;
+}
+
+.ptb13 {
+  padding-bottom: 13%;
+}
+
+.mlb13 {
+  margin-bottom: 13%;
+}
+
+.plb13 {
+  padding-bottom: 13%;
+}
+
+.mrb13 {
+  margin-bottom: 13%;
+}
+
+.prb13 {
+  padding-bottom: 13%;
+}
+
+.mbt14 {
+  margin-top: 14%;
+}
+
+.pbt14 {
+  padding-top: 14%;
+}
+
+.mlt14 {
+  margin-top: 14%;
+}
+
+.plt14 {
+  padding-top: 14%;
+}
+
+.mrt14 {
+  margin-top: 14%;
+}
+
+.prt14 {
+  padding-top: 14%;
+}
+
+.mtr14 {
+  margin-right: 14%;
+}
+
+.ptr14 {
+  padding-right: 14%;
+}
+
+.mbr14 {
+  margin-right: 14%;
+}
+
+.pbr14 {
+  padding-right: 14%;
+}
+
+.mlr14 {
+  margin-right: 14%;
+}
+
+.plr14 {
+  padding-right: 14%;
+}
+
+.mtl14 {
+  margin-left: 14%;
+}
+
+.ptl14 {
+  padding-left: 14%;
+}
+
+.mbl14 {
+  margin-left: 14%;
+}
+
+.pbl14 {
+  padding-left: 14%;
+}
+
+.mrl14 {
+  margin-left: 14%;
+}
+
+.prl14 {
+  padding-left: 14%;
+}
+
+.mtb14 {
+  margin-bottom: 14%;
+}
+
+.ptb14 {
+  padding-bottom: 14%;
+}
+
+.mlb14 {
+  margin-bottom: 14%;
+}
+
+.plb14 {
+  padding-bottom: 14%;
+}
+
+.mrb14 {
+  margin-bottom: 14%;
+}
+
+.prb14 {
+  padding-bottom: 14%;
+}
+
+.mbt15 {
+  margin-top: 15%;
+}
+
+.pbt15 {
+  padding-top: 15%;
+}
+
+.mlt15 {
+  margin-top: 15%;
+}
+
+.plt15 {
+  padding-top: 15%;
+}
+
+.mrt15 {
+  margin-top: 15%;
+}
+
+.prt15 {
+  padding-top: 15%;
+}
+
+.mtr15 {
+  margin-right: 15%;
+}
+
+.ptr15 {
+  padding-right: 15%;
+}
+
+.mbr15 {
+  margin-right: 15%;
+}
+
+.pbr15 {
+  padding-right: 15%;
+}
+
+.mlr15 {
+  margin-right: 15%;
+}
+
+.plr15 {
+  padding-right: 15%;
+}
+
+.mtl15 {
+  margin-left: 15%;
+}
+
+.ptl15 {
+  padding-left: 15%;
+}
+
+.mbl15 {
+  margin-left: 15%;
+}
+
+.pbl15 {
+  padding-left: 15%;
+}
+
+.mrl15 {
+  margin-left: 15%;
+}
+
+.prl15 {
+  padding-left: 15%;
+}
+
+.mtb15 {
+  margin-bottom: 15%;
+}
+
+.ptb15 {
+  padding-bottom: 15%;
+}
+
+.mlb15 {
+  margin-bottom: 15%;
+}
+
+.plb15 {
+  padding-bottom: 15%;
+}
+
+.mrb15 {
+  margin-bottom: 15%;
+}
+
+.prb15 {
+  padding-bottom: 15%;
+}
+
+.mbt16 {
+  margin-top: 16%;
+}
+
+.pbt16 {
+  padding-top: 16%;
+}
+
+.mlt16 {
+  margin-top: 16%;
+}
+
+.plt16 {
+  padding-top: 16%;
+}
+
+.mrt16 {
+  margin-top: 16%;
+}
+
+.prt16 {
+  padding-top: 16%;
+}
+
+.mtr16 {
+  margin-right: 16%;
+}
+
+.ptr16 {
+  padding-right: 16%;
+}
+
+.mbr16 {
+  margin-right: 16%;
+}
+
+.pbr16 {
+  padding-right: 16%;
+}
+
+.mlr16 {
+  margin-right: 16%;
+}
+
+.plr16 {
+  padding-right: 16%;
+}
+
+.mtl16 {
+  margin-left: 16%;
+}
+
+.ptl16 {
+  padding-left: 16%;
+}
+
+.mbl16 {
+  margin-left: 16%;
+}
+
+.pbl16 {
+  padding-left: 16%;
+}
+
+.mrl16 {
+  margin-left: 16%;
+}
+
+.prl16 {
+  padding-left: 16%;
+}
+
+.mtb16 {
+  margin-bottom: 16%;
+}
+
+.ptb16 {
+  padding-bottom: 16%;
+}
+
+.mlb16 {
+  margin-bottom: 16%;
+}
+
+.plb16 {
+  padding-bottom: 16%;
+}
+
+.mrb16 {
+  margin-bottom: 16%;
+}
+
+.prb16 {
+  padding-bottom: 16%;
+}
+
+.mbt17 {
+  margin-top: 17%;
+}
+
+.pbt17 {
+  padding-top: 17%;
+}
+
+.mlt17 {
+  margin-top: 17%;
+}
+
+.plt17 {
+  padding-top: 17%;
+}
+
+.mrt17 {
+  margin-top: 17%;
+}
+
+.prt17 {
+  padding-top: 17%;
+}
+
+.mtr17 {
+  margin-right: 17%;
+}
+
+.ptr17 {
+  padding-right: 17%;
+}
+
+.mbr17 {
+  margin-right: 17%;
+}
+
+.pbr17 {
+  padding-right: 17%;
+}
+
+.mlr17 {
+  margin-right: 17%;
+}
+
+.plr17 {
+  padding-right: 17%;
+}
+
+.mtl17 {
+  margin-left: 17%;
+}
+
+.ptl17 {
+  padding-left: 17%;
+}
+
+.mbl17 {
+  margin-left: 17%;
+}
+
+.pbl17 {
+  padding-left: 17%;
+}
+
+.mrl17 {
+  margin-left: 17%;
+}
+
+.prl17 {
+  padding-left: 17%;
+}
+
+.mtb17 {
+  margin-bottom: 17%;
+}
+
+.ptb17 {
+  padding-bottom: 17%;
+}
+
+.mlb17 {
+  margin-bottom: 17%;
+}
+
+.plb17 {
+  padding-bottom: 17%;
+}
+
+.mrb17 {
+  margin-bottom: 17%;
+}
+
+.prb17 {
+  padding-bottom: 17%;
+}
+
+.mbt18 {
+  margin-top: 18%;
+}
+
+.pbt18 {
+  padding-top: 18%;
+}
+
+.mlt18 {
+  margin-top: 18%;
+}
+
+.plt18 {
+  padding-top: 18%;
+}
+
+.mrt18 {
+  margin-top: 18%;
+}
+
+.prt18 {
+  padding-top: 18%;
+}
+
+.mtr18 {
+  margin-right: 18%;
+}
+
+.ptr18 {
+  padding-right: 18%;
+}
+
+.mbr18 {
+  margin-right: 18%;
+}
+
+.pbr18 {
+  padding-right: 18%;
+}
+
+.mlr18 {
+  margin-right: 18%;
+}
+
+.plr18 {
+  padding-right: 18%;
+}
+
+.mtl18 {
+  margin-left: 18%;
+}
+
+.ptl18 {
+  padding-left: 18%;
+}
+
+.mbl18 {
+  margin-left: 18%;
+}
+
+.pbl18 {
+  padding-left: 18%;
+}
+
+.mrl18 {
+  margin-left: 18%;
+}
+
+.prl18 {
+  padding-left: 18%;
+}
+
+.mtb18 {
+  margin-bottom: 18%;
+}
+
+.ptb18 {
+  padding-bottom: 18%;
+}
+
+.mlb18 {
+  margin-bottom: 18%;
+}
+
+.plb18 {
+  padding-bottom: 18%;
+}
+
+.mrb18 {
+  margin-bottom: 18%;
+}
+
+.prb18 {
+  padding-bottom: 18%;
+}
+
+.mbt19 {
+  margin-top: 19%;
+}
+
+.pbt19 {
+  padding-top: 19%;
+}
+
+.mlt19 {
+  margin-top: 19%;
+}
+
+.plt19 {
+  padding-top: 19%;
+}
+
+.mrt19 {
+  margin-top: 19%;
+}
+
+.prt19 {
+  padding-top: 19%;
+}
+
+.mtr19 {
+  margin-right: 19%;
+}
+
+.ptr19 {
+  padding-right: 19%;
+}
+
+.mbr19 {
+  margin-right: 19%;
+}
+
+.pbr19 {
+  padding-right: 19%;
+}
+
+.mlr19 {
+  margin-right: 19%;
+}
+
+.plr19 {
+  padding-right: 19%;
+}
+
+.mtl19 {
+  margin-left: 19%;
+}
+
+.ptl19 {
+  padding-left: 19%;
+}
+
+.mbl19 {
+  margin-left: 19%;
+}
+
+.pbl19 {
+  padding-left: 19%;
+}
+
+.mrl19 {
+  margin-left: 19%;
+}
+
+.prl19 {
+  padding-left: 19%;
+}
+
+.mtb19 {
+  margin-bottom: 19%;
+}
+
+.ptb19 {
+  padding-bottom: 19%;
+}
+
+.mlb19 {
+  margin-bottom: 19%;
+}
+
+.plb19 {
+  padding-bottom: 19%;
+}
+
+.mrb19 {
+  margin-bottom: 19%;
+}
+
+.prb19 {
+  padding-bottom: 19%;
+}
+
+.mbt20 {
+  margin-top: 20%;
+}
+
+.pbt20 {
+  padding-top: 20%;
+}
+
+.mlt20 {
+  margin-top: 20%;
+}
+
+.plt20 {
+  padding-top: 20%;
+}
+
+.mrt20 {
+  margin-top: 20%;
+}
+
+.prt20 {
+  padding-top: 20%;
+}
+
+.mtr20 {
+  margin-right: 20%;
+}
+
+.ptr20 {
+  padding-right: 20%;
+}
+
+.mbr20 {
+  margin-right: 20%;
+}
+
+.pbr20 {
+  padding-right: 20%;
+}
+
+.mlr20 {
+  margin-right: 20%;
+}
+
+.plr20 {
+  padding-right: 20%;
+}
+
+.mtl20 {
+  margin-left: 20%;
+}
+
+.ptl20 {
+  padding-left: 20%;
+}
+
+.mbl20 {
+  margin-left: 20%;
+}
+
+.pbl20 {
+  padding-left: 20%;
+}
+
+.mrl20 {
+  margin-left: 20%;
+}
+
+.prl20 {
+  padding-left: 20%;
+}
+
+.mtb20 {
+  margin-bottom: 20%;
+}
+
+.ptb20 {
+  padding-bottom: 20%;
+}
+
+.mlb20 {
+  margin-bottom: 20%;
+}
+
+.plb20 {
+  padding-bottom: 20%;
+}
+
+.mrb20 {
+  margin-bottom: 20%;
+}
+
+.prb20 {
+  padding-bottom: 20%;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */

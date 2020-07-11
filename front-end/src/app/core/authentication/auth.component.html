@@ -1,0 +1,23 @@
+<div fxLayout="column wrap"
+     fxLayoutAlign="center center"
+     class="container">
+    <span fxFlex="25"></span>
+    <div fxLayout="row wrap" class="mat-elevation-z4 plr2 ptb2">
+        <h4 fxFlex="100">
+            Please log in with one of the providers
+        </h4>
+        <p fxFlex="20">
+            <button mat-raised-button
+                    (click)="signInWithGoogle()">Google
+            </button>
+        </p>
+        <span fxFlex="5"></span>
+        <p fxFlex="20">
+            <button mat-raised-button
+                    (click)="signInWithFB()">Facebook
+            </button>
+        </p>
+
+    </div>
+    <span fxFlex="25"></span>
+</div>
